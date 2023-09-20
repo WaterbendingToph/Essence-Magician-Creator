@@ -9,6 +9,7 @@ import Notes from './components/pages/Notes';
 import PlayerPages from './components/pages/PlayerPages';
 import CombatEncounters from './components/pages/CombatEncounters';
 import Shops from './components/pages/Shops';
+import EssenceExperimenter from './components/pages/EssenceExperimenter';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/PlayerPages' exact Component={PlayerPages} />
           <Route path='/CombatEncounters' exact Component={CombatEncounters} />
           <Route path='/Shops' exact Component={Shops} />
+          <Route path='EssenceExperimenter' exact Component={EssenceExperimenter} />
         </Routes>
       </Router>
     </>
