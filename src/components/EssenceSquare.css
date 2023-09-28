@@ -1,0 +1,15 @@
+.essenceImage::after {
+    content: attr(data-category);
+    display: block;
+    text-align: center;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+figure, img {
+    height: 100%;
+    width: auto;
+}

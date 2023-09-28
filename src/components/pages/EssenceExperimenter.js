@@ -4,25 +4,26 @@ import './pages.css';
 import './EssenceExperimenter.css';
 import { Button } from '../Button';
 import '../Button.css';
+import EssenceSquare from '../EssenceSquare';
 
 function EssenceExperimenter () {
     return (
         <div id='overall-container'>
-            <h1>ESSENCE EXPERIMENTER PAGE</h1>
+            {/* <h1>ESSENCE EXPERIMENTER PAGE</h1> */}
             <div className='row-1'>
                 <div className='base-essence-container'>
-                    <div className='essence-square' id='base-essence-1' />
-                    <h2 id='essence-name-1'>Essence Name 1</h2>
+                    <EssenceSquare type='base' name='magic' /> 
+                    {/* <h2 id='essence-name-1'>Essence Name 1</h2> */}
                 </div>
                 
                 <div className='base-essence-container'>
-                    <div className='essence-square' id='base-essence-2'/>
-                    <h2 id='essence-name-2'>Essence Name 2</h2>
+                   <EssenceSquare type='base' name='might' /> 
+                    {/* <h2 id='essence-name-2'>Essence Name 2</h2> */}
                 </div>
                 
                 <div className='base-essence-container'>
-                    <div className='essence-square' id='base-essence-3'/>
-                    <h2 id='essence-name-3'>Essence Name 3</h2>
+                    <EssenceSquare type='base' name='wing' /> 
+                    {/* <h2 id='essence-name-3'>Essence Name 3</h2> */}
                 </div>
             </div>
 
@@ -34,8 +35,8 @@ function EssenceExperimenter () {
                 </div>
                 
                 <div id='confluence-essence-container' >
-                    <div className='confluence-essence-square' ></div>
-                    <h2 id='confluence-essence-name'>Confluence Essence Name</h2> 
+                    <EssenceSquare type='confluence' name='dragon' /> 
+                    {/* <h2 id='confluence-essence-name'>Confluence Essence Name</h2>  */}
                 </div>
 
                 <div className='button-container'>

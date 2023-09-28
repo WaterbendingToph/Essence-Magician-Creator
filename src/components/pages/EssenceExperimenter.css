@@ -8,9 +8,9 @@
 }
 
 .confluence-essence-square {
-    background-image: url(../../../public/images/essences/base/water.png);
+    /* background-image: url(../../../public/images/essences/base/water.png);
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     height: 100%;
     width: 100%;
 }
@@ -22,12 +22,12 @@
 
 .row-1 {
     min-height: 20vh;
-    height: 40%;
+    height: 45%;
 }
 
 .row-2 {
     min-height: 40vh;
-    height: 60%;
+    height: 50%;
 }
 
 .row-1, .row-2 {
@@ -48,23 +48,23 @@
 
 
 
-#base-essence-1 {
+/* #base-essence-1 {
     background-image: url(../../../public/images/essences/base/wind.png);
     background-position: center;
     background-size:cover;
-}
+} */
 
-#base-essence-2 {
+/* #base-essence-2 {
     background-image: url(../../../public/images/essences/base/earth.png);
     background-position: center;
     background-size: cover;
-}
+} */
 
-#base-essence-3 {
+/* #base-essence-3 {
     background-image: url(../../../public/images/essences/base/fire.png);
     background-position: center;
     background-size: cover;
-}
+} */
 
 #confluence-essence-container {
     width: 100%;
