@@ -7,18 +7,22 @@
     width: 25vw;
 }
 
-.confluence-essence-square {
-    /* background-image: url(../../../public/images/essences/base/water.png);
-    background-position: center;
-    background-size: cover; */
-    height: 100%;
-    width: 100%;
+.button-container {
+    padding-top: 10px;
 }
 
-.essence-square {
+/* .confluence-essence-square {
+    background-image: url(../../../public/images/essences/base/water.png);
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+} */
+
+/* .essence-square {
     height: 90%;
     width: 100%;
-}
+} */
 
 .row-1 {
     min-height: 20vh;
@@ -36,7 +40,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .row-2 div {
@@ -67,8 +71,9 @@
 } */
 
 #confluence-essence-container {
-    width: 100%;
-    height: 80%;
+    padding: 0%;
+    width: 25%;
+    height: 90%;
     text-align: center;
 }
 
@@ -79,7 +84,6 @@
     height: 85vh;
     width: 100vw;
 }
-
 
 
 Button {

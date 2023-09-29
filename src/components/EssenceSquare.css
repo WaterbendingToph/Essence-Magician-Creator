@@ -2,7 +2,7 @@
     content: attr(data-category);
     display: block;
     text-align: center;
-    padding: 6px 8px;
+    padding: 0;
     max-width: calc((100%) - 60px);
     font-size: 30px;
     font-weight: 700;

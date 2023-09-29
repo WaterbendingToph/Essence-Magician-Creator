@@ -28,7 +28,7 @@ function EssenceExperimenter () {
             </div>
 
             <div className='row-2'>
-                <div className='button-container'>
+                <div className='button-container' id='button-container-1'>
                     <Button target={'/WorldDetails'}>Essence 1 Details</Button>
                     <Button target={'/WorldDetails'}>Essence 2 Details</Button>
                     <Button target={'/WorldDetails'}>Essence 3 Details</Button>
@@ -39,9 +39,10 @@ function EssenceExperimenter () {
                     {/* <h2 id='confluence-essence-name'>Confluence Essence Name</h2>  */}
                 </div>
 
-                <div className='button-container'>
+                <div className='button-container' id='button-container-2'>
                     <Button target={'/WorldDetails'}>Randomize</Button> 
                     <Button target={'/WorldDetails'}>Confluence Essence Details</Button>
+                    <Button target={'/WorldDetails'}>New Confluence Combination</Button>
                 </div>
             </div>
         </div>
