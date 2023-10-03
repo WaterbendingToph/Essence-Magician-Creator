@@ -1,0 +1,14 @@
+Commands used to create databse tables (full details on them written on pg. 76 of technical details notebook):
+
+
+CREATE TABLE essences (rarity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), description varchar(250), popularity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), category enum('object', 'specific animal', 'animal category', 'human concept', 'corruption', 'body or part', 'nature or natural', 'element', 'darkness and death', 'esoteric magic', 'celestial bodies', 'magical / mythical creature', 'construction', 'profession'), tendencies varchar(250), name varchar(60), primary key (name) );
+
+create table items (name varchar(60), rarity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), value int unsigned, description varchar(250), effects varchar(250), charges tinyint unsigned, primary key (name) );
+
+create table entities(name varchar(60), health int unsigned not null, mana int unsigned not null, stamina int unsigned not null, stats varchar(250), abilities varchar(250), description varchar(250) );
+alter table entities add column overallRank enum ('normal', 'iron', 'bronze', 'silver', 'gold', 'diamond', 'half-transcendant', 'transcendant');
+                IS 'rank' A KEY WORD??? IT WOULDN'T LET ME USE IT FOR SOME REASON
+
+create table abilities (name varchar(60), stamina enum('low', 'moderate', 'high', 'very high', 'extreme'), mana enum('low', 'moderate', 'high', 'very high', 'extreme'), health enum('low', 'moderate', 'high', 'very high', 'extreme'), cooldown enum('none', '5 seconds', '10 seconds', '30 seconds', '1 minute', '10 minutes', '1 hour', '6 hours', '12 hours', '1 day', '1 rank'), actionCost tinyint unsigned, type enum('special ability', 'drain', 'familiar', 'ritual', 'special attack', 'conjuration', 'spell', 'summoning', 'aura', 'execute', 'counter-execute', 'perception', 'channeling', 'dimension', 'teleport', 'looting', 'combination', 'movement', 'instantaneous movement'), description varchar(250), abilityRank enum ('normal', 'iron', 'bronze', 'silver', 'gold', 'diamond', 'half-transcendant', 'transcendant'), secondaryTypes varchar(250) );
+alter table abilities add primary key (name);
+alter table abilities add column essences varchar(60) not null;
