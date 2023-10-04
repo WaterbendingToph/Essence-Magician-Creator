@@ -12,17 +12,17 @@ function EssenceExperimenter () {
             {/* <h1>ESSENCE EXPERIMENTER PAGE</h1> */}
             <div className='row-1'>
                 <div className='base-essence-container'>
-                    <EssenceSquare type='base' name='magic' /> 
+                    <EssenceSquare type='base' name='magic' srcString='/images/essences/'/> 
                     {/* <h2 id='essence-name-1'>Essence Name 1</h2> */}
                 </div>
                 
                 <div className='base-essence-container'>
-                   <EssenceSquare type='base' name='might' /> 
+                   <EssenceSquare type='base' name='might' srcString='/images/essences/'/> 
                     {/* <h2 id='essence-name-2'>Essence Name 2</h2> */}
                 </div>
                 
                 <div className='base-essence-container'>
-                    <EssenceSquare type='base' name='wing' /> 
+                    <EssenceSquare type='base' name='wing' srcString='/images/essences/'/> 
                     {/* <h2 id='essence-name-3'>Essence Name 3</h2> */}
                 </div>
             </div>
@@ -35,7 +35,7 @@ function EssenceExperimenter () {
                 </div>
                 
                 <div id='confluence-essence-container' >
-                    <EssenceSquare type='confluence' name='dragon' /> 
+                    <EssenceSquare type='confluence' name='dragon' srcString='/images/essences/'/> 
                     {/* <h2 id='confluence-essence-name'>Confluence Essence Name</h2>  */}
                 </div>
 
