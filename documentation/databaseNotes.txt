@@ -1,9 +1,9 @@
 Commands used to create databse tables (full details on them written on pg. 76 of technical details notebook):
 
 
-CREATE TABLE essences (rarity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), description varchar(250), popularity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), category enum('object', 'specific animal', 'animal category', 'human concept', 'corruption', 'body or part', 'nature or natural', 'element', 'darkness and death', 'esoteric magic', 'celestial bodies', 'magical / mythical creature', 'construction', 'profession'), tendencies varchar(250), name varchar(60), primary key (name) );
-alter table essences add column category2 enum('object','specific animal','animal category','human concept','corruption','body or part','nature or natural','element','darkness and death','esoteric magic','celestial bodies','magical / mythical creature','construction','profession');
-alter table essences add column category3 enum('object','specific animal','animal category','human concept','corruption','body or part','nature or natural','element','darkness and death','esoteric magic','celestial bodies','magical / mythical creature','construction','profession');
+CREATE TABLE essences (rarity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), description varchar(250), popularity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), category enum('body part', 'human concept', 'specific animal', 'animal category', 'magical / mythical creature', 'corruption / etc', 'nature / natural', 'element', 'darkness / death', 'esoteric magic', 'celestial body', 'object'), tendencies varchar(250), name varchar(60), primary key (name) );
+alter table essences add column category2 enum('human body part', 'non-human body part', 'profession', 'herbivore', 'predator', 'construction', 'weapon');
+alter table essences add column category3 enum('tool', 'flying animal', 'aquatic animal', 'land-bound animal');
 
 create table items (name varchar(60), rarity enum('common', 'uncommon', 'rare', 'epic', 'legendary'), value int unsigned, description varchar(250), effects varchar(250), charges tinyint unsigned, primary key (name) );
 
