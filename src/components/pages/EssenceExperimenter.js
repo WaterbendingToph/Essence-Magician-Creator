@@ -5,24 +5,63 @@ import './EssenceExperimenter.css';
 import { Button } from '../Button';
 import '../Button.css';
 import EssenceSquare from '../EssenceSquare';
+import dropdownOptions from '../DropdownOptions';
+import '../EssenceSquare.css';
+
+let base1 = <EssenceSquare type='base' name='magic' srcString='/images/essences/'/>;
+let base2 = <EssenceSquare type='base' name='might' srcString='/images/essences/'/>;
+let base3 = <EssenceSquare type='base' name='wing' srcString='/images/essences/'/>;
+let confluence = <EssenceSquare type='confluence' name='dragon' srcString='/images/essences/'/>
+
+
+export function replaceEssenceSquare(variableName, newEssenceName) {
+    if (variableName == 'base1') {
+        base1 = <EssenceSquare type ='base' name={newEssenceName} srcString='/images/essences/'/>
+    } else if (variableName == 'base2') {
+        base2 = <EssenceSquare type ='base' name={newEssenceName} srcString='/images/essences/'/>
+    } else if (variableName == 'base3') {
+        base3 = <EssenceSquare type ='base' name={newEssenceName} srcString='/images/essences/'/>
+    } else if (variableName == 'confluence') {
+        confluence = <EssenceSquare type ='confluence' name={newEssenceName} srcString='/images/essences/'/>
+    }
+}
 
 function EssenceExperimenter () {
+
+
+
+
     return (
         <div id='overall-container'>
             {/* <h1>ESSENCE EXPERIMENTER PAGE</h1> */}
             <div className='row-1'>
                 <div className='base-essence-container'>
-                    <EssenceSquare type='base' name='magic' srcString='/images/essences/'/> 
+                    {base1}
+                    {/* <label for='dropdown-label'>Choose a new Essence</label> */}
+                    <select name="dropdown-select" id="base1DropdownSelect">
+                        {dropdownOptions('base', 'base1')}
+                    </select>
+                    {/* <EssenceSquare type='base' name='magic' srcString='/images/essences/'/>  */}
                     {/* <h2 id='essence-name-1'>Essence Name 1</h2> */}
                 </div>
                 
                 <div className='base-essence-container'>
-                   <EssenceSquare type='base' name='might' srcString='/images/essences/'/> 
+                    {base2}
+                    {/* <label for='dropdown-label'>Choose a new Essence</label> */}
+                    <select name="dropdown-select" id="base2DropdownSelect">
+                        {dropdownOptions('base', 'base2')}
+                    </select>
+                   {/* <EssenceSquare type='base' name='might' srcString='/images/essences/'/>  */}
                     {/* <h2 id='essence-name-2'>Essence Name 2</h2> */}
                 </div>
                 
                 <div className='base-essence-container'>
-                    <EssenceSquare type='base' name='wing' srcString='/images/essences/'/> 
+                    {base3}
+                    {/* <label for='dropdown-label'>Choose a new Essence</label> */}
+                    <select name="dropdown-select" id="base3DropdownSelect">
+                        {dropdownOptions('base')}
+                    </select>
+                    {/* <EssenceSquare type='base' name='wing' srcString='/images/essences/'/>  */}
                     {/* <h2 id='essence-name-3'>Essence Name 3</h2> */}
                 </div>
             </div>
@@ -35,7 +74,12 @@ function EssenceExperimenter () {
                 </div>
                 
                 <div id='confluence-essence-container' >
-                    <EssenceSquare type='confluence' name='dragon' srcString='/images/essences/'/> 
+                    {confluence}
+                    {/* <label for='dropdown-label'>Choose a new Essence</label> */}
+                    <select name="dropdown-select" id="confluenceDropdownSelect">
+                        {dropdownOptions('confluence')}
+                    </select>
+                    {/* <EssenceSquare type='confluence' name='dragon' srcString='/images/essences/'/>  */}
                     {/* <h2 id='confluence-essence-name'>Confluence Essence Name</h2>  */}
                 </div>
 

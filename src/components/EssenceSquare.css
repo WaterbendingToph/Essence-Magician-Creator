@@ -1,7 +1,8 @@
 .essenceImage::after {
     content: attr(data-category);
     display: block;
-    text-align: center;
+    text-align: initial;
+    text-indent: 25%;
     padding: 0;
     max-width: calc((100%) - 60px);
     font-size: 30px;
@@ -16,4 +17,12 @@ label {
 figure, img {
     height: 100%;
     width: auto;
+}
+
+input {
+    display: inline-block;
+}
+
+select {
+    margin-left: 25%;
 }
