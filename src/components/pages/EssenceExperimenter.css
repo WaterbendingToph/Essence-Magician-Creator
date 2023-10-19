@@ -7,27 +7,31 @@
     width: 25vw;
 }
 
-.confluence-essence-square {
-    background-image: url(../../../public/images/essences/base/water.png);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+.button-container {
+    position: relative;
 }
 
-.essence-square {
+/* .confluence-essence-square {
+    background-image: url(../../../public/images/essences/base/water.png);
+    background-position: center;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+} */
+
+/* .essence-square {
     height: 90%;
     width: 100%;
-}
+} */
 
 .row-1 {
     min-height: 20vh;
-    height: 40%;
+    height: 45%;
 }
 
 .row-2 {
     min-height: 40vh;
-    height: 60%;
+    height: 50%;
 }
 
 .row-1, .row-2 {
@@ -36,7 +40,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .row-2 div {
@@ -48,27 +52,28 @@
 
 
 
-#base-essence-1 {
+/* #base-essence-1 {
     background-image: url(../../../public/images/essences/base/wind.png);
     background-position: center;
     background-size:cover;
-}
+} */
 
-#base-essence-2 {
+/* #base-essence-2 {
     background-image: url(../../../public/images/essences/base/earth.png);
     background-position: center;
     background-size: cover;
-}
+} */
 
-#base-essence-3 {
+/* #base-essence-3 {
     background-image: url(../../../public/images/essences/base/fire.png);
     background-position: center;
     background-size: cover;
-}
+} */
 
 #confluence-essence-container {
-    width: 100%;
-    height: 80%;
+    padding: 0%;
+    width: 25%;
+    height: 90%;
     text-align: center;
 }
 
@@ -81,7 +86,10 @@
 }
 
 
-
 Button {
+    position: relative;
+    top: 200%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
     margin-bottom: 25px;
 }
