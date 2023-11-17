@@ -5,7 +5,6 @@ import '../../App.css';
 function Shops() {
     return (
         <div className='shops-container'>
-            <h1>SHOPS PAGE</h1>
         </div>
     )
 }

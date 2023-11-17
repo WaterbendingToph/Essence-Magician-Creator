@@ -6,7 +6,6 @@ import Cards from '../Cards';
 function WorldDetails () {
     return (
         <div className='worldDetails-container'>
-            <h1>WORLD DETAILS PAGE</h1>
             <Cards pages='WorldDetails'/>
         </div>
     )
