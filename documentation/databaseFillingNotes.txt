@@ -1,5 +1,11 @@
 THESE ARE NOTES TO SELF ON THE RULES USED TO FILL THE DB W/ INFO SO THAT IF SOMETHING HAPPENS TO IT, OR I NEED TO REBUILD PART / ALL OF IT THERE IS SOME BACKUP
 
+BIG SECTIONS:
+    COLUMN VALUES FOR ESSENCES
+    SPECIFIC CONFLUENCE ESSENCE RULES
+    DEFAULT CONFLUENCE ESSENCE RULES
+    ESSENCE DETAILS BEING ADDED
+
 THIS IS THE BASE CODE THAT ALL BELOW FUNCTION SNIPPITS WILL BE RUN AFTER TO RECREATE THE ACTUAL DB COMMANDS FOR INSERTING DATA TO CONFLUENCECOMBOS
 
 essences = open("essences.txt", "r+")
@@ -725,12 +731,12 @@ for x in range(len(contents) ):
 
 
     Mirage
-INSERT INTO confluencecombos VALUES ('fire', 'water', 'visage', 'mirage');
-INSERT INTO confluencecombos VALUES ('light', 'water', 'visage', 'mirage');
-INSERT INTO confluencecombos VALUES ('sand', 'water', 'vast', 'mirage');
-INSERT INTO confluencecombos VALUES ('sand', 'water', 'visage', 'mirage');
-INSERT INTO confluencecombos VALUES ('sun', 'sand', 'visage', 'mirage');
-INSERT INTO confluencecombos VALUES ('sun', 'water', 'visage', 'mirage');
+INSERT INTO confluencecombos VALUES ('fire', 'visage', 'water', 'mirage');
+INSERT INTO confluencecombos VALUES ('light', 'visage', 'water', 'mirage');
+INSERT INTO confluencecombos VALUES ('sand', 'vast', 'water', 'mirage');
+INSERT INTO confluencecombos VALUES ('sand', 'visage', 'water', 'mirage');
+INSERT INTO confluencecombos VALUES ('sand', 'sun', 'visage', 'mirage');
+INSERT INTO confluencecombos VALUES ('sun', 'visage', 'water', 'mirage');
 
 
     Kraken
@@ -745,12 +751,24 @@ replacement.write('INSERT INTO confluencecombos VALUES (\'deep\', \'octopus\', \
 for x in range(len(octoShit) - 1):
     for y in range(x + 1, len(octoShit) ):
         for z in range(len(contents) ):
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + octoShit[x] + '\', \'' + octoShit[y] + '\', \'' + contents[z] + '\', \'kraken\');\n')
+            baseEssences = [octoShit[x], octoShit[y], contents[z] ]
+            baseEssences.sort()
+
+            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'kraken\');\n')
 
 for x in range(len(octoShit) ):
-    for y in range(len(contents) ):
+    for y in range(len(contents) - 1):
         for z in range(y + 1, len(contents) ):
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + octoShit[x] + '\', \'' + contents[y] + '\', \'' + contents[z] + '\', \'kraken\');\n')
+            baseEssences = [octoShit[x], contents[y], contents[z] ]
+            baseEssences.sort()
+
+            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'kraken\');\n')
+
+
+    Eclipse
+INSERT INTO confluencecombos VALUES ('Balance', 'Discord', 'Harmonic', 'eclipse');
+INSERT INTO confluencecombos VALUES ('Balance', 'Corrupt', 'Growth', 'eclipse');
+INSERT INTO confluencecombos VALUES ('Balance', 'Feeble', 'Might', 'eclipse');
 
 
     Swarm
@@ -792,92 +810,14 @@ essences.txt =
 | Wasp      |
 | Whale     |
 | Wolf      |
-for index1 in range(len(contents) - 2):
-    replacement.write("INSERT INTO confluencecombos VALUES (\'" + contents[index1] + '\', \'vast\', \'myriad\', \'swarm\');\n')
-    replacement.write("INSERT INTO confluencecombos VALUES (\'" + contents[index1] + '\', \'hunger\', \'myriad\', \'swarm\');\n')
-
-essences.txt = 
-| Ape       |
-| Bat       |
-| Bear      |
-| Bee       |
-| Cat       |
-| Cattle    |
-| Dog       |
-| Crocodile |
-| Pangolin  |
-| Rabbit    |
-| Rat       |
-| Deer      |
-| Shark     |
-| Duck      |
-| Turtle    |
-| Skunk     |
-| Sloth     |
-| Flea      |
-| Fox       |
-| Frog      |
-| Goat      |
-| Heidel    |
-| Horse     |
-| Spider    |
-| Wasp      |
-| Whale     |
-| Wolf      |
-| Mouse     |
-| Lizard    |
-| Locust    |
-| Manatee   |
-| Monkey    |
-| Octopus   |
-| Owl       |
-| Cold      |
-| Earth     |
-| Elemental |
-| Fire      |
-| Ice       |
-| Iron      |
-| Wood      |
-| Water     |
-| Lightning |
-| Wind      |
-| Sand      |
-| Dark      |
-| Death     |
-| Deep      |
-| Hunger    |
-| Hunt      |
-| Smoke     |
-| Malign    |
-| Trap      |
-| Omen      |
-| Sin       |
-animal = contents[:34]
-elemental = contents[34:45]
-darkness = contents[45:]
-
-for index1 in range(len(animal) ):
-    for index2 in range(len(elemental) ):
-        for index3 in range(len(darkness) ):
-            replacement.write("INSERT INTO confluencecombos VALUES (\'" + animal[index1] + '\', \'' + elemental[index2] + '\', \'' + darkness[index3] + '\', \'swarm\');\n')
-
-essences.txt = 
-| Cattle   |
-| Deer     |
-| Goat     |
-| Heidel   |
-| Horse    |
-| Lizard   |
-| Mouse    |
-| Pangolin |
-| Rabbit   |
-| Rat      |
-| Sloth    |
-otherEssences = ['grazen', 'life', 'myriad', 'fungus', 'tree', 'plant', 'vast', 'earth', 'feast', 'renewal']
-
 for index1 in range(len(contents) ):
-    for index2 in range(len(otherEssences) ):
-        replacement.write("INSERT INTO confluencecombos VALUES (\'" + contents[index1] + '\', \'grazen\', \'' + otherEssences[index2] + '\', \'swarm\');\n')
+    baseEssences = [contents[index1], 'Vast', 'Myriad']
+    baseEssences.sort()
+    replacement.write("INSERT INTO confluencecombos VALUES (\'" + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'swarm\');\n')
+
+    baseEssences = [contents[index1], 'Hunger', 'Myriad']
+    baseEssences.sort()
+    replacement.write("INSERT INTO confluencecombos VALUES (\'" + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'swarm\');\n')
 
 
     Sacrifice
@@ -897,10 +837,20 @@ essences.txt =
 | Star   |
 | Sun    |
 for index1 in range(len(contents) ):
-    replacement.write('INSERT INTO confluencecombos VALUES (\'dimension\', \'knife\', \'' + contents[index1] + '\', \'sacrifice\');\n')
-    replacement.write('INSERT INTO confluencecombos VALUES (\'hunger\', \'knife\', \'' + contents[index1] + '\', \'sacrifice\');\n')
-    replacement.write('INSERT INTO confluencecombos VALUES (\'goat\', \'knife\', \'' + contents[index1] + '\', \'sacrifice\');\n')
-    replacement.write('INSERT INTO confluencecombos VALUES (\'blood\', \'knife\', \'' + contents[index1] + '\', \'sacrifice\');\n')
+    baseEssences1 = ['Dimension', 'Knife', contents[index1] ]
+    baseEssences1.sort()
+    baseEssences2 = ['Hunger', 'Knife', contents[index1] ]
+    baseEssences2.sort()
+    baseEssences3 = ['Goat', 'Knife', contents[index1] ]
+    baseEssences3.sort()
+    baseEssences4 = ['Blood', 'Knife', contents[index1] ]
+    baseEssences4.sort()
+
+
+    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences1[0] + '\', \'' + baseEssences1[1] + '\', \'' + baseEssences1[2] + '\', \'sacrifice\');\n')
+    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences2[0] + '\', \'' + baseEssences2[1] + '\', \'' + baseEssences2[2] + '\', \'sacrifice\');\n')
+    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences3[0] + '\', \'' + baseEssences3[1] + '\', \'' + baseEssences3[2] + '\', \'sacrifice\');\n')
+    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences4[0] + '\', \'' + baseEssences4[1] + '\', \'' + baseEssences4[2] + '\', \'sacrifice\');\n')
 
 
     Harvest
@@ -955,10 +905,10 @@ essences.txt =
 | Whip    |
 for index1 in range(len(contents) - 1):
     for index2 in range(index1 + 1, len(contents) ):
-            baseEssences = ['myriad', contents[index1], contents[index2] ]
-            baseEssences.sort()
+        baseEssences = ['myriad', contents[index1], contents[index2] ]
+        baseEssences.sort()
 
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'arsenal\');\n')
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'arsenal\');\n')
 
 
     Discordant
@@ -985,10 +935,10 @@ corrupts = contents[:3]
 
 for index1 in range(len(corrupts) ):
     for index2 in range(len(weapons) ):
-            baseEssences = [corrupts[index1], weapons[index2], 'Song']
-            baseEssences.sort()
+        baseEssences = [corrupts[index1], weapons[index2], 'Song']
+        baseEssences.sort()
 
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'discordant\');\n')
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'discordant\');\n')
 
 
     Serpent
@@ -1006,10 +956,10 @@ essences.txt =
 | Wood      |
 for index1 in range(len(contents) ):
     for index2 in range(index1 + 1, len(contents) ):
-            baseEssences = [contents[index1], contents[index2], 'Snake']
-            baseEssences.sort()
+        baseEssences = [contents[index1], contents[index2], 'Snake']
+        baseEssences.sort()
 
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Serpent\');\n')
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Serpent\');\n')
 
 
     Skirmish
@@ -1018,7 +968,29 @@ INSERT INTO confluencecombos VALUES ('Adept', 'Gun', 'Hunt', 'Skirmish');
 
 
     Transgression
-INSERT INTO confluencecombos VALUES ('dimension', 'sin', 'magic', 'transgression');
+INSERT INTO confluencecombos VALUES ('dimension', 'magic', 'sin', 'transgression');
+INSERT INTO confluencecombos VALUES ('Cold', 'Dimension', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Earth', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Elemental', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Fire', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Ice', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Iron', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Lightning', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Sand', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Water', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Wind', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Wood', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dark', 'Dimension', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Death', 'Dimension', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Deep', 'Dimension', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Hunger', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Hunt', 'Magic', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Malign', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Omen', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Sin', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Smoke', 'Transgression');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Magic', 'Trap', 'Transgression');
+
 
 
     Vision
@@ -1067,10 +1039,16 @@ crystal
 echo
 for index1 in range(len(contents) - 1):
     for index2 in range(index1 + 1, len(contents) ):
-            baseEssences = [contents[index1], contents[index2], 'wind' ]
-            baseEssences.sort()
+        baseEssences = [contents[index1], contents[index2], 'wind' ]
+        baseEssences.sort()
 
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'resonating\');\n')
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'resonating\');\n')
+
+
+    Refracting
+INSERT INTO confluencecombos VALUES ('balance', 'echo', 'song', 'refracting');
+INSERT INTO confluencecombos VALUES ('balance', 'ice', 'song', 'refracting');
+INSERT INTO confluencecombos VALUES ('echo', 'ice', 'song', 'refracting');
 
 
     Scribe
@@ -1082,10 +1060,10 @@ knowledge
 wood
 for index1 in range(len(contents) - 1):
     for index2 in range(index1 + 1, len(contents) ):
-            baseEssences = [contents[index1], contents[index2], 'paper' ]
-            baseEssences.sort()
+        baseEssences = [contents[index1], contents[index2], 'paper' ]
+        baseEssences.sort()
 
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'scribe\');\n')
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'scribe\');\n')
 
 
     Succubus
@@ -1155,6 +1133,15 @@ for index1 in range(len(contents) ):
     replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Immortal\');\n')
 
 
+    Juggernaut
+INSERT INTO confluencecombos VALUES ('Might', 'Swift', 'Vehicle', 'Juggernaut');
+INSERT INTO confluencecombos VALUES ('Iron', 'Might', 'Swift', 'Juggernaut');
+INSERT INTO confluencecombos VALUES ('Earth', 'Might', 'Swift', 'Juggernaut');
+INSERT INTO confluencecombos VALUES ('Crystal', 'Might', 'Swift', 'Juggernaut');
+INSERT INTO confluencecombos VALUES ('Might', 'Shield', 'Swift', 'Juggernaut');
+INSERT INTO confluencecombos VALUES ('Might', 'Swift', 'Wall', 'Juggernaut');
+
+
     Edifice
 essences.txt = 
 | Axe     |
@@ -1204,7 +1191,6 @@ essences.txt =
 | Knife   |
 | Sceptre |
 | Shield  |
-| Ship    |
 | Spear   |
 | Staff   |
 | Sword   |
@@ -1217,7 +1203,25 @@ for index1 in range(len(contents) ):
     baseEssences = [contents[index1], 'Hand', 'Ship' ]
     baseEssences.sort()
     replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Action\');\n')
- 
+
+
+    Alchemy
+INSERT INTO confluencecombos VALUES ('Adept', 'Blight', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Cold', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Corrupt', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Earth', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Elemental', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Fire', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Gathering', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Ice', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Iron', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Lightning', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Sand', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Venom', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Water', 'Water', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Water', 'Wind', 'Alchemy');
+INSERT INTO confluencecombos VALUES ('Adept', 'Water', 'Wood', 'Alchemy');
+
 
     Cataclysm
 INSERT INTO confluencecombos VALUES ('Earth', 'Myriad', 'Wind', 'Cataclysm');
@@ -1338,30 +1342,30 @@ INSERT INTO confluencecombos VALUES ('Trap', 'Vast', 'Wall', 'Guardian');
 
 
     Forge
-essences.txt = 
-| Axe     |
-| Hammer  |
-| Hook    |
-| Knife   |
-| Rake    |
-| Sceptre |
-| Shield  |
-| Ship    |
-| Shovel  |
-| Sickle  |
-| Staff   |
-| Trowel  |
-| Vehicle |
-| Whip    |
-for index1 in range(len(contents) ):
-    baseEssences = [contents[index1], 'Fire', 'Iron' ]
-    baseEssences.sort()
-    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Forge\');\n')
+INSERT INTO confluencecombos VALUES ('Axe', 'Fire', 'Iron', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Hammer', 'Iron', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Hook', 'Iron', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Knife', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Rake', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Sceptre', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Shield', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Ship', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Shovel', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Sickle', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Staff', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Trowel', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Vehicle', 'Forge');
+INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Whip', 'Forge');
 INSERT INTO confluencecombos VALUES ('Fire', 'Lightning', 'Water', 'Forge');
 INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Water', 'Forge');
 INSERT INTO confluencecombos VALUES ('Fire', 'Iron', 'Technology', 'Forge');
 INSERT INTO confluencecombos VALUES ('Fire', 'Lightning', 'Technology', 'Forge');
 INSERT INTO confluencecombos VALUES ('Lightning', 'Iron', 'Water', 'Forge');
+INSERT INTO confluencecombos VALUES ('Armour', 'Fire', 'Water', 'Forge');
+INSERT INTO confluencecombos VALUES ('Armour', 'Hammer', 'Might', 'Forge');
+INSERT INTO confluencecombos VALUES ('Armour', 'Hammer', 'Iron', 'Forge');
+INSERT INTO confluencecombos VALUES ('Armour', 'Fire', 'Hammer', 'Forge');
+INSERT INTO confluencecombos VALUES ('Adept', 'Armour', 'Hammer', 'Forge');
 
 
     Wrath
@@ -1422,18 +1426,6 @@ for index1 in range(len(contents) ):
     baseEssences = [contents[index1], 'Adept', 'Zeal' ]
     baseEssences.sort()
     replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Wrath\');\n')
-essences.txt = 
-| Cold      |
-| Earth     |
-| Elemental |
-| Fire      |
-| Ice       |
-| Iron      |
-| Lightning |
-| Sand      |
-| Water     |
-| Wind      |
-| Wood      |
 for index1 in range(len(contents) ):
     for index2 in range(index1 + 1, len(contents) ):
         baseEssences = [contents[index1], contents[index2], 'Zeal' ]
@@ -1543,13 +1535,33 @@ for index1 in range(len(prisonEssences) ):
 for index1 in range(len(prisonEssences) - 1):
     for index2 in range(index1 + 1, len(prisonEssences) - 1):
         for index3 in range(len(otherEssences) ):
-            baseEssences = [prisonEssences[index1], otherEssences[index2], otherEssences[index3] ]
+            baseEssences = [prisonEssences[index1], prisonEssences[index2], otherEssences[index3] ]
             baseEssences.sort()
             replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Prison\');\n')
 
 
     Ambush
 essences.txt =
+| Ape       |
+| Bat       |
+| Bear      |
+| Cat       |
+| Crocodile |
+| Dog       |
+| Duck      |
+| Fox       |
+| Frog      |
+| Locust    |
+| Monkey    |
+| Octopus   |
+| Owl       |
+| Shark     |
+| Skunk     |
+| Spider    |
+| Wasp      |
+| Whale     |
+| Wolf      |
+| Snake     |
 | Cold      |
 | Earth     |
 | Elemental |
@@ -1561,11 +1573,61 @@ essences.txt =
 | Water     |
 | Wind      |
 | Wood      |
+predatorEssences = contents[:20]
+elementalEssences = contents[20:]
 ambushEssences = ['Thread', 'Rune', 'Magic', 'Cage', 'Chain', 'Net', 'Wall']
 
 for index1 in range(len(contents) ):
     for index2 in range(len(ambushEssences) ):
         baseEssences = ['Trap', contents[index1], ambushEssences[index2] ]
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Ambush\');\n')
+
+for index1 in range(len(predatorEssences) ):
+    for index2 in range(len(elementalEssences) ):
+        baseEssences = ['Trap', predatorEssences[index1], elementalEssences[index2] ]
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Ambush\');\n')
+essences.txt = 
+| Ape       |
+| Bat       |
+| Bear      |
+| Cat       |
+| Crocodile |
+| Dog       |
+| Duck      |
+| Fox       |
+| Frog      |
+| Locust    |
+| Monkey    |
+| Octopus   |
+| Owl       |
+| Shark     |
+| Skunk     |
+| Spider    |
+| Wasp      |
+| Whale     |
+| Wolf      |
+| Snake     |
+| Blight  |
+| Corrupt |
+| Dark    |
+| Death   |
+| Deep    |
+| Hunger  |
+| Hunt    |
+| Malign  |
+| Omen    |
+| Sin     |
+| Smoke   |
+| Trap    |
+| Venom   |
+predatorEssences = contents[:20]
+corruptionAndDeathEssences = contents[20:]
+
+for index1 in range(len(predatorEssences) ):
+    for index2 in range(len(corruptionAndDeathEssences) ):
+        baseEssences = ['Trap', predatorEssences[index1], corruptionAndDeathEssences[index2] ]
         baseEssences.sort()
         replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Ambush\');\n')
 
@@ -1649,11 +1711,13 @@ for index1 in range(len(contents) ):
 for index1 in range(len(contents) ):
     baseEssences = ['Cloud', contents[index1], 'Lightning' ]
     baseEssences.sort()
-    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Storm\');\n')
+    if baseEssences.count('Lightning') < 2:
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Storm\');\n')
 
     baseEssences = ['Cloud', contents[index1], 'Wind' ]
     baseEssences.sort()
-    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Storm\');\n')
+    if baseEssences.count('Wind') < 2:
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Storm\');\n')
 | Gathering  |
 | Growth     |
 | Harmonic   |
@@ -1684,20 +1748,6 @@ for index1 in range(len(contents) ):
     baseEssences = ['Wind', contents[index1], 'Fire' ]
     baseEssences.sort()
     replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Storm\');\n')
-| Armour  |
-| Axe     |
-| Bow     |
-| Gun     |
-| Hammer  |
-| Hook    |
-| Knife   |
-| Sceptre |
-| Shield  |
-| Ship    |
-| Spear   |
-| Staff   |
-| Sword   |
-| Whip    |
 INSERT INTO confluencecombos VALUES ('Armour', 'Lightning', 'Rune', 'Storm');
 INSERT INTO confluencecombos VALUES ('Axe', 'Lightning', 'Rune', 'Storm');
 INSERT INTO confluencecombos VALUES ('Bow', 'Lightning', 'Rune', 'Storm');
@@ -1754,6 +1804,11 @@ for index1 in range(len(bodyPartEssences) ):
         baseEssences = [bodyPartEssences[index1], elementalEssencesPlus[index2], 'Technology']
         baseEssences.sort()
         replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Cyborg\');\n')
+
+for index1 in range(len(bodyPartEssences) ):
+    baseEssences = [bodyPartEssences[index1], 'Myriad', 'Technology']
+    baseEssences.sort()
+    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Cyborg\');\n')
 
 
     Prosperity
@@ -1861,6 +1916,298 @@ INSERT INTO confluencecombos VALUES ('Feast', 'Might', 'Void', 'Vortex');
 INSERT INTO confluencecombos VALUES ('Hunger', 'Might', 'Void', 'Vortex');
 
 
+    Ocean
+update confluencecombos set confluence = 'ocean' where base1 = 'ship' and base2 = 'vehicle' and base3 = 'water';
+
+
+    Thunderbird
+INSERT INTO confluencecombos VALUES ('Bird', 'Lightning', 'Myriad', 'Thunderbird');
+INSERT INTO confluencecombos VALUES ('Bird', 'Lightning', 'Wind', 'Thunderbird');
+
+
+    Firebird
+INSERT INTO confluencecombos VALUES ('Bird', 'Fire', 'Myriad', 'Firebird');
+INSERT INTO confluencecombos VALUES ('Bird', 'Fire', 'Vast', 'Firebird');
+
+
+    Oasis
+INSERT INTO confluencecombos VALUES ('Sand', 'Sun', 'Water', 'Oasis');
+INSERT INTO confluencecombos VALUES ('Earth', 'Visage', 'Water', 'Oasis');
+
+
+    Refracting
+INSERT INTO confluencecombos VALUES ('Adept', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Balance', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Cold', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Dance', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Discord', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Earth', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Echo', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Elemental', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Feast', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Feeble', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Fire', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Gathering', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Growth', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Harmonic', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Ice', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Iron', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Knowledge', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Life', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Light', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Lightning', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Lurker', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Magic', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Might', 'Mirror', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Myriad', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Potent', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Pure', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Renewal', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Resolute', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Rune', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Sand', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Serene', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Shimmer', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Song', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Swift', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Technology', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Vast', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Visage', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Void', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Water', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Wind', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Wood', 'Refracting');
+INSERT INTO confluencecombos VALUES ('Light', 'Mirror', 'Zeal', 'Refracting');
+
+
+    Fey
+INSERT INTO confluencecombos VALUES ('Discord', 'Magic', 'Visage', 'Fey');
+INSERT INTO confluencecombos VALUES ('Magic', 'Shimmer', 'Visage', 'Fey');
+
+
+    Wendigo
+INSERT INTO confluencecombos VALUES ('Blight', 'Flesh', 'Hunger', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Cold', 'Flesh', 'Hunger', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Corrupt', 'Flesh', 'Hunger', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Dark', 'Flesh', 'Hunger', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Death', 'Flesh', 'Hunger', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Deep', 'Flesh', 'Hunger', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Flesh', 'Hunger', 'Hunt', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Flesh', 'Hunger', 'Malign', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Flesh', 'Hunger', 'Omen', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Flesh', 'Hunger', 'Sin', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Flesh', 'Hunger', 'Smoke', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Flesh', 'Hunger', 'Trap', 'Wendigo');
+INSERT INTO confluencecombos VALUES ('Flesh', 'Hunger', 'Venom', 'Wendigo');
+
+
+    Behemoth
+INSERT INTO confluencecombos VALUES ('Earth', 'Heidel', 'Vast', 'Behemoth');
+INSERT INTO confluencecombos VALUES ('Might', 'Potent', 'Pure', 'Behemoth');
+INSERT INTO confluencecombos VALUES ('Might', 'Pure', 'Vast', 'Behemoth');
+INSERT INTO confluencecombos VALUES ('Gathering', 'Might', 'Pure', 'Behemoth');
+
+
+    Griffin
+INSERT INTO confluencecombos VALUES ('Cat', 'Might', 'Wing', 'Griffin');
+INSERT INTO confluencecombos VALUES ('Bird', 'Cat', 'Might', 'Griffin');
+INSERT INTO confluencecombos VALUES ('Cat', 'Potent', 'Wing', 'Griffin');
+INSERT INTO confluencecombos VALUES ('Bird', 'Cat', 'Potent', 'Griffin');
+
+
+    Volcano
+INSERT INTO confluencecombos VALUES ('Discord', 'Earth', 'Fire', 'Volcano');
+INSERT INTO confluencecombos VALUES ('Earth', 'Fire', 'Myriad', 'Volcano');
+INSERT INTO confluencecombos VALUES ('Blight', 'Earth', 'Fire', 'Volcano');
+
+
+    Hydra
+INSERT INTO confluencecombos VALUES ('Growth', 'Myriad', 'Snake', 'Hydra');
+
+
+    Manticore
+INSERT INTO confluencecombos VALUES ('Cat', 'Needle', 'Wing', 'Manticore');
+INSERT INTO confluencecombos VALUES ('Cat', 'Spike', 'Wing', 'Manticore');
+INSERT INTO confluencecombos VALUES ('Cat', 'Venom', 'Wing', 'Manticore');
+
+
+    Leviathan
+INSERT INTO confluencecombos VALUES ('Might', 'Vast', 'Whale', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Might', 'Potent', 'Whale', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Might', 'Turtle', 'Vast', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Might', 'Potent', 'Turtle', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Might', 'Shark', 'Vast', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Might', 'Potent', 'Shark', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Crocodile', 'Might', 'Vast', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Crocodile', 'Might', 'Potent', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Frog', 'Might', 'Vast', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Frog', 'Might', 'Potent', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Might', 'Octopus', 'Vast', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Might', 'Octopus', 'Potent', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Manatee', 'Might', 'Vast', 'Leviathan');
+INSERT INTO confluencecombos VALUES ('Manatee', 'Might', 'Potent', 'Leviathan');
+
+
+    Dragon
+INSERT INTO confluencecombos VALUES ('Cold', 'Might', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Cold', 'Potent', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Earth', 'Might', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Earth', 'Potent', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Elemental', 'Might', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Elemental', 'Potent', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Fire', 'Might', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Fire', 'Potent', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Ice', 'Might', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Ice', 'Potent', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Iron', 'Might', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Iron', 'Potent', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Lightning', 'Might', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Lightning', 'Potent', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Might', 'Sand', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Potent', 'Sand', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Might', 'Water', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Potent', 'Water', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Might', 'Wind', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Potent', 'Wind', 'Wing', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Might', 'Wing', 'Wood', 'Dragon');
+INSERT INTO confluencecombos VALUES ('Potent', 'Wing', 'Wood', 'Dragon');
+
+
+    Nebula
+INSERT INTO confluencecombos VALUES ('Cloud', 'Vast', 'Void', 'Nebula');
+INSERT INTO confluencecombos VALUES ('Moon', 'Vast', 'Void', 'Nebula');
+INSERT INTO confluencecombos VALUES ('Star', 'Vast', 'Void', 'Nebula');
+INSERT INTO confluencecombos VALUES ('Sun', 'Vast', 'Void', 'Nebula');
+
+
+    Jackalope
+INSERT INTO confluencecombos VALUES ('Deer', 'Might', 'Rabbit', 'Jackalope');
+INSERT INTO confluencecombos VALUES ('Deer', 'Grazen', 'Rabbit', 'Jackalope');
+INSERT INTO confluencecombos VALUES ('Bone', 'Deer', 'Rabbit', 'Jackalope');
+INSERT INTO confluencecombos VALUES ('Deer', 'Rabbit', 'Spike', 'Jackalope');
+INSERT INTO confluencecombos VALUES ('Deer', 'Rabbit', 'Swift', 'Jackalope');
+
+
+    Gorgon
+INSERT INTO confluencecombos VALUES ('Magic', 'Mirror', 'Snake', 'Gorgon');
+INSERT INTO confluencecombos VALUES ('Hair', 'Magic', 'Mirror', 'Gorgon');
+
+
+    Doppelganger
+INSERT INTO confluencecombos VALUES ('Blight', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Corrupt', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Dark', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Death', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Deep', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Discord', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Echo', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Hunger', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Hunt', 'Magic', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Magic', 'Malign', 'Mirror', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Magic', 'Mirror', 'Omen', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Magic', 'Mirror', 'Sin', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Magic', 'Mirror', 'Smoke', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Magic', 'Mirror', 'Trap', 'Doppelganger');
+INSERT INTO confluencecombos VALUES ('Magic', 'Mirror', 'Venom', 'Doppelganger');
+
+
+    Verdant
+INSERT INTO confluencecombos VALUES ('Axe', 'Life', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Axe', 'Earth', 'Life', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Axe', 'Growth', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Axe', 'Earth', 'Growth', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Axe', 'Plant', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Axe', 'Earth', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Hammer', 'Life', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Hammer', 'Life', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Hammer', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Hammer', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Hammer', 'Plant', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Hammer', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Hook', 'Life', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Hook', 'Life', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Hook', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Hook', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Hook', 'Plant', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Hook', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Knife', 'Life', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Knife', 'Life', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Knife', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Knife', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Knife', 'Plant', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Knife', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Rake', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Rake', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Rake', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Rake', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Rake', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Rake', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Sceptre', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Sceptre', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Sceptre', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Sceptre', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Sceptre', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Sceptre', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Shield', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Shield', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Shield', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Shield', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Shield', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Shield', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Ship', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Ship', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Ship', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Ship', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Ship', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Ship', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Shovel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Shovel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Shovel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Shovel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Shovel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Shovel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Sickle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Sickle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Sickle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Sickle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Sickle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Sickle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Staff', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Staff', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Staff', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Staff', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Staff', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Staff', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Trowel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Trowel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Trowel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Trowel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Trowel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Trowel', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Vehicle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Vehicle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Vehicle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Vehicle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Vehicle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Vehicle', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Life', 'Plant', 'Whip', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Whip', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Whip', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Whip', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Whip', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Whip', 'Verdant');
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1899,21 +2246,72 @@ INSERT INTO confluencecombos VALUES ('Hunger', 'Might', 'Void', 'Vortex');
 
         DEFAULT RULES BELOW:
 
-    Chimera
+    Eclipse
+INSERT INTO confluencecombos VALUES ('Adept', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Balance', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Discord', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Gathering', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Growth', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Harmonic', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Life', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Light', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Magic', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Might', 'Moon', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Myriad', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Potent', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Pure', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Renewal', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Rune', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Shimmer', 'Sun', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Sun', 'Swift', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Sun', 'Technology', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Sun', 'Vast', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Sun', 'Void', 'Eclipse');
+INSERT INTO confluencecombos VALUES ('Moon', 'Sun', 'Zeal', 'Eclipse');
+
+
+    Guardian
+INSERT INTO confluencecombos VALUES ('Armour', 'Armour', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Axe', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Bow', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Cold', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Earth', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Elemental', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Fire', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Gun', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Hammer', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Hook', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Ice', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Iron', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Knife', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Lightning', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Sand', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Sceptre', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Shield', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Ship', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Spear', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Staff', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Sword', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Wall', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Water', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Whip', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Wind', 'Guardian');
+INSERT INTO confluencecombos VALUES ('Armour', 'Shield', 'Wood', 'Guardian');
+
+
+    Fertile
 essences.txt = 
 | Ape       |
 | Bat       |
 | Bear      |
 | Bee       |
-| Bird      |
 | Cat       |
 | Cattle    |
-| Claw      |
 | Crocodile |
 | Deer      |
 | Dog       |
 | Duck      |
-| Fish      |
 | Flea      |
 | Fox       |
 | Frog      |
@@ -1925,7 +2323,6 @@ essences.txt =
 | Manatee   |
 | Monkey    |
 | Mouse     |
-| Needle    |
 | Octopus   |
 | Owl       |
 | Pangolin  |
@@ -1934,24 +2331,51 @@ essences.txt =
 | Shark     |
 | Skunk     |
 | Sloth     |
-| Snake     |
 | Spider    |
-| Spike     |
-| Tentacle  |
 | Turtle    |
 | Wasp      |
 | Whale     |
-| Wing      |
 | Wolf      |
-for index1 in range(len(contents) - 2):
-    for index2 in range(index1 + 1, len(contents) - 1):
-        for index3 in range(index2 + 1, len(contents) ):
-            baseEssences = [contents[index1], contents[index2], contents[index3] ]
-            baseEssences.sort()
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Chimera\');\n')
+fertileEssences = ['Fungus', 'Grazen', 'Myriad', 'Growth', 'Plant']
+for index1 in range(len(contents) ):
+    for index2 in range(len(fertileEssences) ):
+        baseEssences = [contents[index1], fertileEssences[index2], 'Renewal']
+        baseEssences.sort()
+
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Fertile\');\n')
+
+        baseEssences = [contents[index1], fertileEssences[index2], 'Life']
+        baseEssences.sort()
+
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Fertile\');\n')
 
 
-    Dimension
+    Bounty
+essences.txt =
+| Axe     |
+| Hammer  |
+| Hook    |
+| Knife   |
+| Rake    |
+| Sceptre |
+| Shield  |
+| Ship    |
+| Shovel  |
+| Sickle  |
+| Staff   |
+| Trowel  |
+| Vehicle |
+| Whip    |
+bountyEssences = ['Myriad', 'Life', 'Renewal', 'Pure', 'Growth', 'Gathering']
+for index1 in range(len(contents) ):
+    for index2 in range(len(bountyEssences) ):
+        baseEssences = [contents[index1], bountyEssences[index2], 'Renewal']
+        baseEssences.sort()
+
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Bounty\');\n')
+
+
+    Gate
 essences.txt =
 | Adept      |
 | Balance    |
@@ -2146,33 +2570,28 @@ for index1 in range(len(contents) - 1):
 
 
     Verdant
-essences.txt =
-| Adept      |
-| Balance    |
-| Dimension  |
-| Discord    |
-| Gathering  |
-| Growth     |
-| Harmonic   |
-| Life       |
-| Light      |
-| Magic      |
-| Might      |
-| Myriad     |
-| Potent     |
-| Pure       |
-| Renewal    |
-| Rune       |
-| Shimmer    |
-| Swift      |
-| Technology |
-| Vast       |
-| Void       |
-| Zeal       |
-for index1 in range(len(contents) ):
-    baseEssences = [contents[index1], 'Earth', 'Plant' ]
-    baseEssences.sort()
-    replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Verdant\');\n')
+INSERT INTO confluencecombos VALUES ('Adept', 'Earth', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Balance', 'Earth', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Dimension', 'Earth', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Discord', 'Earth', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Gathering', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Harmonic', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Life', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Light', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Magic', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Might', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Myriad', 'Plant', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Potent', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Pure', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Renewal', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Rune', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Shimmer', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Swift', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Technology', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Vast', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Void', 'Verdant');
+INSERT INTO confluencecombos VALUES ('Earth', 'Plant', 'Zeal', 'Verdant');
 
 
     Soaring
@@ -2256,11 +2675,28 @@ for index1 in range(len(contents) - 2):
             baseEssences = [contents[index1], contents[index2], contents[index3] ]
             baseEssences.sort()
             replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Avatar\');\n')
-INSERT INTO confluencecombos VALUES ('Claw', 'Dark', 'Void', 'Avatar');
-INSERT INTO confluencecombos VALUES ('Dark', 'Needle', 'Void', 'Avatar');
-INSERT INTO confluencecombos VALUES ('Dark', 'Spike', 'Void', 'Avatar');
-INSERT INTO confluencecombos VALUES ('Dark', 'Tentacle', 'Void', 'Avatar');
-INSERT INTO confluencecombos VALUES ('Dark', 'Void', 'Wing', 'Avatar');
+| Claw     |
+| Tentacle |
+| Wing     |
+| Dark     |
+| Death    |
+| Deep     |
+| Hunger   |
+| Hunt     |
+| Malign   |
+| Omen     |
+| Sin      |
+| Smoke    |
+| Trap     |
+| Needle   |
+| Spike    |
+nonHumanBodyPartEssences = contents[:3] + contents[13:]
+darkEssences = contents[3:13]
+for index1 in range(len(nonHumanBodyPartEssences) ):
+    for index2 in range(len(darkEssences) ):
+        baseEssences = [nonHumanBodyPartEssences[index1], darkEssences[index2], 'Void' ]
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Avatar\');\n')
 | Blood      |
 | Bone       |
 | Hair       |
@@ -2412,7 +2848,6 @@ for index1 in range(len(contents) - 1):
 
 
     Magitech
-essences.txt = 
 INSERT INTO confluencecombos VALUES ('Adept', 'Magic', 'Technology', 'Magitech');
 INSERT INTO confluencecombos VALUES ('Armour', 'Magic', 'Technology', 'Magitech');
 INSERT INTO confluencecombos VALUES ('Axe', 'Magic', 'Technology', 'Magitech');
@@ -2721,6 +3156,8 @@ essences.txt =
 | Wind      |
 | Sand      |
 | Wood      |
+animalEssences = contents[:37]
+elementalEssences = contents[37:]
 for index1 in range(len(animalEssences) ):
     for index2 in range(len(elementalEssences) ):
         baseEssences = [animalEssences[index1], animalEssences[index2], 'Vast', ]
@@ -2746,7 +3183,7 @@ INSERT INTO confluencecombos VALUES ('Sand', 'Sin', 'Wind', 'Vessel');
 INSERT INTO confluencecombos VALUES ('Sin', 'Water', 'Wind', 'Vessel');
 INSERT INTO confluencecombos VALUES ('Sin', 'Wind', 'Wind', 'Vessel');
 INSERT INTO confluencecombos VALUES ('Sin', 'Wind', 'Wood', 'Vessel');
-| Magic  |
+| Magic      |
 | Technology |
 | Adept      |
 | Balance    |
@@ -2963,6 +3400,92 @@ for index1 in range(len(humanEssences) ):
         replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Vessel\');\n')
 
 
+    Swarm
+essences.txt = 
+| Ape       |
+| Bat       |
+| Bear      |
+| Bee       |
+| Cat       |
+| Cattle    |
+| Dog       |
+| Crocodile |
+| Pangolin  |
+| Rabbit    |
+| Rat       |
+| Deer      |
+| Shark     |
+| Duck      |
+| Turtle    |
+| Skunk     |
+| Sloth     |
+| Flea      |
+| Fox       |
+| Frog      |
+| Goat      |
+| Heidel    |
+| Horse     |
+| Spider    |
+| Wasp      |
+| Whale     |
+| Wolf      |
+| Mouse     |
+| Lizard    |
+| Locust    |
+| Manatee   |
+| Monkey    |
+| Octopus   |
+| Owl       |
+| Cold      |
+| Earth     |
+| Elemental |
+| Fire      |
+| Ice       |
+| Iron      |
+| Wood      |
+| Water     |
+| Lightning |
+| Wind      |
+| Sand      |
+| Dark      |
+| Death     |
+| Deep      |
+| Hunger    |
+| Hunt      |
+| Smoke     |
+| Malign    |
+| Trap      |
+| Omen      |
+| Sin       |
+animal = contents[:34]
+elemental = contents[34:45]
+darkness = contents[45:]
+
+for index1 in range(len(animal) ):
+    for index2 in range(len(elemental) ):
+        for index3 in range(len(darkness) ):
+            replacement.write("INSERT INTO confluencecombos VALUES (\'" + animal[index1] + '\', \'' + elemental[index2] + '\', \'' + darkness[index3] + '\', \'swarm\');\n')
+essences.txt = 
+| Cattle   |
+| Deer     |
+| Goat     |
+| Heidel   |
+| Horse    |
+| Lizard   |
+| Mouse    |
+| Pangolin |
+| Rabbit   |
+| Rat      |
+| Sloth    |
+otherEssences = ['Grazen', 'Life', 'Myriad', 'Fungus', 'Tree', 'Plant', 'Vast', 'Earth', 'Feast', 'Renewal']
+
+for index1 in range(len(contents) ):
+    for index2 in range(len(otherEssences) ):
+        baseEssences = [contents[index1], otherEssences[index2], 'Grazen']
+        baseEssences.sort()
+        replacement.write("INSERT INTO confluencecombos VALUES (\'" + baseEssences[0] + '\', \'' +baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'swarm\');\n')
+
+
     Transfiguration         NOTE: IT IS NEEDED TO RUN THE DELETE STATEMENTS WITHOUT THE INSERT STATEMENTS FIRST IF THE CHIMERA LINES HAVE BEEN RUN BEFORE THIS POINT, OR NO LINES WILL BE ADDED TO THE CONFLUENCECOMBOS TABLE
 essences.txt = 
 | Bat       |
@@ -3012,7 +3535,6 @@ for index1 in range(len(flyingAnimalEssences) ):
             baseEssences = [flyingAnimalEssences[index1], aquaticAnimalEssences[index2], terrestrialAnimalEssences[index3], ]
             baseEssences.sort()
             replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Transfiguration\');\n')
-            # replacement.write('DELETE FROM confluencecombos WHERE (base1=\'' + baseEssences[0] + '\' and base2=\'' + baseEssences[1] + '\' and base3= \'' + baseEssences[2] + '\' and confluence = \'Chimera\');\n')
 | Ape       |
 | Owl       |
 | Shark     |
@@ -3177,6 +3699,58 @@ for index1 in range(len(elementalEssences) - 1):
         baseEssences = [elementalEssences[index1], elementalEssences[index2], 'Balance' ]
         baseEssences.sort()
         replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Transfiguration\');\n')
+
+
+    Chimera
+essences.txt = 
+| Ape       |
+| Bat       |
+| Bear      |
+| Bee       |
+| Bird      |
+| Cat       |
+| Cattle    |
+| Claw      |
+| Crocodile |
+| Deer      |
+| Dog       |
+| Duck      |
+| Fish      |
+| Flea      |
+| Fox       |
+| Frog      |
+| Goat      |
+| Heidel    |
+| Horse     |
+| Lizard    |
+| Locust    |
+| Manatee   |
+| Monkey    |
+| Mouse     |
+| Needle    |
+| Octopus   |
+| Owl       |
+| Pangolin  |
+| Rabbit    |
+| Rat       |
+| Shark     |
+| Skunk     |
+| Sloth     |
+| Snake     |
+| Spider    |
+| Spike     |
+| Tentacle  |
+| Turtle    |
+| Wasp      |
+| Whale     |
+| Wing      |
+| Wolf      |
+for index1 in range(len(contents) - 2):
+    for index2 in range(index1 + 1, len(contents) - 1):
+        for index3 in range(index2 + 1, len(contents) ):
+            baseEssences = [contents[index1], contents[index2], contents[index3] ]
+            baseEssences.sort()
+            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Chimera\');\n')
 
 
     Empower
@@ -3462,6 +4036,9 @@ for index1 in range(len(humanEssences) ):
 | Staff     |
 | Sword     |
 | Whip      |
+elementalEssences = contents[:11]
+weaponEssences = contents[11:]
+
 for index1 in range(len(elementalEssences) ):
     for index2 in range(len(weaponEssences) ):
         baseEssences = [elementalEssences[index1], weaponEssences[index2], 'Vehicle' ]
@@ -3630,6 +4207,12 @@ for index1 in range(len(contents) - 1):
         baseEssences = [contents[index1], contents[index2], 'Dance' ]
         baseEssences.sort()
         replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Master\');\n')
+for index1 in range(len(contents) - 2):
+    for index2 in range(index1 + 1, len(contents) - 1):
+        for index3 in range(index2 + 1, len(contents) ):
+            baseEssences = [contents[index1], contents[index2], contents[index3] ]
+            baseEssences.sort()
+            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Master\');\n')  
 | Cold      |
 | Earth     |
 | Elemental |
@@ -3651,15 +4234,6 @@ for index1 in range(len(contents) - 1):
         baseEssences = [contents[index1], contents[index2], 'Dance' ]
         baseEssences.sort()
         replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Master\');\n')
-elementalEssences = contents[:11]
-weaponEssences = contents[11:]
-
-for index1 in range(len(weaponEssences) - 2):
-    for index2 in range(index1 + 1, len(weaponEssences) - 1):
-        for index3 in range(index2 + 1, len(weaponEssences) ):
-            baseEssences = [weaponEssences[index1], weaponEssences[index2], weaponEssences[index3] ]
-            baseEssences.sort()
-            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Master\');\n')
 | Eye      |
 | Foot     |
 | Blood    |
@@ -3724,6 +4298,39 @@ for index1 in range(len(weaponEssences) ):
             baseEssences = [weaponEssences[index1], limbEssences[index2], 'Swift' ]
             baseEssences.sort()
             replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Master\');\n')
+| Adept      |
+| Balance    |
+| Cold       |
+| Dimension  |
+| Discord    |
+| Earth      |
+| Elemental  |
+| Fire       |
+| Gathering  |
+| Growth     |
+| Harmonic   |
+| Ice        |
+| Iron       |
+| Life       |
+| Light      |
+| Lightning  |
+| Magic      |
+| Might      |
+| Myriad     |
+| Potent     |
+| Pure       |
+| Renewal    |
+| Rune       |
+| Sand       |
+| Shimmer    |
+| Swift      |
+| Technology |
+| Vast       |
+| Void       |
+| Water      |
+| Wind       |
+| Wood       |
+| Zeal       |
 for index1 in range(len(contents) ):
     baseEssences = [contents[index1], 'Technology', 'Adept' ]
     baseEssences.sort()
@@ -3976,3 +4583,115 @@ for index1 in range(len(esotericEssences) ):
 
 
 
+
+
+
+
+        ESSENCE DETAILS BEING ADDED
+    CONFLUENCE ESSENCE DESCRIPTIONS
+UPDATE essences SET description = 'Become the hero of your own action story, complete with the skill that makes you seem to have plot armor with the Action confluence. A great choice for humans, this confluence comes with a great variety of special attack options and support for them.' WHERE name = 'Action';
+UPDATE essences SET description = 'Alchemy is well-used and the standard confluence essence for alchemists for a reason. Knowledge and control over their concoctions, creating far more at once, or to produce more powerful potions are all classics of this professional confluence.' WHERE name = 'Alchemy';
+UPDATE essences SET description = 'This combat-centered confluence is exactly what you\'d expect. Use this magic to specialize in setting up and executing your enemies in ambushes before they know what hit them or how. Expect lots of damage and utility in short fights you orchestrate.' WHERE name = 'Ambush';
+UPDATE essences SET description = 'More often seen in stories than life, Animate confluences are known in Palimustus for bringing objects to life to do their bidding. This ranges the gamut from eccentric shopkeepers playing tricks to circus performers to evil necromancer death lords.' WHERE name = 'Animate';
+UPDATE essences SET description = 'Anzu is a rare confluence essence that is not often sought after because of its rare and popular vast essence. The abilities it give are mostly combat and stealth-oriented for adventurers that specialize in sneak attacks from the sky.' WHERE name = 'Anzu';
+UPDATE essences SET description = 'Arsenal confluences transform you into the most well-equipped warrior on any battlefield, known for their ability to conjure any weapon you could think of for either the user or their allies to meet any challenge to be found in the field.' WHERE name = 'Arsenal';
+UPDATE essences SET description = 'Avatars are the embodiment of whatever 3 essences they combine. Its users combine body essences with elemental or esoteric magics to bolster themselves with the power more than is seen with other confluences, deeply becoming what those essences are.' WHERE name = 'Avatar';
+UPDATE essences SET description = 'Unsurprisingly, Battlefield abilities are known for effecting entire battles with damage. This rare confluence is not well known but seems to be another area-ability type damage specialty from its few users so far.' WHERE name = 'Battlefield';
+UPDATE essences SET description = 'Crush your enemies with your might! Towering mountains of raw size and strength, Behemoths are well named. These warriors often can grow larger and stronger, or gain strength in some other way, like using passion to fight through almost any injury.' WHERE name = 'Behemoth';
+UPDATE essences SET description = 'The Boundary confluence is a classic choice for craftsmen who create emplaced defenses. Anyone with these powers will never be out of a job, as anyone from governments, to churches, military or royalty will need their creations for security.' WHERE name = 'Boundary';
+UPDATE essences SET description = 'The Bounty confluence is the best chef essence. The Harvest, Fertile, or Prosperity essences will allow farmers or ranchers to harvest bountiful yields, but making those crops do so much more is the power set of cooks with the Bounty confluence.' WHERE name = 'Bounty';
+UPDATE essences SET description = 'Cataclysm powers tend to be as much danger to the land around you as your enemies. Wielding the powers of either void annihilation or magically fueled combustion, adventurers with these powers are almost exclusively area-damage-specialist attackers.' WHERE name = 'Cataclysm';
+UPDATE essences SET description = 'Chaotic is a rare confluence because not many combinations are known to produce it, and not many abilities from the it have been recorded with the Magic Society. If you find more information about it, please do consider sharing, for pay, of course.' WHERE name = 'Chaotic';
+UPDATE essences SET description = 'The Charlatan confluence is one better known for the thieves and conmen that use it than the adventurers. The abilities are as much trouble to officers of the law as enemies on the battlefield with things like shapeshifting and chaos as signatures.' WHERE name = 'Charlatan';
+UPDATE essences SET description = 'Using the most common and prevalent type of essences, animals, the Chimera confluence is one of the most common and easiest-to-obtain set of powers in any world. This can provide conjurations, familiars, special attacks, or transformations equally.' WHERE name = 'Chimera';
+UPDATE essences SET description = 'Banned. Escape the weakness of your mortal flesh through augmentation and improvement with the iconic abilities of Cyborg. Become more than you were born for through your own will and intellect today, bringing all who deserve it with you.' WHERE name = 'Cyborg';
+UPDATE essences SET description = 'Cycle abilities are known for being infinitely reusable in either healing or combat, those using these abilities simply moving through their powers over and over again until the job is done. It\'s a rare combination, but powerful in every known user.' WHERE name = 'Cycle';
+UPDATE essences SET description = 'If firing magical beams of energy from your eyes are what you want, nothing can do you better than the Cyclops essence. This magical creature confluence often comes with great physical strength for melee, and probably won\'t take one of your eyes.' WHERE name = 'Cyclops';
+UPDATE essences SET description = 'Dawn brings with it a new chance, and a clean slate. Likewise the Dawn confluence is known for almost always giving a cleansing power, as well as often having a dichotomy in its abilities between light and dark with its spells or special abilities.' WHERE name = 'Dawn';
+UPDATE essences SET description = 'Desolate is a confluence often seen in areas like Rimaros where adventurers are able to use the specialization of high area damage this essence provides to great effect. They\'re usually as good at desiccating the nearby land as monsters, though.' WHERE name = 'Desolate';
+UPDATE essences SET description = 'The tumultuous cacophony of battle is a song of glory to warriors able to dance to its tune. Discordant is an essence all about preventing the people you fight from hearing the music, with perception altering magic, conjurations, debuffs, and death.' WHERE name = 'Discordant';
+UPDATE essences SET description = 'Doom is all about inexorable death. Afflictions specialists all, Doom users are known for slowly dragging all enemies to their graves kicking and screaming, but steady and definitely no matter the circumstances, and even after killed themselves.' WHERE name = 'Doom';
+UPDATE essences SET description = 'Most often used by assassins and spies, the Doppleganger confluence\'s signature abilities are combat or stealth-oriented shapeshifting powers. Users of this magic are rarely heard of, and even more rarely ever seen again.' WHERE name = 'Doppelganger';
+UPDATE essences SET description = 'Dragons are the natural rules of wherever they happen to be right now. Use their magic to conquer your enemies with wings, fangs, elemental attacks, and unique abilities of whatever subspecies of dragon you revere most if you have the courage to try.' WHERE name = 'Dragon';
+UPDATE essences SET description = 'Eclipses are three states at once: Darkness, Light, and Eclipse. Abilities of this confluence are known for also being all 3 of these things at once as well, leading to a plethora of abilities and complexity that requires great skill to use.' WHERE name = 'Eclipse';
+UPDATE essences SET description = 'Edifice is a classically-known and common choice for magical construction crews for good reason. Often coming with Earth or tool-use powers, users here rival construction golems in efficiency and ability, with customization with essence choice.' WHERE name = 'Edifice';
+UPDATE essences SET description = 'A lesser-known confluence, Effigy is most notable for being one of the few sacrifice-focused essences that is not restricted by either the Magic or Adventure Societies. This is largely because it uses things you sacrifice for fuel, not innocents.' WHERE name = 'Effigy';
+UPDATE essences SET description = 'The Empower confluence does what it says, making things magically more powerful. Whether that is yourself, your team, or your allies, by wielding Empower powers you will be welcome on any adventuring team, or to help defend in a monster surge.' WHERE name = 'Empower';
+UPDATE essences SET description = 'The Fertile essence is often used by Goddess Fertility, but also ranchers. As a fairly accessible confluence created from animals and plant essences Fertility is known for allowing farm animals to produce many goods or offspring at once.' WHERE name = 'Fertile';
+UPDATE essences SET description = 'The fey are tricksters, always up to something that you won\'t know about and making a joke at your expense. By wielding their powers you too can act this way, though the powers it is known for are less directly damage dealing than confusing.' WHERE name = 'Fey';
+UPDATE essences SET description = 'Not to be confused with the Pheonix confluence, Firebird is still a combative confluence, but without the focus on renewal or rebirth of the Pheonix, the Firebird gets more power in its damage or flight abilities than its more well-known counterpart.' WHERE name = 'Firebird';
+UPDATE essences SET description = 'If you have ever seen an object float through the air of its own volition, then you have seen someone with the Force confluence. The ability to manipulate objects around yourself with the power of your aura is the signature ability of Force.' WHERE name = 'Force';
+UPDATE essences SET description = 'This professional confluence is suited more for the Artificers who seek to create weapons, armor, battlements, fortifications, and cities than those looking to invent or tinker. Forge raw materials into safety and power for yourself or others.' WHERE name = 'Forge';
+UPDATE essences SET description = 'Fortress is another of a few construction-type confluences that can be helpful for construction workers as well as traditional-defender type adventurers. Either way, conjurations and passive effects are to be expected alongside with high durability.' WHERE name = 'Fortress';
+UPDATE essences SET description = 'Garudas are the feaster of serpents, and are paragons of speed, might, flight, power, and skill. By using this confluence you can tap into that power for yourself to deal with any type of foes, not just snakes. You can become a king of the sky too.' WHERE name = 'Garuda';
+UPDATE essences SET description = 'Known for being the highest performing specialists in their field, the Gate confluence is the most likely to give a random essence user the iconic portal-type power. It can also give control effects in battle, affecting whole areas with magic.' WHERE name = 'Gate';
+UPDATE essences SET description = 'Not much is known about the Glimeron essence. The only adventurer recorded in history to have this combination was tragically unwilling to record their abilities before disappearing centuries ago. Will anyone ever crack this mystery?' WHERE name = 'Glimeron';
+UPDATE essences SET description = 'The Gorgon turns its enemies to stone, and so can you with these powers. Not much else is known about it because not many are willing to use a hair essence as adventurers, out of fear of getting hair-dressing abilities instead of combat ones.' WHERE name = 'Gorgon';
+UPDATE essences SET description = 'Griffins wield the majesty of birds in flight, the feral hunting drive and razor-sharp reactions of cats, and a great magical strength. These are all traits possessed by the users of this confluence essences as well.' WHERE name = 'Griffin';
+UPDATE essences SET description = 'Guardian confluence users are known for being the durable anchor of adventurer teams, or stalwart defenders of any place. The abilities it grants are known for making very powerful traditional defenders, and literal walls to match their actions.' WHERE name = 'Guardian';
+UPDATE essences SET description = 'Lure your enemies into their demise with a siren\'s song before ambushing them and tearing their flesh to ribbons with the powers of the Harpy. These abilities almost always include monster-luring channel or bait abilities for adventurers or hunters.' WHERE name = 'Harpy';
+UPDATE essences SET description = 'Perfect for those permanently living off the land, Harvest is commonly used by ranchers and farmers to help maximize their crops yields and what they can hunt off the land to eat or provide.' WHERE name = 'Harvest';
+UPDATE essences SET description = 'Hydras are a family of well-known monsters because of their forest of heads, massive regeneration, and elemental breath attacks. While usually not able to give you multiple heads, Hydra abilities do often grant breath attacks and heal very quickly.' WHERE name = 'Hydra';
+UPDATE essences SET description = 'Those with the Immortal confluence become paragons of health and bodily control who are often secondary healers out of combat by helping others\' bodies to return to health no matter their age. Even its weakest wielders often live for centuries.' WHERE name = 'Immortal';
+UPDATE essences SET description = 'The Jackalope essence is not known for creating the most powerful or intimidating adventurers, but it is a very accessible confluence that has created swift and sure-footed warriors with absolutely unflagging endurance and agility.' WHERE name = 'Jackalope';
+UPDATE essences SET description = 'Juggernauts are the epitome of big, strong, and bull-headed brutes. That being said, they are the last word in creating someone that can power through any fight or manual labor task. If raw strength and endurance is needed, you can do no better.' WHERE name = 'Juggernaut';
+UPDATE essences SET description = 'Karmic abilities are combat-oriented and very well-known for being both difficult to use and powerful if done right. The high skill spells and special abilities are famous for using an enemy\'s powers against themselves to devastating effect.' WHERE name = 'Karmic';
+UPDATE essences SET description = 'Kraken is an essence for adventurers looking to be more comfortable in the water than out of it. These warriors are known to conjure or transform parts of themselves into toothy maws, or tentacles ready to sucker off entire limbs from their enemies.' WHERE name = 'Kraken';
+UPDATE essences SET description = 'Become the dark shape seen waiting in the depths, quietly ruling over all in the ocean and striking fear into any that dare tread in your seas. You can be the Leviathan, powerful and deadly to any that challenge you in the water.' WHERE name = 'Leviathan';
+UPDATE essences SET description = 'Lotus is a lesser-known confluence essence all about the user\'s ability to be dignified, poised, graceful, and decisive under pressure. The abilities are largely combat-focused and in the classic vein of high-skill-style warriors.' WHERE name = 'Lotus';
+UPDATE essences SET description = 'Requiring the extremely difficult to find, but paradoxically 1-star-rated Technology essence, the Magictech confluence has only been recorded a few times throughout history, and the only thing known about its users is that all use unique artifice.' WHERE name = 'Magitech';
+UPDATE essences SET description = 'Manticores are as rare in the magical creature population as their essence users are in adventurer circles. What few have been found are all users of venoms and poisons known for hunting their prey and silencing them in the darkness with ease.' WHERE name = 'Manticore';
+UPDATE essences SET description = 'Master is one of the most accessible and versatile confluences with its vast number of known combinations and is nearly guaranteed with adept and weapon essences. Essences choose the direction those with it will go, but all are skilled combatants.' WHERE name = 'Master';
+UPDATE essences SET description = 'The first choice of anyone looking to be a non-combat healer and lucky enough to find a Renewal Essence, Ministration magic is often powerful and versatile healing known for being able to treat nearly any ailment or injury on the largest scales.' WHERE name = 'Ministration';
+UPDATE essences SET description = 'Minotaur is a very accessible combat confluence because of its use of the common Heidel essence. To come with the expected strength and endurance, this confluence also tends to give out powers for mapping mazes or fantastic memory.' WHERE name = 'Minotaur';
+UPDATE essences SET description = 'Mirage essence users are some of the most comfortable in the deserts of this world. They are known for their ability to trick attacking monsters with their Mirage-like abilities, as well as being able to summon water on command and ignore the heat.' WHERE name = 'Mirage';
+UPDATE essences SET description = 'Monolith is another construction-related confluence that can either produce stalwart defenders of the realm, or skilled professionals creating the buildings and infrastructure those defensive-specialist adventurers are tasked to defend.' WHERE name = 'Monolith';
+UPDATE essences SET description = 'Mystic is a very accessible confluence that is shaped very heavily by the three essences used to create it. It is known for being flexible as a confluence, making anyone an adventurer that specialize in spells, conjurations, and special abilities.' WHERE name = 'Mystic';
+UPDATE essences SET description = 'A very rare cosmically-oriented confluence, the few Nebula powers that have been recorded have all been spells or special effects using the energy of the Astral to empower yours\' or allies\' ability to push past your limits, by making them nebulous.' WHERE name = 'Nebula';
+UPDATE essences SET description = 'Nemesis is a rare combat-focused essence that is known for giving out the ability to mark one enemy in particular against which to gain great advantage with damage buffs, debuffs, afflictions, or control effects. These make unparallelled duelists.' WHERE name = 'Nemesis';
+UPDATE essences SET description = 'Oasis is a confluence that allows for people to establish towns in deserts, or heal their teams through a proverbial storm of monsters. This usually comes with elemental control or conjuring elements into being for whatever you purpose you need.' WHERE name = 'Oasis';
+UPDATE essences SET description = 'You may not be the only one to create or use vehicles to sail the seas, but few will be able to do so on such large scales or as efficiently as those with the Ocean confluence. Become a pirate or a trader, but rule the waves however you want.' WHERE name = 'Ocean';
+UPDATE essences SET description = 'The last word in overwhelming power, the Onslaught confluence is the favorite of humans for its synergy with special attacks to create a dominating combat presence. This confluence offers versatility in many combinations to create it, all are deadly.' WHERE name = 'Onslaught';
+UPDATE essences SET description = 'Phantasmagoria is a rare confluence known for ficitonal villians and a few real adventurers, all are known for striking fear and confusion into the hearts of those around them with numerous life-like illusions to control whole battlefields at a time.' WHERE name = 'Phantasmagoria';
+UPDATE essences SET description = 'The Pheonix is a magical creature known for its majesty, graceful flight, fiery personality, and ability to rebirth itself after appearing to die. Those are all things available as abilities to users of the same confluence essence.' WHERE name = 'Phoenix';
+UPDATE essences SET description = 'Whether to provide for your community, protect it, become a warrior, or adventurer, the predatory essence is an accessible way for anyone to become the most deadly thing in the wilderness with mostly common essences customized to your specific needs.' WHERE name = 'Predatory';
+UPDATE essences SET description = 'The Prison confluence isn\'t good for building prisons but making your enemies in battle feel as though they have been suddenly put into one. Users are well known for: being defensive types, shutting down enemy abilities, and immobilizing targets.' WHERE name = 'Prison';
+UPDATE essences SET description = 'Prosperity is to have an excess, and the abilities of this essence help you gather all you could want. This can mean farmers improving their crops, Magic Society resource collection teams harvesting monsters, or healers making others feel prosperous.' WHERE name = 'Prosperity';
+UPDATE essences SET description = 'Refracting is a confluence known for awakening the ability for its users to redirect attacks focused on themselves or others back to their enemies. These have been used very well by non-traditional defenders and attackers both in adventurer teams.' WHERE name = 'Refracting';
+UPDATE essences SET description = 'Resonating abilities are all about creating harmonic effects. These can be enchanting melodies made by musicians, powerful multi-layered enchantments by formation array experts, or lasting combat buffs for entire adventurer teams by auxiliaries.' WHERE name = 'Resonating';
+UPDATE essences SET description = 'Roc is another flying magical creature confluence. This one is also combat-specialized but tends to give more combat and flight powers than others of the type. Roc gives more speed, control, and agility in the air to help chase down your enemies.' WHERE name = 'Roc';
+UPDATE essences SET description = 'Banned. This confluence specializes in burning the magic in the world as fuel for powerful and sometimes permanent magical effects. Because that often comes in the form of sacrificing innocent people, don\'t expect anyone to let you try.' WHERE name = 'Sacrifice';
+UPDATE essences SET description = 'Often used by functionaries, calligraphers, stenographers, and cartographic experts this confluence is better suited to fighting inefficiency and bureaucracy than a threat of any kind. This essence is for anyone who pushes pencils professionally.' WHERE name = 'Scribe';
+UPDATE essences SET description = 'Wield the powers of or even become a giant Serpent with the confluence of the same name. Usually containing an elemental or otherwise predatory essence, Serpent goes well with damage-focused adventurers, or those who wish to speak to snakes.' WHERE name = 'Serpent';
+UPDATE essences SET description = 'Simulacrum is a confluence that would be entirely unheard of in the public eye without a famous villain wielding it a few years back. It is rumored to give the user a chance at a second life after death by capturing part of the soul in an object.' WHERE name = 'Simulacrum';
+UPDATE essences SET description = 'Another purely combat-focued confluence, Skirmish tends to give powers that are either about tripping up your enemies or giving you the mobility to run circles around them, in addition to the more traditional damage-dealing abilities you\'d expect.' WHERE name = 'Skirmish';
+UPDATE essences SET description = 'Most essence users can fly by gold rank, but those with the Sky confluence bring in airspace superiority to the battlefield with their common Wind and Swift essences to fill in with celestial bodies that provide spells and alien special abilities.' WHERE name = 'Sky';
+UPDATE essences SET description = 'Soaring is the premier confluence for those who wish to fly a ship through the sky. This can take the form of an adventurer auxiliary that transports teams through the air, civilian airship captain, or private pilot with spells and conjurations.' WHERE name = 'Soaring';
+UPDATE essences SET description = 'Favored by followers of Dominion, monarchs, and tyrants alike, using the Sceptre essence often creates this confluence. It is known for offensive damage and control magic that gives its users the power and ability to rule over all others around them.' WHERE name = 'Sovereign';
+UPDATE essences SET description = 'All diamond rankers are rumored to be able to travel the cosmos, but those with the Stellar confluence are the only ones that can channel that power into powerful dimensional spaces, special attacks, special abilities, and portals.' WHERE name = 'Stellar';
+UPDATE essences SET description = 'Known for the ability to conjure an entire magical storm into being at higher ranks, warriors with these powers are also commonly able to do some of: fly, cast elemental attack spells, control natural storms, elemental attacks, or feed on lightning.' WHERE name = 'Storm';
+UPDATE essences SET description = 'Banned. The Succubus is a demon that feeds on the feelings of others to power itself in perverted magic to deceive and conquer all those in its path. With power over others\' minds and perceptions users of this may be very rare, or just hidden.' WHERE name = 'Succubus';
+UPDATE essences SET description = 'Whether a pack of wolves or countless wasps, Swarm confluence users are known for their control over and summoning animals in battle. Cheap and accessible, Swarm is well known and effective on a large battlefield but lacks finesse or subtlety.' WHERE name = 'Swarm';
+UPDATE essences SET description = 'Talisman is a lesser known confluence essence only recorded to be used by tradesmen making their own namesakes. It is likely that there hidden secrets of this essence, but none have come forward to find them yet by using this innocuous essence yet.' WHERE name = 'Talisman';
+UPDATE essences SET description = 'Soar through the air at speed to barrel into your enemies and electrocute them into nothingness with the Thunderbird essence. As a magical creature confluence known for flight, elemental attacks and large bursts of damage this is a path to power.' WHERE name = 'Thunderbird';
+UPDATE essences SET description = 'Time is a very rare and difficult to create confluence with few known combinations, though all with it are powerful adventurers and it is nearly a guarantee for a normally coveted personal time acceleration power that is so rare in other essences.' WHERE name = 'Time';
+UPDATE essences SET description = 'Tranquil is a versatile confluence that can be used to dance through enemies in chaotic battles as though you are the only one with the script to the scene, to do powerful ritual magic easily and anywhere, or to put on magical musical performances.' WHERE name = 'Tranquil';
+UPDATE essences SET description = 'Transfiguration is known for giving body changing abilities: transform into 3 disparate creatures, powers based on the strengths of animals and weapons used, or ability to alter your body with elemental effects, all for hunting or combat.' WHERE name = 'Transfiguration';
+UPDATE essences SET description = 'Transgression is a common confluence for the holy warriors of many gods\' armies, and governmental militaries as well. This is because the powers coming from this essence all tend to punish your enemies for breaking your personal code or laws.' WHERE name = 'Transgression';
+UPDATE essences SET description = 'There is a reason that the most well-known way to handle Trolls is to douse them in fire and reduce them to ashes. Few magical creatures can match their regeneration, which you can have alongside their physical might with this confluence.' WHERE name = 'Troll';
+UPDATE essences SET description = 'Twilight is a confluence whose abilities take inspiration from the dual state of light and dark to have different effects based upon whether their user is in their light or dark states, causing complex power sets almost as though they are doubled.' WHERE name = 'Twilight';
+UPDATE essences SET description = 'Banned. Who says that death is the end of life? Or that your frail body is your only option? Undeath promises the power to rule over death, and control whom around you falls to it. Change your body and those around you into whatever you desire.' WHERE name = 'Undeath';
+UPDATE essences SET description = 'Unity abilities are all about bringing many things together. These can be people if wielded as words by a politician, or different natural magical forces by an formations array specialist, or different magical effects that should fight by artificers.' WHERE name = 'Unity';
+UPDATE essences SET description = 'Verdant is a staple confluence of the professional essence user world. This is because of the tendency for its users to be able to grow a garden overnight as though it were planted years ago and cared for throughout that time with tender love.' WHERE name = 'Verdant';
+UPDATE essences SET description = 'Vessel essence users are almost all vehicle-specialist adventurers or the captain of some vehicle. It is perhaps the most useful essence combination for career pilots, captains, or drivers with the highest rate vehicle conjuration power users.' WHERE name = 'Vessel';
+UPDATE essences SET description = 'Vision confluences are quietly held by the some of the world\'s best spies and scouts. This essence not only almost guarantees both a perception and aura ability but also has the highest recorded rate of four-fold aura or perception ability users.' WHERE name = 'Vision';
+UPDATE essences SET description = 'Volcano powers are famous for being exactly what you\'d expect, explosive. Rain down lava, obsidian, ash and destruction upon your enemies with a confluence guaranteed to any adventurer into a powerhouse of unstoppable elemental force.' WHERE name = 'Volcano';
+UPDATE essences SET description = 'Wield the power of a full tornado at the end of your fingertips with the Vortex essence. Control over the wind and the ability to summon an opening to an all consuming void are the signature powers of this very recognizable and inexorable conflunce.' WHERE name = 'Vortex';
+UPDATE essences SET description = 'Weave is a confluence that is similar to unity in that its esoteric and generally about bringing things together that can take the form of many things. Weave is more professional and less combative, usually with Cloth, Needle, or Dance though.' WHERE name = 'Weave';
+UPDATE essences SET description = 'Banned. Driven to madness by the hunger and cold of the frigid, desolate, cold you are the ultimate survivor. You\'ve been reborn as a monster who will know nothing but endless hunger and ceaseless rage at those who don\'t respect winter\'s danger, you.' WHERE name = 'Wendigo';
+UPDATE essences SET description = 'Wrath is a confluence all about channeling the raw power of emotion into magical might. This can take the form of divine wrath from on high, or personal feelings, but in either case, wielders of these powers are more potent as their emotions swell.' WHERE name = 'Wrath';
+UPDATE essences SET description = 'Ziz is a very rare magical creature confluence essence that comes with guarantees of controlling the winds while flying through the air. It also comes with great range and versatility in attack options that other similar essences don\'t with Vast.' WHERE name = 'Ziz';
+
+
+    BASE ESSENCE DESCRIPTIONS
+UPDATE essences SET description = 'The Pure essence is most commonly seen amplifying the other two essences in a combination to push a power set further into the strengths that it is known for, though limiting their scope. This essence occurs naturally, or is granted by god, Purity.' WHERE name = 'Pure';
