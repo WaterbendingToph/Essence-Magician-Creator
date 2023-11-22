@@ -769,6 +769,18 @@ for x in range(len(octoShit) ):
 INSERT INTO confluencecombos VALUES ('Balance', 'Discord', 'Harmonic', 'eclipse');
 INSERT INTO confluencecombos VALUES ('Balance', 'Corrupt', 'Growth', 'eclipse');
 INSERT INTO confluencecombos VALUES ('Balance', 'Feeble', 'Might', 'eclipse');
+INSERT INTO confluencecombos VALUES('Blight', 'Moon', 'Sun', 'eclipse');
+INSERT INTO confluencecombos VALUES('Blight', 'Moon', 'Star', 'eclipse');
+INSERT INTO confluencecombos VALUES('Blight', 'Cloud', 'Sun', 'eclipse');
+INSERT INTO confluencecombos VALUES('Blight', 'Cloud', 'Star', 'eclipse');
+INSERT INTO confluencecombos VALUES('Corrupt', 'Moon', 'Sun', 'eclipse');
+INSERT INTO confluencecombos VALUES('Corrupt', 'Moon', 'Star', 'eclipse');
+INSERT INTO confluencecombos VALUES('Cloud', 'Corrupt', 'Sun', 'eclipse');
+INSERT INTO confluencecombos VALUES('Cloud', 'Corrupt', 'Star', 'eclipse');
+INSERT INTO confluencecombos VALUES('Moon', 'Sun', 'Venom', 'eclipse');
+INSERT INTO confluencecombos VALUES('Moon', 'Star', 'Venom', 'eclipse');
+INSERT INTO confluencecombos VALUES('Cloud', 'Sun', 'Venom', 'eclipse');
+INSERT INTO confluencecombos VALUES('Cloud', 'Star', 'Venom', 'eclipse');
 
 
     Swarm
@@ -941,27 +953,6 @@ for index1 in range(len(corrupts) ):
         replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'discordant\');\n')
 
 
-    Serpent
-essences.txt = 
-| Cold      |
-| Earth     |
-| Elemental |
-| Fire      |
-| Ice       |
-| Iron      |
-| Lightning |
-| Sand      |
-| Water     |
-| Wind      |
-| Wood      |
-for index1 in range(len(contents) ):
-    for index2 in range(index1 + 1, len(contents) ):
-        baseEssences = [contents[index1], contents[index2], 'Snake']
-        baseEssences.sort()
-
-        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Serpent\');\n')
-
-
     Skirmish
 INSERT INTO confluencecombos VALUES ('Adept', 'Bow', 'Hunt', 'Skirmish');
 INSERT INTO confluencecombos VALUES ('Adept', 'Gun', 'Hunt', 'Skirmish');
@@ -1092,6 +1083,9 @@ for index1 in range(len(contents) ):
     baseEssences.sort()
 
     replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'twilight\');\n')
+INSERT INTO confluencecombos VALUES('Blight', 'Dark', 'Light', 'twilight');
+INSERT INTO confluencecombos VALUES('Corrupt', 'Dark', 'Light', 'twilight');
+INSERT INTO confluencecombos VALUES('Dark', 'Light', 'Venom', 'twilight');
 
 
     Tranquil
@@ -1174,10 +1168,6 @@ for index1 in range(len(contents) ):
     baseEssences = [contents[index1], 'Iron', 'Myriad' ]
     baseEssences.sort()
     replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Edifice\');\n')
-
-
-    Chaotic
-INSERT INTO confluencecombos VALUES ('balance', 'magic', 'might', 'chaotic');
 
 
     Action
@@ -2197,6 +2187,449 @@ INSERT INTO confluencecombos VALUES ('Growth', 'Plant', 'Whip', 'Verdant');
 INSERT INTO confluencecombos VALUES ('Earth', 'Growth', 'Whip', 'Verdant');
 INSERT INTO confluencecombos VALUES ('Plant', 'Renewal', 'Whip', 'Verdant');
 INSERT INTO confluencecombos VALUES ('Earth', 'Renewal', 'Whip', 'Verdant');
+
+
+    Battlefield
+essences.txt = 
+| Armour  |
+| Axe     |
+| Bow     |
+| Gun     |
+| Hammer  |
+| Hook    |
+| Knife   |
+| Sceptre |
+| Shield  |
+| Ship    |
+| Spear   |
+| Staff   |
+| Sword   |
+| Whip    |
+for index1 in range(len(contents) ):
+    baseEssences = [contents[index1], 'Myriad', 'Vast']
+    baseEssences.sort()
+    # replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'battlefield\');\n')
+    replacement.write('UPDATE confluencecombos SET confluence=\'battlefield\' where base1= \'' + baseEssences[0] + '\' and base2= \'' + baseEssences[1] + '\' and base3= \'' + baseEssences[2] + '\';\n')
+INSERT INTO confluencecombos VALUES ('Blight', 'Moon', 'Vast', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Corrupt', 'Moon', 'Vast', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Blight', 'Star', 'Vast', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Corrupt', 'Star', 'Vast', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Blight', 'Sun', 'Vast', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Corrupt', 'Sun', 'Vast', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Blight', 'Vast', 'Venom', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Cloud', 'Vast', 'Venom', 'Battlefield');
+INSERT INTO confluencecombos VALUES ('Corrupt', 'Vast', 'Venom', 'Battlefield');
+
+
+    Phantasmagoria
+essences.txt = 
+| Dark   |
+| Death  |
+| Deep   |
+| Hunger |
+| Hunt   |
+| Malign |
+| Omen   |
+| Sin    |
+| Smoke  |
+| Trap   |
+for index1 in range(len(contents) ):
+    baseEssences = [contents[index1], 'Myriad', 'Visage']
+    baseEssences.sort()
+    # replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'phantasmagoria\');\n')
+    replacement.write('UPDATE confluencecombos SET confluence=\'phantasmagoria\' where base1= \'' + baseEssences[0] + '\' and base2= \'' + baseEssences[1] + '\' and base3= \'' + baseEssences[2] + '\';\n')
+for index1 in range(len(contents) ):
+    baseEssences = [contents[index1], 'Vast', 'Visage']
+    baseEssences.sort()
+    # replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'phantasmagoria\');\n')
+    replacement.write('UPDATE confluencecombos SET confluence=\'phantasmagoria\' where base1= \'' + baseEssences[0] + '\' and base2= \'' + baseEssences[1] + '\' and base3= \'' + baseEssences[2] + '\';\n')
+| Blight  |
+| Corrupt |
+| Venom   |
+| Dark    |
+| Death   |
+| Deep    |
+| Hunger  |
+| Hunt    |
+| Malign  |
+| Omen    |
+| Sin     |
+| Smoke   |
+| Trap    |
+| Cloud   |
+| Moon    |
+| Star    |
+| Sun     |
+celestialEssences = contents[13:]
+darkerEssences = contents[:13]
+for index1 in range(len(celestialEssences) ):
+    for index2 in range(len(darkerEssences) ):
+        baseEssences = [celestialEssences[index1], darkerEssences[index2], 'Visage' ]
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'phantasmagoria\');\n')
+
+
+    Roc
+INSERT INTO confluencecombos VALUES ('Might', 'Vast', 'Wing', 'Roc');
+INSERT INTO confluencecombos VALUES ('Bird', 'Swift', 'Vast', 'Roc');
+INSERT INTO confluencecombos VALUES ('Swift', 'Vast', 'Wing', 'Roc');
+INSERT INTO confluencecombos VALUES ('Bird', 'Might', 'Vast', 'Roc');
+
+
+    Simulacrum
+essences.txt =
+| Cold      |
+| Earth     |
+| Elemental |
+| Fire      |
+| Ice       |
+| Iron      |
+| Lightning |
+| Sand      |
+| Water     |
+| Wind      |
+| Wood      |
+| Axe       |
+| Hammer    |
+| Hook      |
+| Knife     |
+| Rake      |
+| Sceptre   |
+| Shield    |
+| Ship      |
+| Shovel    |
+| Sickle    |
+| Staff     |
+| Trowel    |
+| Vehicle   |
+| Whip      |
+toolEssences = contents[11:]
+objectEssences = contents[:11]
+for index1 in range(len(toolEssences) ):
+    for index2 in range(len(objectEssences) ):
+        baseEssences = [toolEssences[index1], objectEssences[index2], 'Visage']
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'simulacrum\');\n')
+| Armour  |
+| Axe     |
+| Bow     |
+| Cage    |
+| Chain   |
+| Cloth   |
+| Dust    |
+| Fork    |
+| Glass   |
+| Gun     |
+| Hammer  |
+| Hook    |
+| Knife   |
+| Mirror  |
+| Needle  |
+| Net     |
+| Paper   |
+| Rake    |
+| Sceptre |
+| Shield  |
+| Ship    |
+| Shovel  |
+| Sickle  |
+| Spear   |
+| Spike   |
+| Staff   |
+| Sword   |
+| Thread  |
+| Trowel  |
+| Vehicle |
+| Wall    |
+| Wheel   |
+| Whip    |
+simulacrumEssences = ['Corrupt', 'Life', 'Renewal']
+for index1 in range(len(contents) ):
+    for index2 in range(len(simulacrumEssences) ):
+        baseEssences = [contents[index1], 'Death', simulacrumEssences[index2] ]
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'simulacrum\');\n')
+
+
+    Chaotic
+INSERT INTO confluencecombos VALUES ('balance', 'magic', 'might', 'chaotic');
+INSERT INTO confluencecombos VALUES ('discord', 'echo', 'visage', 'chaotic');
+INSERT INTO confluencecombos VALUES('Adept', 'Discord', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Balance', 'Discord', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Dimension', 'Discord', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Gathering', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Growth', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Harmonic', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Life', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Light', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Magic', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Might', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Myriad', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Potent', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Renewal', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Rune', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Shimmer', 'Song', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Song', 'Swift', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Song', 'Technology', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Song', 'Vast', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Song', 'Void', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Song', 'Zeal', 'chaotic');
+INSERT INTO confluencecombos VALUES('Armour', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Axe', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Blight', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Bow', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Cage', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Chain', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Cloth', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Cloud', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Corrupt', 'Discord', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Dust', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Fork', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Glass', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Gun', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Hammer', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Hook', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Knife', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Mirror', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Moon', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Needle', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Net', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Paper', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Rake', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Sceptre', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Shield', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Ship', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Shovel', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Sickle', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Spear', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Spike', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Staff', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Star', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Sun', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Sword', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Thread', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Trowel', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Vehicle', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Venom', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Wall', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Wheel', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Pure', 'Whip', 'chaotic');
+INSERT INTO confluencecombos VALUES('Adept', 'Discord', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Balance', 'Discord', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Cage', 'Discord', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Chain', 'Discord', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Cloth', 'Discord', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Cloud', 'Discord', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Dimension', 'Discord', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Dust', 'Echo', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Fork', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Gathering', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Glass', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Growth', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Harmonic', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Hook', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Life', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Light', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Magic', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Might', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Mirror', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Moon', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Myriad', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Needle', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Net', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Paper', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Potent', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Pure', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Rake', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Renewal', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Rune', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Sceptre', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Shield', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Shimmer', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Ship', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Shovel', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Sickle', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Spike', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Star', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Sun', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Swift', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Technology', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Thread', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Trowel', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Vast', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Vehicle', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Void', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Wall', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Wheel', 'chaotic');
+INSERT INTO confluencecombos VALUES('Discord', 'Echo', 'Zeal', 'chaotic');
+
+
+    Harpy
+essences.txt =
+| Blight  |
+| Corrupt |
+| Dark    |
+| Death   |
+| Deep    |
+| Hunger  |
+| Hunt    |
+| Magic   |
+| Malign  |
+| Omen    |
+| Sin     |
+| Smoke   |
+| Trap    |
+| Venom   |
+for index1 in range(len(contents) ):
+    baseEssences = ['Bird', contents[index1], 'Song' ]
+    baseEssences.sort()
+    replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Harpy\');\n')
+
+    baseEssences = ['Wing', contents[index1], 'Song' ]
+    baseEssences.sort()
+    replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Harpy\');\n')
+
+
+    Serpent
+essences.txt = 
+| Cold      |
+| Earth     |
+| Elemental |
+| Fire      |
+| Ice       |
+| Iron      |
+| Lightning |
+| Sand      |
+| Water     |
+| Wind      |
+| Wood      |
+for index1 in range(len(contents) ):
+    for index2 in range(index1 + 1, len(contents) ):
+        baseEssences = [contents[index1], contents[index2], 'Snake']
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Serpent\');\n')
+| Blight     |
+| Corrupt    |
+| Venom      |
+| Earth      |
+| Wind       |
+| Cold       |
+| Water      |
+| Sand       |
+| Lightning  |
+| Ice        |
+| Iron       |
+| Elemental  |
+| Fire       |
+| Wood       |
+| Malign     |
+| Dark       |
+| Death      |
+| Deep       |
+| Omen       |
+| Sin        |
+| Trap       |
+| Hunger     |
+| Hunt       |
+| Smoke      |
+| Balance    |
+| Dimension  |
+| Discord    |
+| Adept      |
+| Potent     |
+| Pure       |
+| Renewal    |
+| Rune       |
+| Light      |
+| Shimmer    |
+| Myriad     |
+| Life       |
+| Swift      |
+| Technology |
+| Might      |
+| Vast       |
+| Magic      |
+| Void       |
+| Harmonic   |
+| Growth     |
+| Gathering  |
+| Zeal       |
+corruptEssences = contents[:3]
+otherEssences = contents[3:]
+for index1 in range(len(corruptEssences) ):
+    for index2 in range(len(otherEssences) ):
+        baseEssences = [corruptEssences[index1], otherEssences[index2], 'Snake' ]
+        baseEssences.sort()
+        replacement.write('INSERT INTO confluencecombos VALUES(\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Serpent\');\n')
+
+
+    Empower
+essences.txt =
+| Hand    |
+| Blood   |
+| Bone    |
+| Hair    |
+| Eye     |
+| Flesh   |
+| Foot    |
+| Corrupt |
+| Blight  |
+| Venom   |
+| Cloud   |
+| Moon    |
+| Star    |
+| Sun     |
+| Cloth   |
+| Bow     |
+| Dust    |
+| Fork    |
+| Glass   |
+| Gun     |
+| Hammer  |
+| Hook    |
+| Knife   |
+| Mirror  |
+| Axe     |
+| Needle  |
+| Net     |
+| Paper   |
+| Rake    |
+| Sceptre |
+| Shield  |
+| Ship    |
+| Shovel  |
+| Sickle  |
+| Spear   |
+| Spike   |
+| Staff   |
+| Armour  |
+| Cage    |
+| Sword   |
+| Thread  |
+| Trowel  |
+| Vehicle |
+| Chain   |
+| Wall    |
+| Wheel   |
+| Whip    |
+corruptEssences = contents[7:10]
+celestialEssences = contents[10:14]
+otherEssences = contents[:7] + contents[14:]
+for index1 in range(len(celestialEssences) ):
+    for index2 in range(len(corruptEssences) ):
+        for index3 in range(len(otherEssences) ):
+            baseEssences = [celestialEssences[index1], corruptEssences[index2], otherEssences[index3] ]
+            baseEssences.sort()
+            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Empower\');\n')
+
+
+
+
+
+
+
+
 
 
 
@@ -4006,6 +4439,66 @@ for index1 in range(len(humanEssences) ):
     for index2 in range(len(esotericEssences) - 1):
         for index3 in range(index2 + 1, len(esotericEssences) ):
             baseEssences = [humanEssences[index1], esotericEssences[index2], esotericEssences[index3] ]
+            baseEssences.sort()
+            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Empower\');\n')
+| Adept      |
+| Vast       |
+| Technology |
+| Balance    |
+| Swift      |
+| Pure       |
+| Dimension  |
+| Discord    |
+| Gathering  |
+| Growth     |
+| Zeal       |
+| Shimmer    |
+| Harmonic   |
+| Rune       |
+| Renewal    |
+| Life       |
+| Light      |
+| Magic      |
+| Might      |
+| Potent     |
+| Myriad     |
+| Void       |
+| Cloud      |
+| Sun        |
+| Star       |
+| Moon       |
+| Sceptre    |
+| Shield     |
+| Hammer     |
+| Ship       |
+| Shovel     |
+| Sickle     |
+| Spear      |
+| Staff      |
+| Gun        |
+| Rake       |
+| Bow        |
+| Sword      |
+| Axe        |
+| Knife      |
+| Armour     |
+| Vehicle    |
+| Hook       |
+| Whip       |
+| Trowel     |
+esotericEssences = contents[:22]
+celestialBodyEssences = contents[22:26]
+weaponOrToolEssences = contents[26:]
+for index1 in range(len(celestialBodyEssences) ):
+    for index2 in range(len(weaponOrToolEssences) ):
+        for index3 in range(len(esotericEssences) ):
+            baseEssences = [celestialBodyEssences[index1], weaponOrToolEssences[index2], esotericEssences[index3] ]
+            baseEssences.sort()
+            replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Empower\');\n')
+for index1 in range(len(celestialBodyEssences) ):
+    for index2 in range(len(weaponOrToolEssences) - 1):
+        for index3 in range(index2 + 1, len(weaponOrToolEssences) ):       
+            baseEssences = [celestialBodyEssences[index1], weaponOrToolEssences[index2], weaponOrToolEssences[index3] ]
             baseEssences.sort()
             replacement.write('INSERT INTO confluencecombos VALUES (\'' + baseEssences[0] + '\', \'' + baseEssences[1] + '\', \'' + baseEssences[2] + '\', \'Empower\');\n')
 
