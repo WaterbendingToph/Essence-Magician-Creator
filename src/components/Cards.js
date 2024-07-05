@@ -3,7 +3,7 @@ import CardItem from "./CardItem";
 import './Cards.css';
 
 function Cards(props) {
-    if (props.pages == 'WorldDetails') {
+    if (props.pages === 'WorldDetails') {
         return (
                 <div className="cards__container">
                     <ul className="cards__wrapper">

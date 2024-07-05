@@ -1,0 +1,26 @@
+/* Filename - App.js */
+
+.App {
+	text-align: center;
+}
+
+.geeks {
+	color: green;
+}
+
+.container {
+	width: 20rem;
+	margin: auto;
+	box-shadow: 0px 5px 10px gray;
+	border-radius: 15px;
+	padding: 3%;
+}
+
+.button {
+	font-size: large;
+	margin: 2%;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+}

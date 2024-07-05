@@ -2,7 +2,7 @@ import React from "react";
 import { replaceEssenceSquare } from "./pages/EssenceExperimenter";
 
 function dropdownOptions(type, currentEssence) {
-    if (type == 'base') {
+    if (type === 'base') {
         return (
             <>
                 <option value='Adept'>Adept</option>
@@ -153,7 +153,7 @@ function dropdownOptions(type, currentEssence) {
                 <option value='Zeal'>Zeal</option>
             </>
         );
-    }   else if (type == 'confluence') {
+    }   else if (type === 'confluence') {
         return (
             <>
                 <option value='Action'>Action</option>

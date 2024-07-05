@@ -15,13 +15,13 @@ let confluence = <EssenceSquare type='confluence' name='dragon' srcString='/imag
 
 
 export function replaceEssenceSquare(variableName, newEssenceName) {
-    if (variableName == 'base1') {
+    if (variableName === 'base1') {
         base1 = <EssenceSquare type ='base' name={newEssenceName} srcString='/images/essences/'/>
-    } else if (variableName == 'base2') {
+    } else if (variableName === 'base2') {
         base2 = <EssenceSquare type ='base' name={newEssenceName} srcString='/images/essences/'/>
-    } else if (variableName == 'base3') {
+    } else if (variableName === 'base3') {
         base3 = <EssenceSquare type ='base' name={newEssenceName} srcString='/images/essences/'/>
-    } else if (variableName == 'confluence') {
+    } else if (variableName === 'confluence') {
         confluence = <EssenceSquare type ='confluence' name={newEssenceName} srcString='/images/essences/'/>
     }
 }

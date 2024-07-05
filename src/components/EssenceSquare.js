@@ -7,9 +7,9 @@ import './EssenceSquare.css';
 
 function EssenceSquare(props) {
     let srcString = './images/';
-    if (props.type == 'base') {
+    if (props.type === 'base') {
         srcString = './images/essences/base/'.concat(props.name).concat(".png");
-    } else if (props.type == 'confluence') {
+    } else if (props.type === 'confluence') {
         srcString = "./images/essences/confluence/".concat(props.name).concat(".png");
     }
 
