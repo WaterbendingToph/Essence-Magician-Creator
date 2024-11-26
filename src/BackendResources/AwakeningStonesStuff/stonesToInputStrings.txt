@@ -1,0 +1,277 @@
+Awakening Stone of Lights - uncommon - legendary - special attack, spell, perception, aura, movement
+Awakening Stone of Dance - uncommon - epic - movement, special ability, teleport, combination, special attack
+Awakening Stone of the Humanities - legendary - legendary - combination
+Awakening Stone of Myriads - epic - epic - spell, special attack, special ability
+Awakening Stone of Sharks - common - uncommon - special attack, special ability, movement, summoning, conjuration, familiar
+Awakening Stone of Grazing - common - uncommon - drain, special ability, looting, counter-execute, spell, ritual
+Awakening Stone of Swords - common - legendary - special attack, combination, movement, counter-execute, conjuration, execute
+Awakening Stone of Smoke - uncommon - rare - spell, special ability, conjuration, summoning, movement
+Awakening Stone of Papers - common - uncommon - special ability, conjuration, spell, dimension, ritual, familiar
+Awakening Stone of Whips - common - epic - conjuration, special attack, movement, combination, execute, counter-execute
+Awakening Stone of Nets - common - rare - conjuration, special attack, execute, looting, ritual, drain
+Awakening Stone of Songs - uncommon - rare - aura, spell, special ability, combination, movement
+Awakening Stone of Eyes - common - rare - perception, aura, special attack, ritual, dimension, spell
+Awakening Stone of Knowledge - uncommon - epic - spell, counter-execute, perception, aura, ritual
+Awakening Stone of Armors - common - epic - conjuration, special ability, counter-execute, combination, summoning, ritual
+Awakening Stone of Staves - common - uncommon - special attack, conjuration, execute, spell, combination, counter-execute
+Awakening Stone of Life - uncommon - legendary - spell, ritual, special ability, familiar, summoning
+Awakening Stone of Wolves - common - uncommon - special attack, special ability, conjuration, summoning, familiar, puppet
+Awakening Stone of Ingenuity - epic - epic - counter-execute, ritual, special ability
+Awakening Stone of Heidels - common - uncommon - summoning, special ability, puppet, special attack, special ability, familiar
+Awakening Stone of Rabbits - common - common - summoning, puppet, familiar, special ability, movement, combination
+Awakening Stone of Inevitability - epic - epic - aura, spell, special attack
+Awakening Stone of Iron - common - epic - special attack, special ability, conjuration, puppet, execute, summoning
+Awakening Stone of Spiders - common - uncommon - special attack, special ability, conjuration, summoning, movement, drain
+Awakening Stone of Adventue - rare - rare - dimension, special ability, looting, conjuration
+Awakening Stone of Wind - common - epic - special attack, special ability, conjuring, movement, combination, spell
+Awakening Stone of Trees - common - uncommon - conjuration, ritual, spell, special ability, dimension, summoning
+Awakening Stone of Bones - uncommon - rare - conjuration, summoning, spell, ritual, execute
+Awakening Stone of Horses - common - common - movement, combination, summoning, familiar, spell, special ability
+Awakening Stone of Corruption - epic - restricted - spell, special ability, special attack
+Awakening Stone of the Hand - common - epic - special attack, combination, special ability, drain, execute, counter-execute
+Awakening Stone of Resolve - rare - epic - special ability, spell, combination, aura
+Awakening Stone of Foxes - common - uncommon - movement, combination, special attack, summoning, familiar, puppet
+Awakening Stone of Lurking - uncommon - uncommon - special ability, combination, dimension, teleport, looting
+Awakening Stone of Plants - common - epic - spell, conjuration, ritual, aura, perception, special ability
+Awakening Stone of Fleas - common - common - summoning, familiar, spell, movement, instantaneous movement, special ability
+Awakening Stone of the Magus - common - legendary - spell, ritual, familiar, summoning, dimension, puppet
+Awakening Stone of Imagination - epic - epic - conjuration, channeling, special ability
+Awakening Stone of Apocalypse - legendary - restricted - spell, ritual
+Awakening Stone of Rune - epic - epic - ritual, spell, special ability
+Awakening Stone of Hammers - common - epic - special attack, conjuration, special ability, execute, ritual, spell
+Awakening Stone of Forks - common - common - special attack, conjuration, combination, execute, drain, looting
+Awakening Stone of Absolution - rare - rare - aura, spell, special ability, ritual
+Awakening Stone of Pangolins - common - uncommon - spell, special ability, summoning, puppet, conjuration, familiar
+Awakening Stone of Darkness - uncommon - legendary - special ability, spell, special attack, looting, movement
+Awakening Stone of Axes - common - epic - special attack, spell, execute, combination, counter-execute, looting
+Awakening Stone of Deer - common - common - movement, instantaneous movement, special ability, special attack, combination, spell
+Awakening Stone of Owls - common - uncommon - movement, special ability, spell, perception, ritual, familiar
+Awakening Stone of Wheels - common - rare - movement, combination, spell, conjuration, puppet, special ability
+Awakening Stone of the Fey Touched - legendary - legendary - spell, special ability
+Awakening Stone of Death - uncommon - restricted - drain, special ability, spell, looting, execute
+Awakening Stone of The Moment - epic - epic - counter-execute, special attack, spell
+Awakening Stone of Cages - common - rare - conjuration, special attack, spell, execute, looting, dimension
+Awakening Stone of Walls - common - epic - conjuration, special ability, counter-execute, instantaneous movement, channeling, dimension
+Awakening Stone of Wasps - common - common - summoning, puppet, familiar, special ability, ritual, special attack
+Awakening Stone of Secrets - legendary - legendary - perception, aura
+Awakening Stone of the Reaper - legendary - legendary - spell, special ability
+Awakening Stone of Zealotry - rare - uncommon - channeling, special ability, special attack, spell
+Awakening Stone of the Cold - uncommon - rare - spell, special attack, combination, special ability
+Awakening Stone of Snakes - common - uncommon - familiar, summoning, special attack, perception, puppet, execute
+Awakening Stone of Mice - common - common - movement, instantaneous movement, puppet, summoning, special ability, combination
+Awakening Stone of Bees - common - common - special ability, ritual, movement, instaneous movement, spell, summoning
+Awakening Stone of the Moons - rare - rare - combination, special ability, dimension, teleport
+Awakening Stone of Omens - epic - epic - special attack, spell, drain
+Awakening Stone of Cattle - common - uncommon - familiar, summoning, special ability, special attack, combination, spell
+Awakening Stone of Feet - common - uncommon - movement, instantaneous movement, combination, special attack, special ability, dimension
+Awakening Stone of Persistance - rare - epic - spell, combination, special ability, special attack
+Awakening Stone of the Rune Touched - legendary - legendary - ritual, special ability
+Awakening Stone of Mirrors - uncommon - rare - spell, special ability, conjuration, ritual
+Awakening Stone of Bow - common - epic - conjuration, special attack, spell, combination, execute, special ability
+Awakening Stone of Aptitude - common - legendary - special attack, special ability, execute, counter-execute, combination, aura
+Awakening Stone of Judgement - rare - legendary - execute, special attack, counter-execute, perception
+Awakening Stone of Focus - uncommon - rare - special ability, spell, combination, channeling, ritual
+Awakening Stone of Sickles - common - rare - special attack, conjuration, spell, looting, execute, drain
+Awakening Stone of Wings - epic - legendary - special ability, conjuration, movement
+Awakening Stone of Whales - common - uncommon - familiar, summoning, puppet, movement, special ability, counter-execute
+Awakening Stone of Knives - common - epic - special attack, conjuration, counter-execute, special ability, execute, combination
+Awakening Stone of Skunks - commmon - uncommon - special attack, special ability, drain, spell, channeling, summoning
+Awakening Stone of Fungus - common - common - spell, aura, drain, special ability, looting, counter-execute
+Awakening Stone of Reach - uncmmmon - uncommon - special attack, spell, dimension, perception, aura
+Awakening Stone of Ducks - common - common - summoning, familiar, ritual, movement, special attack, puppet
+Awakening Stone of Manatees - commmon - common - movement, special ability, combination, familiar, summoning, counter-execute
+Awakening Stone of Wood - common - uncommon - conjuration, spell, special ability, ritual, counter-execute, summoning
+Awakening Stone of the Celestials - legendary - legendary - special ability, dimension
+Awakening Stone of Blood - uncommon - rare - spell, drain, special attack, special ability, ritual
+Awakening Stone of Purity - uncommon - epic - aura, spell, special attack, drain, counter-execute
+Awakening Stone of Dust - uncommon - common - conjuration, looting, drain, special attack, execute
+Awakening Stone of Swiftness - common - legendary - special ability, movement, instantaneous movement, combination, teleport, dimension
+Awakening Stone of Gathering - rare - legendary - spell, special ability, special attack, channeling
+Awakening Stone of Elemental Magic - epic - legendary - spell, ritual, combination
+Awakening Stone of Sin - legendary - epic - spell, drain
+Awakening Stone of Malignancy - epic - epic - spell, special attack, drain, special ability
+Awakening Stone of Shovels - common - epic - conjuration, special attack, special ability, dimension, puppet, summoning
+Awakening Stone of Ice - uncommon - rare - conjuration, summoning, special attack, spell, combination
+Awakening Stone of Flesh - uncommon - rare - special ability, summoning, spell, counter-execute, execute
+Awakening Stone of Birds - common - uncommon - summoning, special ability, movement, familiar, spell
+Awakening Stone of Rake - common - common - conjuration, puppet, special attack, channeling, dimension, movement
+Awakening Stone of Shimmers - epic - uncommon - spell, conjuration, perception
+Awakening Stone of Goats - common - common - movement, combination, instantaneous movement, summoning, familiar, spell
+Awakening Stone of Rats - common - common - special ability, special attack, summoning, movement, familiar, drain
+Awakening Stone of Wings - epic - legendary - special ability, conjuration, combination
+Awakening Stone of Ships - common - epic - conjuration, puppet, special ability, perception, movement, summoning
+Awakening Stone of Threads - common - rare - conjuration, spell, ritual, drain, special attack, summoning
+Awakening Stone of the Celestial Book - legendary - legendary - spell, ritual
+Awakening Stone of Crystals - rare - uncommon - conjuration, ritual, spell, special ability
+Awakening Stone of Purgation - epic - legendary - aura, spell, special ability
+Awakening Stone of Balance - uncommon - legendary - spell, ritual, special ability, counter-execute
+Awakening Stone of Traps - common - uncommon - conjuration, special ability, execute, ritual, special attack, spell
+Awakening Stone of Discord - epic - epic - spell, special ability, special attack
+Awakening Stone of Shields - common - epic - conjuration, summoning, spell, ritual, channeling, dimension
+Awakening Stone of Preperation - uncommon - rare - spell, ritual, dimension, conjuration, special ability
+Awakening Stone of Octopi - common - uncommon - spell, summoning, conjuration, special attack, special ability, movement
+Awakening Stone of Tentacle - epic - uncommon - special ability, conjuration, special attack
+Awakening Stone of Earth - common - legendary - conjuration, spell, ritual, special ability, special attack, counter-execute
+Awakening Stone of Water - common - legendary - conjuration, special ability, movement, special attack, spell, summoning
+Awakening Stone of Might - common - legendary - special ability, special attack, combination, execute, channeling, counter-execute
+Awakening Stone of Dogs - common - common - ritual, summoning, familiar, movement, perception, special ability
+Awakening Stone of Fire - common - legendary - summoning, spell, special attack, special ability, ritual, combination
+Awakening Stone of Potency - epic - legendary - special ability, channeling, spell
+Awakening Stone of the Hunt - common - legendary - spell, special ability, ritual, conjuration, looting, movement, execute
+Awakening Stone of Locusts - common - uncommon - summoning, familiar, movement, drain, spell, ritual
+Awakening Stone of Vastness - legendary - legendary - spell, ritual
+Awakening Stone of Crocodiles - common - uncommon - special attack, special ability, spell, summoning, familiar, movement
+Awakening Stone of Lightning - uncommon - epic - spell, special attack, movement, special movement, teleport
+Awakening Stone of Renewal - epic - legendary - special ability, spell, channeling
+Awakening Stone of Defiance - epic - epic - special ability, special attack, counter-execute
+Awakening Stone of Claws - uncommon - rare - special attack, special ability, conjuration, summoning, execute
+Awakening Stone of Chains - common - rare - conjuration, special attack, dimension, execute, aura, spell
+Awakening Stone of Serenity - rare - rare - aura, spell, ritual, special ability
+Awakening Stone of Monkeys - common - uncommon - special attack, movement, combination, summoning, familiar, looting
+Awakening Stone of Cloths - common - uncommon - conjuration, spell, special ability, dimension, perception, dimension
+Awakening Stone of Dimension - legendary - legendary - dimension, spell
+Awakening Stone of the Sun - rare - epic - instantaneous movement, special attack, spell, dimension
+Awakening Stone of Venom - common - uncommon - special attack, special ability, execute, summoning, spell, conjuration
+Awakening Stone of Sceptres - common - rare - spell, ritual, summoning, conjuration, dimension, teleport
+Awakening Stone of Bats - common - common - movement, special attack, special ability, summoning, familiar, perception
+Awakening Stone of Wonder - rare - rare - special ability, perception, spell, looting
+Awakening Stone of Fish - common - common - movement, special ability, summoning, puppet, familiar, perception
+Awakening Stone of Feasts - common - epic - drain, conjuration, special ability, looting, spell, perception
+Awakening Stone of Hunger - rare - epic - drain, special ability, looting, execute, special attack, combination
+Awakening Stone of Harmonics - epic - epic - ritual, spell, special ability
+Awakening Stone of Hooks - common - uncommon - conjuration, special attack, spell, ritual, drain, execute
+Awakening Stone of Sloths - common - epic - summoning, familiar, special ability, spell, puppet, combination
+Awakening Stone of Cats - common - common - movement, combination, special attack, summoning, perception, spell
+Awakening Stone of Turtles - common - uncommon - conjuration, summoning, spell, special ability, counter-execute, familiar
+Awakening Stone of Frogs - common - common - movement, special ability, summoning, familiar, ritual, spell
+Awakening Stone of Hair - common - common - special ability, spell, conjuration, summoning, special attack, ritual
+Awakening Stone of Spikes - common - uncommon - conjuration, special attack, special ability, summoning, spell, execute
+Awakening Stone of Ruin - epic - epic - spell, special attack, special ability
+Awakening Stone of Coral - common - uncommon - conjuration, special ability, spell, summoning, counter-execute, familiar
+Awakening Stone of Bears - common - uncommon - special ability, special attack, summoning, counter-execute, combination, spell
+Awakening Stone of Void - legendary - epic - spell, dimension
+Awakening Stone of Spears - common - epic - conjuration, special attack, drain, execute, movement, spell
+Awakening Stone of the Leonines - legendary - legendary - special attack, special ability
+Awakening Stone of the Surge - rare - uncommon - spell, special attack, drain, dimension
+Awakening Stone of Technology - common - epic - conjuration, spell, ritual, dimension, special attack, combination
+Awakening Stone of Vehicles - common - epic - conjuration, ritual, spell, special ability, movement, summoning
+Awakening Stone of Champions - epic - epic - special attack, special ability, combination
+Awakening Stone of Trowels - common - rare - conjuration, spell, special ability, summoning, channeling, dimension
+Awakening Stone of Visages - legendary - uncommon - perception, spell
+Awakening Stone of Apes - common - uncommon - special attack, movement, combination, summoning, familiar, special ability
+Awakening Stone of Blight - epic - epic - spell, drain, looting, execute
+Awakening Stone of Clouds - uncommon - uncommon - movement, special ability, conjuration, spell
+Awakening Stone of the Deep - rare - epic - special ability, movement, special attack, perception
+Awakening Stone of Echoes - rare - rare - spell, ritual, perception, channeling
+Awakening Stone of Feebleness - uncommon - rare - special attack, spell, combination, execute, special ability, summoning
+Awakening Stone of Glass - uncommon - uncommon - conjuration, special attack, spell, perception, dimension, aura
+Awakening Stone of Growth - uncommon - epic - spell, ritual, special ability, aura, conjuration
+Awakening Stone of Guns - common - unknown - conjuration, special attack, drain, special ability, spell, puppet
+Awakening Stone of Lizards - common - common - special ability, summoning, special attack, familiar, movement, counter-execute
+Awakening Stone of Needles - common - epic - conjuration, special ability, spell, special attack, execute, drain
+Awakening Stone of Sand - uncommon - uncommon - conjuration, special ability, spell, summoning, ritual, counter-execute
+Awakening Stone of Stars - rare - epic - spell, teleport, dimension, special ability
+Awakening Stone of Discovery - epic - epic - special ability, perception, aura
+Awakening Stone of Wrath - rare - epic - special attack, spell, conjuration, combination
+Awakening Stone of Magitech - unknown - unknown - unknown
+Awakening Stone of Guardians - unknown - epic - conjuration, special ability, instantaneous movement, counter-execute
+Awakening Stone of Onslaught - unknown - epic - special attack, combination, movement, special ability
+Awakening Stone of Jackalopes - unknown - common - movement, instantaneous movement, perception, special ability
+Awakening Stone of Bounty - unknown - uncommon - spell, looting, special ability, conjuration
+Awakening Stone of Mastery - unknown - legendary - special ability, special attack, combination, movement
+Awakening Stone of Soaring - unknown - uncommon - special ability, movement, spell, combination
+Awakening Stone of Ministration - unknown - rare - spell, ritual, perception, special ability
+Awakening Stone of Desolation - unknown - uncommon - special attack, channeling, combination, spell
+Awakening Stone of Battlefields - unknown - uncommon - spell, ritual, summoning, conjuration
+Awakening Stone of Phantasmagoria - unknown - common - special ability, summoning, dimension, spell
+Awakening Stone of Chimeras - unknown - uncommon - special attack, special ability, summoning, combination
+Awakening Stone of the Avatar - unknown - uncommon - special ability, spell, ritual, combination
+Awakening Stone of Swarms - unknown - common - summoning, ritual, spell, familiar
+Awakening Stone of Medusa - unknown - common - special attack, spell, special ability, movement
+Awakening Stone of Karmic Magic - unknown - uncommon - spell, special ability, drain, channeling
+Awakening Stone of Succubi - unknown - common - drain, special attack, spell, summoning
+Awakening Stone of Wrath - unknown - epic - special attack, conjuration, combination, spell
+Awakening Stone of Volcanos - unknown - uncommon - conjuration, spell, summoning, special attack
+Awakening Stone of the Eclipse - unknown - common - special ability, combination, spell, spell
+Awakening Stone of Simulacrums - unknown - uncommon - conjuration, special ability, ritual, spell
+Awakening Stone of Boundaries - unknown - epic - ritual, spell, special ability, conjuration
+Awakening Stone of Leviathans - unknown - uncommon - special ability, conjuration, summoning, special attack
+Awakening Stone of Edifices - unknown - uncommon - conjuration, spell, teleport, special ability
+Awakening Stone of the Dawn - unknown - uncommon - movement, spell, special ability, special ability
+Awakening Stone of the Pheonix - unknown - rare - movement, special ability, spell, special attack
+Awakening Stone of Twilight - unknown - uncommon - teleport, special ability, spell, special attack
+Awakening Stone of Skirmishing - unknown - common - special attack, spell, conjuration, special ability
+Awakening Stone of Action - unknown - uncommon - special attack, perception, special ability, combination
+Awakening Stone of Thunderbirds - unknown - common - movement, special attack, spell, summoning
+Awakening Stone of Cycles - unknown - rare - spell, ritual, channeling, drain
+Awakening Stone of Firebirds - unknown - common - special attack, movement, special ability, summoning
+Awakening Stone of Krakens - unknown - uncommon - movement, special ability, special attack, summoning
+Awakening Stone of Gorgons - unknown - uncommon - special attack, special ability, conjuration, spell
+Awakening Stone of Mysticism - unknown - epic - spell, special ability, summoning, conjuration
+Awakening Stone of Transgressions - unknown - uncommon - special ability, spell, execute, combination
+Awakening Stone of Talismans - unknown - uncommon - conjuration, ritual, dimension, special ability
+Awakening Stone of Charlatans - unknown - common - spell, combination, special ability, teleport
+Awakening Stone of Beguilement - unknown - uncommon - special ability, spell, ritual, perception
+Awakening Stone of Garudas - unknown - uncommon - special attack, special ability, movement, combination
+Awakening Stone of Refraction - unknown - rare - spell, special ability, perception, aura
+Awakening Stone of Minotaurs - unknown - uncommon - special attack, special ability, combination, summoning
+Awakening Stone of Time - unknown - legendary - spell, special ability, drain, instantaneous movement
+Awakening Stone of Harpies - unknown - uncommon - movement, special ability, aura, drain
+Awakening Stone of Predation - unknown - rare - special attack, movement, perception, execution
+Awakening Stone of the Sky - unknown - uncommon - movement, special ability, spell, summoning
+Awakening Stone of Animation - unknown - uncommon - conjuration, summoning, spell, familiar
+Awakening Stone of Force - unknown - uncommon - aura, spell, special attack, special ability
+Awakening Stone of Immortality - unknown - epic - special ability, counter-execute, drain, channeling
+Awakening Stone of Fertility - unknown - rare - spell, ritual, channeling, aura
+Awakening Stone of Gates - unknown - epic - teleport, dimension, spell, special ability
+Awakening Stone of Chaos - unknown - common - spell, special attack, summoning, dimension
+Awakening Stone of Fortresses - unknown - epic - conjuration, summoning, spell, special ability
+Awakening Stone of Weaving - unknown - common - conjuration, spell, ritual, puppet
+Awakening Stone of Griffons - unknown - uncommon - summoning, movement, conjuration, special ability
+Awakening Stone of Vision - unknown - common - perception, aura, special ability, spell
+Awakening Stone of Cataclysms - unknown - rare - special attack, spell, summoning, channeling
+Awakening Stone of Retribution - unknown - common - special attack, combination, special ability, movement
+Awakening Stone of Manticores - unknown - common - special attack, summoning, special ability, conjuration
+Awakening Stone of Vessels - unknown - epic - conjuration, ritual, spell, counter-execute
+Awakening Stone of Ambushes - unknown - common - special attack, perception, conjuration, ritual
+Awakening Stone of Unification - unknown - legendary - ritual, spell, special ability, combination
+Awakening Stone of Oceans - unknown - uncommon - spell, movement, special ability, conjuration
+Awakening Stone of Forges - unknown - uncommon - conjuration, spell, special ability, perception
+Awakening Stone of Harvesting - unknown - uncommon - spell, looting, summoning, conjuration
+Awakening Stone of Arsenals - unknown - rare - special attack, conjuration, special ability, combination
+Awakening Stone of Trolls - unknown - common - special ability, counter-execute, special attack, summoning
+Awakening Stone of Juggernauts - unknown - common - special attack, special attack, counter-execute, summoning
+Awakening Stone of Sovereignty - unknown - common - spell, aura, summoning, perception
+Awakening Stone of Mirages - unknown - uncommon - spell, ritual, special ability, dimension
+Awakening Stone of Doom - unknown - common - special attack, spell, special ability, drain
+Awakening Stone of Serpents - unknown - common - summoning, familiar, special ability, execute
+Awakening Stone of Tranquil - unknown - uncommon - aura, spell, special ability, drain
+Awakening Stone of Alchemy - unknown - uncommon - special ability, spell, perception, drain
+Awakening Stone of Transfiguration - unknown - common - special ability, conjuration, summoning, special attack
+Awakening Stone of the Lotus - unknown - uncommon - spell, special attack, combination, aura
+Awakening Stone of Vortexes - unknown - common - spell, conjuration, movement, special attack
+Awakening Stone of Prosperity - unknown - rare - spell, aura, perception, looting
+Awakening Stone of Verdancy - unknown - rare - spell, ritual, summoning, conjuration
+Awakening Stone of Stellar Space - unknown - common - dimension, movement, teleport, spell
+Awakening Stone of Nebulas - unknown - common - dimension, spell, teleport, conjuration
+Awakening Stone of the Fey - unknown - common - spell, conjuration, summoning, dimension
+Awakening Stone of Sacrafices - unknown - common - special ability, drain, ritual, special attack
+Awakening Stone of Prisons - unknown - rare - execute, special attack, dimension, conjuration
+Awakening Stone of the Scribe - unknown - common - special ability, conjuration, dimension, spell
+Awakening Stone of Dopplegangers - unknown - common - special ability, spell, summoning, special attack
+Awakening Stone of Resonance - unknown - uncommon - ritual, spell, special ability, combination
+Awakening Stone of Effigies - unknown - common - spell, ritual, summoning, conjuration
+Awakening Stone of Dragons - unknown - rare - special attack, summoning, conjuration, special ability
+Awakening Stone of Oases - unknown - rare - dimension, conjuration, spell, looting
+Awakening Stone of Storms - unknown - special attack, movement, conjuration, special ability
+Awakening Stone of the Behemoth - unknown - common - special attack, counter-execute, combination, special ability
+Awakening Stone of Hydras - unknown - common - special ability, counter-execute, summoning, special attack
+Awakening Stone of Discordance - unknown - uncommon - ritual, spell, special attack, special ability
+Awakening Stone of Cyborgs - unknown - special ability, conjuration, ritual, special ability
+Awakening Stone of Cyclopes - unknown - common - special attack, perception, familiar, conjuration
+Awakening Stone of Undeath - unknown - unknown - special ability, summoning, spell, ritual
+Awakening Stone of Empowerment - unknown - rare - special ability, spell, ritual, aura
+Awakening Stone of Anzus - unknown - common - movement, special ability, conjuration, summoning
+Awakening Stone of Glimerons - unknown - common - special attack, special ability, conjuration, summoning
+Awakening Stone of Rocs - unknown - common - special ability, movement, special attack, summoning
+Awakening Stone of Zizs - unknown - common - movement, counter-execute, special ability, summoning

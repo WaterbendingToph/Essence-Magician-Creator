@@ -1,0 +1,32 @@
+test suite numbers 0 - 24 passed with all armor gen tests w/ no lootables
+the test number 25 passed, creating an armor not using of the non-armor lootables
+the test number 26 passed, creating an armor type with one of the right lootables for it
+test suite numbers 27 - 32 passed finding all of the correct armor types with weights
+test suite numbers 32 - 56 passed finding all the correct individual crafting mats
+test suite numbers 56 - 80 passed with all tests with multiple poss crafting mats
+the test number 81 passed the test with multiple looted crafting mats
+test suite numbers 81 - 91 passed and created weapons without weights
+test suite numbers 92 - 95 passed and created weapons of the correct types using weights
+the test number 95 passed testing looting an unspecified type essence
+the test number 96 passed testing looting an unspecified type awakening stone
+the test number 97 passed testing looting an unspecified type quintessence
+the test number 98 passed testing looting an unspecified type healing poultice from genHealingItem()
+the test number 99 passed testing looting an unspecified type healing unguent from genHealingItem()
+the test number 100 passed testing looting an unspecified type healing potion from genHealingItem()
+the test number 101 passed testing looting an unspecified type recovery potion from genHealingItem()
+the test number 102 passed testing looting an unspecified type antidote from genHealingItem()
+the test number 103 passed testing looting an unspecified type miracle potion from genHealingItem()
+the test number 104 passed testing looting an unspecified type health potion from genPotion()
+the test number 105 passed testing looting an unspecified type mana potion from genPotion()
+the test number 106 passed testing looting an unspecified type stamina potion from genPotion()
+the test number 107 passed testing looting an unspecified type stone skin potion from genPotion()
+the test number 108 passed testing looting an unspecified type spirit potion from genPotion()
+the test number 109 passed testing looting an unspecified type power potion from genPotion()
+the test number 110 passed testing looting an unspecified type agility potion from genPotion()
+the test number 111 passed testing looting an unspecified type recovery potion from genPotion()
+the test number 112 passed testing looting an unspecified type rank increase potion from genPotion()
+the test number 113 passed testing looting an unspecified type momentum potion from genPotion()
+the test number 114 passed testing looting an unspecified type one punch potion from genPotion()
+the test number 115 passed testing looting an unspecified type frenzy potion from genPotion()
+the test number 116 passed testing looting an unspecified type invisibility potion from genPotion()
+the test number 117 passed testing looting an unspecified type miracle potion from genPotion()

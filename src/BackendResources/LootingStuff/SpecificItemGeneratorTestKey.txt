@@ -1,0 +1,493 @@
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"JellyWhale something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Scorpider armor of some kind"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Scorpider scale or shell or stinger armor of some kind"
+"rank"="bronze"
+"reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Atom Shadow Boxer armor of some kind"
+"rank"="bronze"
+"reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Atom Shadow Boxer armor of some kind"
+"rank"="bronze"
+"reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Atom Shadow Boxer armor of some kind"
+"rank"="bronze"
+"reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Atom Shadow Boxer armor of some kind"
+"rank"="bronze"
+"reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Atom Shadow Boxer armor of some kind"
+"rank"="bronze"
+"reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Antennae"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Water Purlovia Beak"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Bone Feaster Bone"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Leech Blood"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Spotted Tree Leopard Claw"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Revnant Ectoplasm"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Cinderslinger Elemental organ"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Greathawk Feather"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Reef-Breaker Fin"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Gibbering Mass Eye"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Artic Troll Hair"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"JellyWhale Heart"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Centaurtaur Hooves"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Bicorn Horn"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Invisible Ambush Oooze Jelly"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Lava Crocodile Scale"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Rune Turtle Shell"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Giant Flounder Fish Skin"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Heidel Skull"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Demon Wasp Stinger"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Cave Troll Stomach"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Scorpider Tail"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Bullet Shark Teeth"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Blood Root Vine Vine"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Magma Ant Something"
+ "rank"="bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Bone Feaster Something"
+ "rank"="bronze"
+ "targetMaterialRarity":"common"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Siege Golem something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Clockwork King something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Clockwork King something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Clockwork King something"
+ "rank":"bronze"
+ "reader's note":"This is a filler object that does not need to be anything in particular"}
+
+{"name":"Essence of unknown type"
+ "rank":"unranked"
+ "rarity":"varies"}
+
+{"name":"Awakening Stone of unknown type"
+ "rank":"unranked"
+ "rarity":"varies"}
+
+{"name":"Quintessence of unknown type"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"healing poultice"
+ "rank":"gold"
+ "rarity":"varies"}
+
+{"name":"healing unguent"
+ "rank":"gold"
+ "rarity":"varies"}
+
+{"name":"healing potion"
+ "rank":"gold"
+ "rarity":"varies"}
+
+{"name":"recovery potion"
+ "rank":"gold"
+ "rarity":"varies"}
+
+{"name":"antidote"
+ "rank":"gold"
+ "rarity":"varies"}
+
+{"name":"miracle potion"
+ "rank":"gold"
+ "rarity":"varies"}
+
+{"name":"health potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"mana potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"stamina potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"stone skin potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"spirit potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"power potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"agility potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"recovery potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"rank increase potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"momentum potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"one punch potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"frenzy potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"invisibility potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"miracle potion"
+ "rank":"gold"
+ "rarity":"varies"}
+
+{"name":"one punch potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"one punch potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"one punch potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"one punch potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+
+{"name":"one punch potion"
+ "rank":"bronze"
+ "rarity":"varies"}
+

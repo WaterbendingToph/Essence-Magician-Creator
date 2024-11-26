@@ -1,0 +1,32 @@
+{"lesser spirit coins":"10"
+"lesser monster cores":"1"}
+
+{"lesser spirit coins":"30"
+"lesser monster cores":"3"}
+
+{"iron spirit coins":"10"
+"lesser spirit coins":"100"
+"iron monster cores":"1"}
+
+{"bronze spirit coins":"10"
+"iron spirit coins":"100"
+"bronze monster cores":"1"}
+
+{"silver spirit coins":"10"
+"bronze spirit coins":"100"
+"iron spirit coins":"1000"
+"silver monster cores":"1"}
+
+{"gold spirit coins":"10"
+"silver spirit coins":"100"
+"bronze spirit coins":"1000"
+"iron spirit coins":"10000"
+"gold monster cores":"1"}
+
+{"diamond spirit coins":"10"
+"gold spirit coins":"1000"
+"silver spirit coins":"10000"
+"bronze spirit coins":"100000"
+"iron spirit coins":"1000000"
+"diamond monster cores":"1"}
+
