@@ -1,0 +1,79 @@
+Base Essences:      
+Adept               Ape                 Armor               Axe                 Balance             
+Bat                 Bear                Bee                 Bird                Blight              
+Blood               Bone                Bow                 Cage                Cat                 
+Cattle              Chain               Claw                Cloth               Cloud               
+Cold                Coral               Corrupt             Crocodile           Crystal             
+Dance               Dark                Death               Deep                Deer                
+Dimension           Discord             Dog                 Duck                Dust                
+Earth               Echo                Elemental           Eye                 Feast               
+Feeble              Fire                Fish                Flea                Flesh               
+Foot                Fork                Fox                 Frog                Fungus              
+Gathering           Glass               Goat                Grazen              Growth              
+Gun                 Hair                Hammer              Hand                Harmonic            
+Heidel              Hook                Horse               Hunger              Hunt                
+Ice                 Iron                Knife               Knowledge           Life                
+Light               Lightning           Lizard              Locust              Lurker              
+Magic               Malign              Manatee             Might               Mirror              
+Monkey              Moon                Mouse               Myriad              Needle              
+Net                 Octopus             Omen                Owl                 Pangolin            
+Paper               Plant               Potent              Pure                Rabbit              
+Rake                Rat                 Renewal             Resolute            Rune                
+Sand                Scepter             Serene              Shark               Shield              
+Shimmer             Ship                Shovel              Sickle              Sin                 
+Skunk               Sloth               Smoke               Snake               Song                
+Spear               Spider              Spike               Staff               Star                
+Sun                 Swift               Sword               Technology          Tentacle            
+Thread              Trap                Tree                Trowel              Turtle              
+Vast                Vehicle             Venom               Visage              Void                
+Wall                Wasp                Water               Whale               Wheel               
+Whip                Wind                Wing                Wolf                Wood                
+Zeal                               
+
+
+Confluence Essences:
+Action              Alchemy             Ambush              Animate             Anzu                
+Arsenal             Avatar              Battlfield          Behemoth            Boundary            
+Bounty              Cataclysm           Chaotic             Charlatan           Chimera             
+Cyborg              Cycle               Cyclops             Dawn                Desolate            
+Discordant          Doom                Doppleganger        Dragon              Eclipse             
+Edifice             Effigy              Empower             Fertility           Fey                 
+Firebird            Force               Forge               Fortress            Garuda              
+Gate                Glimeron            Gorgon              Griffon             Guardian            
+Harpy               Harvest             Hydra               Immortal            Jackalope           
+Juggernaut          Karmic              Kraken              Leviathan           Lotus               
+Magitech            Manticore           Master              Ministration        Minotaur            
+Mystic              Nebula              Nemesis             Oasis               Ocean               
+Onslaught           Phantasmagoria      Pheonix             Predatory           Prison              
+Prosperity          Refracting          Resonating          Roc                 Sacrafice           
+Scribe              Serpent             Simulacrum          Skirmish            Sky                 
+Soaring             Sovereign           Stellar             Storm               Succubus            
+Swarm               Talisman            Thunderbird         Time                Tranquil            
+Transfiguration     Transgression       Troll               Twilight            Undeath             
+Unity               Verdant             Vessel              Vision              Volcano             
+Vortex             Weave               Wendigo             Wrath               Ziz       
+Beguiling          
+             
+
+
+Types:
+special ability
+drain
+familiar
+ritual
+special attack
+conjuration
+spell
+summoning
+aura
+execute
+counter execute
+perception
+channeling
+dimension
+teleport
+looting
+combination
+movement
+instantaneous movement
+puppet

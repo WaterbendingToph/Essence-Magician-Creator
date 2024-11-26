@@ -1,0 +1,795 @@
+    Let Loose the Lamia's Lament - high mana - 1 minute - 1 action - conjuration - none - earth - medusa, snake, serpent, gorgon
+Iron Rank: Conjure a spectral Medusa's head over and around yours that will let out a sonorous cry. Enemies that hear it will be subject to an instance of Lamia's Lament, which will either frenzy or terrify each enemy and petrifying their body over 1 minute.
+Bronze Rank: You can now choose to either terrify or frenzy all enemies in the area. Enemies will petrify more quickly.
+Silver Rank: Conjure instead an incorporeal Medusa with low health that will follow your commands and spread Lamia's Lament on its own while still conjured. Enemies that see it will become terrified, and those who only hear its cry will be frenzied.
+
+    Reflective Teleport - moderate mana - 1 hour - 1 action - teleport - dimension - earth - crystal, light
+Iron Rank: Magically fold yourself into your reflections in a crystal big enough to clearly see yourself in and teleport to anywhere in double standard portal range you can remember a standing crystal you could walk out of. Starting crystal left behind.
+Bronze Rank: You may take allies with you. The destination crystal needs to only be as large as your largest ally since you all emerge one at a time, but your starting crystal must be large enough to clearly see all your allies in at once, keep starter crystal.
+Silver Rank: You gain the ability to teleport only yourself only between any two points you can see clearly so long as you cast a reflection on the one beside you and the destination is reflective or refracting.
+
+    Ride the Linghtning and Bring the Thunder - high mana, moderate stamina - 1 minute - 1 action - movement - combination, special attack - lightning - lightning, storm, cataclysm
+Iron Rank: When using any lightning ability you can move yourself along the lightning you cast at that speed and upon landing will transfer your momentum into whatever you collide with leaving you unharmed and imparting that damage onto what you hit.
+Bronze Rank: When you land release a shockwave of Thunder damage in a large radius around you.
+Silver Rank: During the leap your perception of time greatly increases to eliminate disorientation from traveling along the lightning by giving you time to process the movement as it is being done.
+
+    Verdant Abundance - high mana - 10 minutes - 3 actions - spell - none - life - plant, life, growth, cycle, bounty, verdant, prosperity
+Iron Rank: Cast this spell and watch one non-magical plant you can see grow as though well nutritioned through one year of growth over the next minute. Repeated use on the same plant risks the plant dying to mana toxicity.
+Bronze Rank: This spell will now grow all non-magical plants in arms reach through one year of growth.
+Silver Rank: This spell now gains the ability to instead grow one magical plant of up to Silver Rank. The more powerful the plant, the less time it effectively grows on your power over the next minute.
+
+    Personal Resonance - very high mana per second - 1 day - 3 actions - channeling - spell, aura - magic - harmonic, song, balance, tranquil, resonating
+Iron Rank: Actively stabilize the ambient magic around you while channeling. All rituals and your allies' abilities up to your rank in power within your aura will have halved costs. Your aura strength and senses are halved while this ability is on cooldown.
+Bronze Rank: Ritual magic and abilities cast under this effect are given a boost to their effectiveness in an applicable way. This can be longer duration, more powerful effects, etc.
+Silver Rank: This ability can also create a magical barrier along its perimeter only allowing magical effects and objects to pass out of it, but not in for extreme mana per second.
+Gold Rank: Aura strength and senses are no longer reduced while this is on cooldown. Also periodically give instances of the Integrity boon to allies in your aura, once per minute while not channeled, or every 5 seconds while channeled lose outside your aura.
+
+    Judgement of the Golden Dawn - moderate mana - 30 seconds - 2 actions - execute - spell - holy - dawn, light, sun, star
+Iron Rank: Burn an enemy in sight with low transcendant damage. This damage scales exponentially with the level of injury the target is suffering and deals double damage to anything with unholy, death, corruption, or dark affinity. Only useable outdoors.
+
+    Therizinosaurus Rex - high mana - 6 hours - 3 actions - puppet - summoning, spell - life - sloth, chimera
+Iron Rank: Summon a puppet Therizinosaur to fight alongside you and take your orders. It has the intelligence of an average person but does not learn or think on its own.
+Bronze Rank: The summoned Therizinosaur is considerably larger and stronger than even its large size would indidcate.
+
+    Upon a Shrine of Blood (Banned) - high stamina, high mana, high health - 1 day - 60 actions - ritual - drain, spell, channeling - unholy, corruption - sacrafice, blood, death, wendigo
+Iron Rank: Ritual circle must be drawn in the still warm blood of the enemy whose heart you consume during this ritual. Upon finishing of the ritual you gain a small and permanent increase to all attributes from the victim, more to its highest attributes.
+Bronze Rank: Consuming the heart of a victim of higher rank than you brings with it a much larger increase in your own power at the cost of faster tainting of your own soul.
+Silver Rank: You are healed upon consumption of a heart up to your new maximum values, no matter your weakness. This ability cleanses afflictions, curses, and poisons, ignoring cleanse prevention effects.
+Gold Rank: Gain the ability to now sacrafice your victim and empower an ally. This is done by leading the chant while they consume your victim's heart. They gain the effects from all lower ranks of this ability regardless of their rank.
+
+    Material Recycling - low mana - none - 1 action - looting - none - death - bone, flesh, blood, transfiguration, animate, predatory
+Iron Rank: Touch a corpse to recycle its magical essence into magical manifestation or items.
+Bronze Rank: Bodies within sight can be recycled all at once. Greater chance of something made from the body itself than before.
+
+    Unsinkable - high stamina, high mana - 1 day - 3 actions - counter-execute - special ability - iron - ship, vehicle
+Iron Rank: Your ship regains a small amount of healing. As a counter-execute effect this healing scales exponentially with the level of damage and number of status effects on the vehicle.
+Bronze Rank: This ability will also provide a boost to the speed of travel which is low but likewise scales exponentially with level of damage when ability is cast.
+Silver Rank: The ship is encased in a short-lived mana barrier that will prevent incoming attacks for a short time or until destroyed upon use.
+
+    Light of Dissolution - low mana - none - 1 action - looting - spell - light - light, sun, star, stellar
+Iron Rank: Shine a light from your body onto a body within arm's reach to dissolve and loot it.
+Bronze Rank: This light can travel as far as you can see, and upon looting a flashing brilliance is released by the body. Any enemies looking in the direction are affected by an instance of Flash Blindess.
+Silver Rank: All bodies in sight can be looted at once, and if done this way the Flash Blindess cannot be resisted if in the line of sight of an enemy.
+
+    Sluggish Advance - none - none - none - aura - none - life - sloth, doom
+Iron Rank: Enemies in your aura are periodically afflicted with Sloth. This will reduce their speed and to a lesser degree their spirit attributes.
+Bronze Rank: Allies and yourself deal more damage to enemies with Sloth if they are both within your aura. Your damage is increased even more than that of allies.
+Silver Rank: Sloth cannot be resisted.
+
+    Vampiric Axe Bite - low stamina, low mana - 10 seconds - 1 action - drain - special attack, dimension - iron - axe, arsenal, onslaught
+Iron Rank: Throw an axe into an enemy. As long as the axe is embedded in the target it will slowly drain health and heal you with it. Effect ends if the axe is removed or target dies.
+Bronze Rank: Axe drains stamina and mana as well.
+Silver Rank: If removed by the target the axe will teleport back to you. Drain slowly increases over time up to a maximum threshold determined by your spirit attribute.
+
+    Venomous Demise - none - none - none - aura - none - death - spider, predatory, doom
+Iron Rank: Poison damage is increased within your aura.
+Bronze Rank: Necrotic damage is also increased within your aura.
+Silver Rank: Those affected by poisons within your aura periodically have another instance of all poisons applied to them. This occurs once a minute.
+
+	Scribe's Scribbles - extreme mana - 6 hours - 3 actions - familiar - ritual - astral - adept, knowledge, scribe
+Iron Rank: Summon a familiar in the shape of a floating book and quill capable of translating any tome it is near into any other language. This book can subsume itself into the summoner's eyes, granting them far better reading speed and comprehension.
+Bronze Rank: The summoner gains improved multitasking and concentration skills when the familiar is subsumed into their body.
+Silver Rank: The familiar summoned gains the ability to manipulate light inanimate objects near it such as pens, quills, books, papers, etc.
+Gold Rank: The familiar gains the ability to temporarily possess any book, scroll, or other form of written knowledge. The summoner can subsume the familiar in both this new body and its original one to absorb the information on the new body like a skill book.
+
+	Might of the Deep Ones - none - 1 day - 1 action - counter-execute - none - water, dark - kraken, deep, leviathan, crocodile, shark, turtle, whale
+Iron Rank: While submerged immediately regain a large amount of stamina, mana, and health. The amount regained scales up with amount of each exepended, the lowest getting the most recovered. Also gain a bonus to damage negation for a short time after use.
+Bronze Rank: The defensive bonus after use now lasts one hour and is stronger.
+Silver Rank: Use the water to reconstitute a missing limb or other grevious injury. This effect lessens the health regain but can prevent imminent death.
+Gold Rank: The ability to regrow a limb changes to reconstituting your entire body and no longer effects the health recovered by this ability.
+
+	A Quiet Mind is a Quick Body - high mana per second - 1 minute - reaction - movement - special ability - none - tranquil, resonating, song, balance, adept, dance
+Iron Rank: Quiet the mind to completely eliminate the barrier between thought and action. Lose the ability to think far ahead for a very large bonus to speed and reaction speed.
+Bronze Rank: Retain the ability to think ahead further than the immediate future when activating this ability.
+
+	Giant's Charge - moderate stamina - 10 seconds - 1 action - instantaneous movement - dimension, movement - none - behemoth, troll, juggernaut, might, transfiguration, empower
+Iron Rank: While larger than normal by your own magical effect you gain the ability to speed up while moving and to the rest of the world appear instantly in another place with this powerful charge forward. Must be able to see destination clearly.
+Bronze Rank: Take no damage from collisions with objects in your path to the destination and gain multiple stacks of Momentum, more on longer charges.
+
+	Ring of Fire - moderate mana - 30 seconds - 1 action - spell - combination, conjuration - fire - fire, elemental, firebird, dragon, effigy, pheonix
+Iron Rank: Conjure a ring of fire around both of your hands. After creation you can use this ring as a weapon or expand it in an explosion of heat. Can be combined with other attacks to use as the projectile that you launch or similar.
+Bronze Rank: A second ring can be conjured. One instance of this ability is regained cooldown period. 
+Silver Rank: A third ring can be conjured. When used in combination with another ability the damage of both are increased, this increasing effect is cumulative with more abilities causing damage in the same attack.
+Gold Rank: Fire damage from this attack ignores the resistance of its target to fire damage. An immunity to burning is treated as high resistance to burning. The rings used by this ability can be rebound back to the user for moderate mana without an action.
+
+	Verdict - moderate mana - 30 seconds - 1 action - execute - spell - none - Doom
+Iron Rank: Deals a small amount of transcendent damage. As an execute effect, damage scales exponentially with the enemy’s level of injury.
+Bronze Rank: Base damage is increased for each instance of Penance on the target. This deals ongoing transcendent damage with cumulative effect and drops off as damage is dealt.
+Silver Rank: Inflicts or refreshes Sanction on the target to reduce healing, recovery, and regeneration. This effect is very minor but scales exponentially identical to execute damage and is affected by Legacy of Sin. Uncleansable while target has Penance.
+
+	Substitute Gunner - none - none - none - drain - special ability - none - vehicle, ship, soaring
+Iron Rank: Any of the weapons on board your conjured vehicles can have their cooldowns reset and be fueled with mana provided by yourself or any allies in the vehicle by volunteering for a mana drain effect. This takes much more mana than firing the weapons.
+Bronze Rank: This effect is more efficient and now only takes as much mana as you would ordinarily need to use to fire the weapons on this vehicle.
+Silver Rank: This ability gains the capability to drain the mana needed to fuel it from captured enemies that remain in contact with the vehicle long enough to fully fuel the weapon. This effect has a cooldown as long as the weapon ability fired.
+
+	Faerie's Flight of Fancy - moderate mana - 30 seconds - 1 action - instantaneous movement - movement, dimension, illusion - light - fey, dance, beguiling
+Iron Rank: Speed up enough to move instantaneously from everyone else's perspective. Leave in your place an illusion of yourself dancing. This illusion distracts and beguiles enemies within sight of it for a short time.
+Bronze Rank: The illusion will explode if struck by an enemy's attack and ensnare them where they attacked it. Gain a second charge of this ability. Regain one use every cooldown period.
+Silver Rank: Gain a few seconds of invisbility after moving with this ability which will be doubled in time if the illusion is destroyed.
+
+	Material Composition Analysis - moderate mana - 10 seconds - 1 action - spell - none - none - Forge, pure, alchemy, magitech, weave, bounty
+Iron Rank: Hold aloft a material that is mostly one substance and gain the ability to see, feel, and magically sense any impurities in it. Hold aloft something that you have made yourself of multiple materials to a recipe and know how far off it is.
+Bronze Rank: Anything assembled according to a recipe known to you where all of the ingredients or pieces used had this ability cast upon them have a chance of manifesting another magical property than would otherwise, or of becoming more potent.
+Silver Rank: The extra effect possible in bronze rank is guaranteed to occur.
+
+	Life Finds a Way - none - none - none - aura - special ability - life, plant - life, prosperity, growth, verdant, bounty, harvest, renewal
+Iron Rank: Living beings within your aura get increased effect from all healing, growth, and regeneration effects.
+Bronze Rank: Counter-execute abilities used within your aura have greatly increased effect, as does ritual healing spells.
+Silver Rank: All abilites affected by this aura power have their cost slightly reduced and their cooldown greatly reduced.
+Gold Rank: Those that cast healing abilities within your aura get multiple instances of Benevolent Healer. This boon moderately increases the spirit attribute and regenerates mana though is not cumulative.
+
+	Hunter's Intuition - none - none - none - perception - none - none - ambush, lurker, hunt, predatory, vision, master
+Iron Rank: Anything within your sight that has been intentionally hidden through non-magical or magical means weaker than this ability is outlined in glowing light within your sight.
+Bronze Rank: This effect applies to living beings that have hidden from your sight but are not completely hidden from your magical senses and objects that are partially occluded from detection such as being mostly buried or obscured.
+Silver Rank: Gain the ability to see auras.
+Gold Rank: Gain the ability to sense things or creatures that are fully obscured from view if they are within your aura senses and weaker than your rank.
+
+	Crystal Reflexology - none - none - none - movement - special ability - earth - crystal, refracting
+Iron Rank: Passively gain a bonus to movement and reflex speed based upon how much crystal is currently on your person or apart of it. This effect caps at an amount determined by your spirit attribute.
+Bronze Rank: While your body is partially or wholy made of crystal you gain the ability to double this bonus speed and reflexes at the cost of high mana and stamina per second.
+Silver Rank: Gain stacks of Momentum while moving with crystal upon or comprising your person.
+Gold Rank: Stacks of Momentum gained by this ability take longer to wear off than normal, stack to a higher degree than usually possible, and can be granted to an ally with a touch.
+
+	Tidebreaker Trident - moderate mana - 10 seconds - 1 action - conjuration - none - water, lightning - fork, water, storm, lightning, cataclysm, ocean
+Iron Rank: Summon the Tidebreaker Trident a conjured weapon that can deal lightning damage with all atacks, will only conduct its lightning through water on command, and always returns to hand if thrown through water.
+
+	By the Hair of the Dog That Bit You - low mana - none - 1 action - looting - spell - none - hair, wolf
+Iron Rank: Loot a body that you can touch. The likelihood of getting a full item is increased by percentage of its body covered in hair, and if it has damaged you recently. Item type affected by natural hair color, i.e. health potions from red hair.
+Bronze Rank: Bodies that are completely covered in hair will now drop double the number of items, the second of a complementary nature to the first item.
+
+	Strengthened Defenses - moderate mana - 10 seconds - 1 action - combination - spell - iron, earth, rigid - fortress, forge, wall, gate, empower, edifice
+Iron Rank: Touch a magically created or conjured and solid defensive structure to increase its structural integrity and tensile strength.
+Bronze Rank: This ability can be used on conjured or created objects now as well such as shields, armor, weapons, and vehicles.
+Silver Rank: This ability can now be used on damaged objects to repair a portion of its strength, the amount is dependant on the rank of the object, this ability, and the amount of missing material. Supplying material to this fix greatly increases repair amount.
+
+	Plague Bringer - extreme mana - 1 day - 6 actions - familiar - ritual - swarm, death - desolate, locust, wing
+Iron Rank: Summon a swarm-type host of locust-type familiars. They can subsume themselves in the summoner's skin, and allow their summoner to add necrotic damage to their unarmed strikes or as retributive damage when struck.
+
+	Trap Escalation - moderate mana - none - 2 actions - combination - spell, special ability - dark, magic - trap, ambush, predatory, lurker, phantasmagoria
+Iron Rank: Touch one trap that you have laid out, ability or not, to magically enshroud it in darkness that quickly fades away. This darkness helps to hide the aura of any magical pieces of the trap as well as obscure the trap from non-magical detection.
+Bronze Rank: Traps hidden by this effect now deal additional damage  and apply instances of Oblivious. This cumulatively lowers perceptual ability and reaction speed of the afflicted. Attacking targets with Oblivious deals more damage.
+Silver Rank: Using this ability on a trap can now once imbue extra effects and damage by casting another ability with this one at the time of use. The used second ability will be stored within your trap to go off when the trap is triggered, if applicable.
+Gold Rank: This ability can now be cast upon any trap multiple times to store multiple different effects or instances of the same ability. This strains the materials used in the trap, and if they cannot handle this strain the stored abilities go off.
+
+	Perfect Model - moderate mana - 1 hour - 3 actions - puppet - spell, summoning - none - thread, cloth, weave, armor, forge
+Iron Rank: Summon a tailor spirit into an inanimate object of a humanoid shape for an hour. The object will remain stably in the pose after spirit dismissal. The spirit can move however directed and alter both itself and its garments on command.
+Bronze Rank: Any clothing, armor, or jewelery magically altered while worn by a possessed mannequin or similar will have increased magical potency. This effect scales very slightly with the number of times the mannequin has been possessed in the past.
+
+	Avian Advantage - high mana - 1 day - 5 actions - ritual - spell, special ability, perception, movement - wind, life - owl
+Iron Rank: Cast the ritual spell to choose one effect for an hour: Keen Eyes for better perception of all types, Silent Flight to gain the ability to grow owl wings and fly for extreme mana per second, or Hunter's Cunning for a large spirit attribute boost.
+Bronze Rank: Flying with Silent Flight now only costs high mana per second. When casting this ability you can now choose multiple effects for a cost of extreme mana instead of high.
+Silver Rank: When casting this ritual you can now choose to give one ability to all within the ritual circle for extreme mana cost. This does not allow you to pick multiple effects for yourself. Flying with Silent Flight now only moderate mana per second.
+
+	The Price of Free Movement - low stamina, low mana, low health - none - 1 action - instantaneous movement - special ability - none - sacrafice
+Iron Rank: Move instantaneously to any spot that you can see at the cost of an instance of Total Lethargy. Total Lethargy will reduce stamina, mana, and health maximum values by the cost of this spell until cleansed and cannot be resisted.
+
+	One Rambunctious Randomized Rodent - high mana - 1 hour - 1 action - summoning - spell - life - rabbit, chimera
+Iron Rank: Summon a giant rabbit that is slightly taller than you when fully sat down. This rabbit will remain for an hour and follow your directions, as well as share one of your affinities at random, granting it related but random abilities and effects.
+Bronze Rank: You can choose the affinity of yours that this giant rabbit will share, but the effects of sharing this affinity remain slightly random.
+
+	Flight of the Bumblebee - moderate mana - 1 minute - 1 action - instantaneous movement - conjuration - wind - bee, wind
+Iron Rank: Instantly fly to a location that you can see. There must be a free path for you to fly to this place instead of move there on the ground, and therefore you can be affected by strong winds. Summon a swarm of angry magical wasps where you started.
+
+    Medicine and Misery - moderate mana - 5 seconds - 1 action - spell - drain, combination, conjuration, - life, death - needle, hunger, magic, vessel, empower
+Iron Rank: Using one conjured weapon currently impaled within an enemy drain health and mana into magical jars that you conjure with a maximum of your maxes over 30 seconds. Recast to give stolen health / mana to allies or back to enemies as Poisonous Rot.
+Bronze Rank: Enemies afflicted by your Poisonous Rot are now more succeptible to your mana and health drains in addition to its own effects. Can use on two conjured weapons.
+Silver Rank: Maximum values stored in your vessels are increased to triple your maximums, full filling now takes 1 minute. Mana given to others is now doubled.
+Gold Rank: Enemies drained by this ability are also afflicted with Total Fatigue, reducing their maximum values for health and mana by the amount drained until cleansed, this cannot be resisted, but enemies may be immune to it as a magic affliction.
+
+	Light of Foot - low mana per second - none - none - movement - special ability - incorporeal - foot, swift, skirmish, ambush, dark, phantasmagoria
+Iron Rank: Reduce your weight to a level that reduces-but not elimate-fall damage, avoids activating floor-based traps, and greatly increases speed.
+Bronze Rank: Gain variable weight reduction now up to a level that will completely eliminate fall damage. While active your body becomes semi-incorporeal, physical attacks will do half damage, disruptive force does double. Move slowly to go through objects.
+Silver Rank: For a cost of high mana per second gain the ability to become fully incorporeal. Much harder to detect and harm in this form.
+Gold Rank: Passively gain an increase to speed equal to the increase of previous levels. When active you gain this much increase to speed again, and while incorporeal you gain this amount of speed again as a cumulative effect.
+
+	Stellar Warp - high mana - 1 minute - 1 action - teleport - spell, movement, special ability - astral - magic
+Iron Rank: While flying teleport to a location that you can see, still flying in the same direction and with the same momentum as before teleporting.
+Bronze Rank: You gain a long-distance teleport with its own 1 hour cooldown and 3 action cost. Take people flying with you up to this ability's rank in number. Teleport only after accellerating fast enough to sonic boom, maintain speed after teleporting.
+Silver Rank: Gain a sense of your location while chanting the trigger for this spell, giving you time to course correct before reaching your destination far better.
+
+	Infinite Reach Strike - moderate stamina, moderate mana - 10 seconds - 1 action - special attack - combination - iron - iron, arsenal, onslaught, master, skirmish
+Iron Rank: As a prt of a regular or special attack magically extend your weapon forward up to 5 meters and gains instances of Momentum while moving. Weapon retracts after contact and is not harmed by the magical stretch or effects of the attack itself.
+Bronze Rank: Attacks made with this special attack are given instances of Unstoppable and are far more difficult to interrupt.
+Silver Rank: Combining this special attack with another attack resets the cooldown on this attack.
+Gold Rank: Attacks with this ability now create a wave of force damage to slam out behind the target after hitting them. Enemies are stunned while being pulled back if impaled with this attack and pulled back to you.
+
+	The Force - none - none - 1 action - aura - special ability - magic - force
+Iron Rank: Gain the ability to exert physical force on any one object or creature within the range of your aura of up to half your physical strength without the bonus of any magical enhancements but your attributes. Works on things with no / suppressed auras.
+Bronze Rank: This ability can empart up to your full physical strength with the effect of your attributes as a new maximum force. Bonus to the strength of your aura when suppressing the auras of others. Can be used on up to 3 targets at once.
+Silver Rank: This ability can empart up to double your full physical strength with the affect of your attributes as a new maximum force, also to as many targets in your aura as you can focus on at once.
+
+	Hungry Eyes - none - none - none - perception - none - corruption - hunger, wendigo, vision, lurker
+Iron Rank: Enhanced aura senses.
+Bronze Rank: Look at a living creature and see its resistance to outside corruption. That is see their resistance to drain effects, resistances, and their current health, stamina, and mana relative to their maximum.
+
+	Whipstrike Movement - moderate mana - 30 seconds - 1 action - instantaneous movement - dimension - astral - whip, master, charlatan
+Iron Rank: Strike a place that you can see with the end of your whip and pull yourself to it so quickly that it appears instantly to those around. Must have the strength to pull yourself over there and a path to do so. 
+Bronze Rank: You can strike an enemy with this ability and exchange places with them by pulling them to your place and vice versa. This pull is nearly instant but does not cause damage on its own.
+Silver Rank: Enemies pulled by this ability are briefly stunned after being pulled to your starting location. 
+
+	Sigil Spoils - low mana - none - 2 actions - looting - spell - magic - Rune
+Iron Rank: Draw one of a series of complex sigils you now know over a dead body. It will dissolve and be looted with a chance to become anything like any looting power, but with a weighted chance to be what is represented by the sigil you drew.
+Bronze Rank: The value of the proability weight for all sigils are doubled. Gain the ability to draw one sigil for a group of bodies and loot them all with the same probability of getting what you indicate or not for the group.
+Silver Rank: Draw up to three runes for each body, and there each can cumulatively affect the loot you gain, each with their own odds of being used and lower odds for the second, and lowest odds for the third rune.
+
+	Echo Spirit - extreme mana - none - 3 actions - familiar - ritual - magic - charlatan, beguiling, mirage
+Iron Rank: Summon an incorporeal Echo Spirit to serve as a familiar. They can mimic the form of enemies and allies, switch teleport with allies, and subsume into the summoner's aura to mimic others' auras. Deals no physical damage but can mimic others.
+
+	Eldritch Writhing - extreme mana - none - 3 actions - familiar - ritual, summoning - corruption, dark - tentacle, chimera, swarm, hydra, kraken, leviathan, octopus
+Iron Rank: Summon a writhing tentacle of eldritch mouths and eyes in the center of every sucker ring. This familiar can be subsumed into the aura of the summoner to strengthen it greatly. It can also be useful in combat as a monster under your orders.
+
+	Exhaustion's End - moderate mana - 30 seconds - 1 action - execute - spell - death - desolate, doom
+Iron Rank: Deliver a small amount of necrotic damage to the target. As an execute ability this damage scales exponentially with the level of stamina loss in the target.
+Bronze Rank: Targets without stamina are dealt necrotic damage that scales with level of missing health in the same way that stamina loss affects a target with stamina to lose.
+Silver Rank: Targets immune to necrotic damage are not immune to this effect and instead only fully resistant, this can be reduced by effects that reduce resistances.
+
+	The Largest Tiny Swarm Every Seen - extreme mana per second - 6 hours - 3 actions - channeling - spell, conjuration - swarm, magic - flea, swarm, desolate
+Iron Rank: As long as you channel this ability into the ground you summon more fleas one basketball worth at a time. The swarm follows commands as one. The flea bites deal small amounts of necrotic and venom damage and last 10 minutes.
+Bronze Rank: The fleas summoned with this ability gain the intelligence of an average person and the ability to follow complex commands. Command them as granularly as you want. They also disappear after 1 hour.
+
+    Death's Cold Embrace - moderate mana - 30 seconds - 1 action - execute - special attack - death - succubus, hunger, wendigo
+Iron Rank: Touch your enemy without damaging them to deal transcendant damage where you touched them. As an execute this ability this damage scales exponentially with the amount of stamina, mana, or health drained from them in the last hour.
+Bronze Rank: Targets not killed by this effect are afflicted with Vulnerable Soul, which makes them more suseptible to drain attacks of all kinds for the next hour.
+
+	Giant's Wrath - moderate stamina, low mana - 10 seconds - 1 action - special attack - combination - magic - cyclops, troll, behemoth, leviathan, minotaur, wrath
+Iron Rank: Attack a target from above and aquire stacks of momentum very fast the entire time. The further you swing a weapon straight down to hit your target or the smaller your target is relative to you the more force damage you deal from this attack.
+Bronze Rank: Combining this attack with another deals half again as much damage to your target upon hitting it. Rigid structures take triple damage.
+Silver Rank: This attack gains a small amount of resonating force and disrupting force damage that scale moderately with the same things that scale its force damage.
+
+	Wall Jump -  low mana - 5 seconds - 1 action - movement - conjuration - wind - wall, edifice, prison
+Iron Rank: Adhere to a wall horizontally for just a moment before launching yourself forward at great speed and gliding through the air, during which time your weight is reduced.
+Bronze Rank: Better modulation of speed launched off the wall, with a maximum strength so high it breaks apart the wall for moderate mana cost. Gain the ability to take others with you and reduce their weight too for multiplicitive mana cost.
+
+	Backup Dancers - high mana - 1 hour - 2 action - puppet - summoning, spell - none - harmonic, crystal, echo, song, fey, dance, refracting
+Iron Rank: Out of your body you summon forth with harmonious singing 5 duplicate images of yourself facing in every direction around you that will mimic your movements and actions. You can easily switch teleport with any of them and they are mostly illusory.
+Bronze Rank: Summoned puppets now have low health and gain damage resistance against attacks of normal rank. Gain the ability to delay the movement of your puppets individually or in groups for no cost or hold them still. Summon 8 puppets at a time.
+
+	Bone Stilts - moderate mana - 1 minute - 1 action - movement - conjuration - death - bone
+Iron Rank: Conjure a pair of thin bone stilts of up to the length of your legs to the hips and no wider than your legs. These can have as many joints as you'd like in them in any positions, and the stilts are not only comfortable but prehensile.
+
+	The Brilliant Bow Barrage - high mana - 12 hours - 12 actions - ritual - spell, conjuration, special attack - magic - bow, master, echo, harmonic, action, onslaught
+Iron Rank: When this combat ritual is finally completed you can fire one shot from your bow. Two dozen incorporeal bows are conjured above and behind you shining with blinding light for 3 seconds while they all fire a barrage at your target when you fire.
+Bronze Rank: The bows conjured by this ability are all now affected by any magical effects on the shot that you fire, including using the effects of the bow that you are wielding.
+
+	Brandistock's Bounty - none - none - none - looting - special ability - none - spear, prosperity, bounty, arsenal, onslaught
+Iron Rank: Enemies killed by any spear wielded by you will be looted automatically. When not in your hand if your spear is in an enemy it will be teleported to your hand.
+Bronze Rank: When wielding your spear any attacks you make will apply an instance of Marked For Use, which will cause an enemy to be looted automatically as if you killed them when they die if it has not yet been cleansed.
+Silver Rank: Enemies killed by your spear will provide more extra consumable rewards in addition to anything that they would give normally.
+
+	The Equalizer of Speed - none - none - none - perception - none - none - sloth, chimera, vision, eye, turtle
+Iron Rank: Gain the ability to better comprehend and perceive anything you can see that is moving faster than you by a great degree, playing back what was seen in the last minute with perfect recall if it was moving considerably faster than you are able to.
+Bronze Rank: Increased aura perception.
+
+	Necrotic Spirit - high mana - 1 hour - 3 actions - summoning - none - death, corruption, unholy - undeath, animate, corruption
+Iron Rank: Summon a necrotic spirit to inhabit a body of up to iron rank that you can touch. If the body is of lower rank than you it can use any magical abilities it had in life. Whatever the rank it will follow your commands absolutely, 3 max at once.
+
+	Elemental Absorption - moderate stamina, moderate mana - none - 1 action - spell - special ability - magic - elemental, cycle, empower, mystic
+Iron Rank: Describe a circle somehow and absorb any magically empowered elemental energy moving towards you. Gain equal stamina and mana from the elements that you absorb, this can be more than you spend on this ability.
+
+	Jackalope of all Trades - high mana - none - 6 actions - familiar - spell, summoning - astral - jackalope
+Iron Rank: Summon a jackalope spirit to act as a familiar. It can be ridden as a mount, relied upon in battle or to scout, and while summoned it provides a passive buff to the mind of the summoner, helping them learn skills more quickly.
+Bronze Rank: The jackalope becomes far larger and more lethal in combat. It can not be ridden by multiple people and the bonus to summoner's skill aquisition is increased.
+
+	Magic Mirroring Magic Mirror - moderate mana - 10 seconds - 1 action - spell - special ability, conjuration - magic - mirror, refracting, echo
+Iron Rank: Conjure a magical mirror that could fit within your chest to use to reflect any magical projectiles that come into contact with it away, relative to the direction the mirror is pointing.
+Bronze Rank: The mirror conjured can be as large as to easily allow anyone to pass through it, but cannot be any wider than the armspan of the caster or more than 1 meter taller. Any spell reflected off the mirror gets increased effect.
+Silver Rank: Gain the ability to conjure a second mirror. Any effect that bounces off both mirrors gets cumulative increase to effect.
+
+    Fade Into Shadows - none - 1 day - 1 action - counter-execute - special ability, movement - dark, astral - lurker, dark, phantasmagoria
+Iron Rank: Briefly become invisible, incorporeal, become harder to detect to magical senses, recover health and mana. As a counter-execute this effect scales in length with level of injury up to 10 seconds.
+Bronze Rank: When used this ability cleanses all afflictions. 
+
+	Neck Stuck Out Too Far - high mana - 30 seconds - 1 action - execute - spell - magic - turtle, chimera
+Iron Rank: Summon an ephemeral giant snapping turtle head much larger than your own around it and use it to make a magical attack on a target that deals a small amount of transcendant damage. As an execute this damage scales exponentially with target's injury.
+Bronze Rank: If this attack misses then the cooldown is not incurred and can be done again immediately. Any target not killed by this attack is subject to Armor Rent and briefly does not gain damage reduction benefit from their worn armor.
+Silver Rank: If a target is killed by this effect then the cooldown is reduced to 5 seconds and some mana is regained.
+Gold Rank: If used on a full health target the Armor Rent effect of this ability will not fall off until cleansed and has its effectiveness doubled.
+
+	Treacherous Teleport - extreme mana - none - 6 actions - spell - conjuration, spell, ritual - astral - talisman, beguiling, echo, fey
+Iron Rank: Every time this ritual is cast create a magical talisman. You have a maximum number of the rank of this rank while iron (2 minimum). An iron ranker can use one with low mana to switch teleport with any of the other talismans within a kilometer.
+Bronze Rank: Permanent maximum of 11 talismans, the range of their switch teleporting is now that of a portal power of this rank divided by 10. Each can also now be used to speak with anyone else who has an talisman equipped.
+
+	Storage Scourge Solutions - low mana - none - 1 action - dimension - conjuration - astral - locust
+Iron Rank: Conjure out of thin air a locust one foot long anywhere within reach. This locust can do nothing but open its mouth to insert or remove items from dimensional storage and to just around to move. 
+Bronze Rank: The locust can be summoned anywhere within sight and has its storage size maximum increased greatly.
+
+	Dessicate the Lands - extreme stamina, extreme mana, extreme health - 1 day - 60 actions - ritual - spell, special ability - death, unholy, corruption - death, corruption, desolate, cataclysm
+Iron Rank: Finish this ritual to use your own power and that of the mana around you to dessicate the land around up to a half a kilometer in radius. All living things in the area are drained of vitality, and the soil's nutrients are taken to replenish you.
+Bronze Rank: Any creatures that are fully drained to death are dessicated into becoming ash. If more is drained in this ritual than is taken from you then you gain the ability to hold this extra power until it is spent, or it slowly dissipates from you.
+
+	Umbral Transformation - high mana - 6 hours - 3 actions - spell - special ability - life - snake, transfiguration, serpent, predatory
+Iron Rank: Transform yourself into a Giant Umbral Snake complete with 30 foot length, head the width of a man's torso and necrotic venom. Your wounds, mental ability, afflictions, stamina, mana, and health all transfer over from one form to the other.
+Bronze Rank: You can take on a form from 20 feet to 40 feet in length and are bronze ranked with the ability to spit your venom while transformed.
+Silver Rank: You can take on a form from 2 feet to 60 feet in length and are silver ranked. You gain the ability to camoflauge yourself and hide your aura even better while in snake form.
+Gold Rank: While in snake form your regenerations are all tripled.
+
+	Chronological Companion - extreme mana - none - 6 actions - familiar - summoning, ritual, spell - astral - time
+Iron Rank: Summon a Chronological Companion familiar that can manifest itself as any type of floating clock. While subsumed into your skin this familiar will increase your movement speed and reaction time significantly.
+Bronze Rank: The summoned familiar can now once per day slow down time for all around you for one second while you move freely. 
+Silver Rank: The summoned familiar can slow time for 2 seconds.
+
+	Fugue Fog - high mana per second - 1 hour - 3 actions - channeling - spell, conjuration - wind, dark - dark, phantasmagoria, predatory, ambush, deep, leviathan
+Iron Rank: Channel from your body a thick fog if into air or dark ink if into water that has a strong delitorious effect. Any creature within the darkness not only has their perception slowly lowered but also has their mind slowly fogged over and slowed.
+Bronze Rank: Fog and ink spread much faster. Anything else caught in the obscuring substance also gets their resistances lowered.
+Silver Rank: Allies of yours are immune to the effects of this fog or ink.
+
+	Rogue Wave - high mana - 1 day - 3 actions - special attack - combination, movement - water - ocean, water, leviathan, deep
+Iron Rank: While in the water cause a wave 10 meters high and up to 30 meters wide to rise up over a few seconds and slam down in front of you. This can combine with other aquatic abilities and you can move with the wave or let it go harmlessly around you.
+Bronze Rank: This wave can be up to 20 meters high and 70 meters wide. You and it gain instances of momentum as long as you are travelling, up to a maximum number equal to the rank of this ability in its overall rank.
+Silver Rank: This wave can be up to 40 meters high and 150 meters wide. 
+
+	Blood Harvest - low mana - none - 1 action - spell - drain - none - blood, doom, malign 
+Iron Rank: Drain the remnant life force of a recently deceased body, replenishing helath, stamina, and mana.
+Bronze Rank: Affects any number of bodies in a wide area.
+Silver Rank: Gain an instance of Blood Frenzy for each corpse drained, up to a threshold determined by current rank. After reaching the threshold gain instances of Blood of the Immortal instead. The first raises speed and recovery, the second heals on injury.
+
+	A Short Swim - low mana - 10 seconds - 1 action - instantaneous movement - none - none - shark, water, deep, swift, ocean, kraken
+Iron Rank: While submerged swim forward so fast it is instantaneous to all around you. You can move up to 10 meters and have to be moving at top speed the whole time.
+Bronze Rank: Range of movement increases to 20 meters. During this movement you gain instances of momentum, one for every 2 meters moved and up to a maximum of the rank of this ability in Bronze.
+
+	Bone Gore - moderate mana - none - 1 action - special attack - none - none - bone, deer, cattle, heidel, claw, horse, predatory, spike
+Iron Rank: Make a special attack with any bone, chitin, or keratin protruding from you. Your target is not only inflicted with Bleeding at twice the severity it would be without this attack and every instance of Bleeding on that target is refreshed.
+
+	Blade Familiar - extreme mana - none - 3 actions - familiar - summoning, spell - iron, rigid - sword, animate, master, arsenal, onslaught
+Iron Rank: Summon a blade familiar to fight alongside you in battle. While subsumed into the arms of the summoner this familiar lends weight to their strikes and all instances of Bleeding you inflict are 50 percent more severe.
+Bronze Rank: While subsumed the Bleeding effect increases up to twice as effective.
+Silver Rank: Even while not subsumed Bleeding effects are twice as effective, while subsumed the increase of bleeding damage is three times normal. The familiar can now fire blades from its body at will, and slowly regrow the blades sent out.
+Gold Rank: Bleed effects while the familiar is not subsumed are three times worse, and while subsumed the Bleeding effects are 5 times more deadly. The Familiar now regrows blades almost instantly.
+
+	Summon Forth a Blood Frenzy - moderate health - none - 2 actions - special ability - spell, drain - unholy - predatory, blood, empower, sacrafice, ambush
+Iron Rank: When this ability is cast you can choose the number of times it is activated. For each activation moderate health is spent to gain an instance of Blood Frenzy to increase movement and reaction speed cumulatively to a maximum of this ability's rank.
+Bronze Rank: When this ability is cast you also gain equal instances of Blood for Blood. This causes all of your melee attacks on a target to drain health from that target as well as their normal effects, healing 20 percent damage dealt.
+Silver Rank: This ability now has double the maximum number of instances for all buffs. 
+Gold Rank: When cast this ability can now use the health of an enemy you have fully suppressed the aura of to fuel itself.
+
+	Deny The Reaper - moderate mana - 30 seconds - 1 action - counter-execute - special attack - none - balance, lotus, refracting, onslaught, action
+Iron Rank: Make a special attack against an enemy and deal a small amount of transcendant damage and heal yourself a small amount. As a counter-execute the damage and healing both scale exponentially with your own level of injury.
+Bronze Rank: This ability also scales with level of missing stamina.
+Silver Rank: This ability also scales with level of missing mana.
+
+	Flower of Infinite Depths - low mana - none - 1 action - dimension - spell, conjuration - astral - lotus, plant, fertility, verdant, tranquil
+Iron Rank: Conjure up a partially-incorporeal giant lotus flower from the ground or water within your armspan. This flower can open its petals to a dimensional storage space when the chant to cast this spell is spoken aloud.
+Bronze Rank: Moderately increased storage capacity. The flowers will remain until dispelled or destoryed now, and a max of this ability's rank plus one can be opened to create short range portals of up to Iron rank equivalently-ranked portal power ranges.
+Silver Rank: Moderately increased storage capacity. Portals opened by this ability are now able to reach up to Bronze equivalent distances and a maximum of 12 can be open at once.
+
+	Slither Through the Grass - low mana per second - none - none - movement - special ability - none - serpent, snake
+Iron Rank: Gain the ability to increase or decrease the amount of friction that your body and equipment creates with the world around you down to a minimum of 20 percent and up to a maximum of double.
+
+	The Power in Blood - high health - 6 hours - 6 actions - ritual - spell, special ability - unholy - blood, flesh, empower, transfiguration
+Iron Rank: Use yourself to cast a ritual spell that will give a powerful buff for one hour. Choose one attribute and it will be increased by 50 percent for the next hour. This ability does not provide protection against the imbalance it causes.
+Bronze Rank: The total increase raises to 80 percent, and up to all four attributes can be chosen, the bonus will be split evenly amongst all chosen attributes.
+
+	Treasures of the Void - high mana - 1 hour - 1 action - looting - aura, dimension, special ability - astral, magic - vast, void, stellar
+Iron Rank: All things that die within your aura give you the chance to add them to a special dimensional space. Your aura has no cost or cooldown, but activating this ability will invoke its costs to loot all bodies in the space and expel the smoke from you.
+Bronze Rank: Dimensional space maximum space and loot taken from each body are moderately increased.
+Silver Rank: Aura range and strength are both moderately increased.
+
+	Redirected Despiration - moderate mana - 1 minute - 1 action - execute - special attack, special ability - magic - mirror, refracting, resonating, echo, discordant
+Iron Rank: Absorb taken damage for 1 second and in the next 3 make an attack or take that damage. Your attack gets 4 duplicates, all 5 get one tenth the power absorbed in each resonating and disruptive force damage scaling exponentially with target injury.
+Bronze Rank: Your attack now gets 6 duplicates and all 7 attacks maintain the same percentage of damage absorbed as output.
+Silver Rank: Your duplicate attacks are now done by quickly conjured ephemeral duplicates of yourself with which you can switch-teleport freely. Duplicates dissappear after the attack.
+
+	Looting the Chaos of Creation - low mana - none - 2 actions - looting - spell, special ability - corruption - discord, corrupt, transfiguration
+Iron Rank: Touch a body to loot it and gain much more randomized loot than would normally occur over the course of 10 seconds instead of at once.
+Bronze Rank: Make a harsh sound into the air and this ability will affect all nearby bodies at once. Anyone in the smoke is magically disoriented and hallucinates their fears around them.
+Silver Rank: You are immune to the effects of this smoke.
+Gold Rank: The effects of looting a body weaker than yourself in rank will yield increased loot. Range is greatly increased.
+
+	Sweep it under the Rug - low mana - none - 1 action - dimension - none - astral - rake
+Iron Rank: - Using a rake physically sweep up any object smaller than the width of the outermost tines on the rake to put it into your personal dimensional space. To remove things swing your rake over your head and catch it!
+Bronze Rank: This ability can now be used with any polearm-shaped object and objects put into this space only need to be smaller than the length of the polearm used in all dimensions. Small increase to dimensional storage size.
+Silver Rank: Large increase to dimensional storage size.
+Gold Rank: Polearms and similarly-shaped objects no longer take up individual spaces in your storage space, instead all fitting within one space, up to a maximum of all times this ability has leveled cumulatively. Moderate increase to dimensional storage size.
+
+	Forest Guardian - high mana - 1 hour - 3 actions - puppet - summoning, spell - life - wood, verdant, tree
+Iron Rank: Summon a Forest Guardian spirit from within the spirit of a nearby living tree. The specific guardian will gain abilities based on the tree used, but will always be able to use the vegetation around itself to tie up foes in battle.
+Bronze Rank: One Forest Guardian can be summoned from every nearby tree in a dozen meter radius from you for extreme mana.
+
+	Protection of the Sea - moderate mana - 1 minute - 2 actions - spell - combination, conjuration - water, earth, life - coral, ocean, verdant, water, deep, leviathan, turtle
+Iron Rank: Around yourself or an ally conjure a full-body suit of armor created of magical coral. This can combine with any conjured armor already worn by or then summoned by the wearer to complement its effects and will change its shape to match their needs.
+Bronze Rank: This armor now provides the wearer with the ability to breathe underwater, immunity to high pressure or changes in it while submerged, and free movement while under.
+
+	Extreme Composting - high mana per second - 1 minute - 3 actions - channeling - spell, ritual - life, plant - paper, wood, scribe, cycle
+Iron Rank: Touch a pile of non-living previously alive organic plant mass and while casting convert more every second to paper stlyed as you imagine. The closer to wood or reed the lower the amount of mass lost while casting.
+Bronze Rank: The output of this ability is doubled as a baseline, and still scales the same way that it did before. If using wood or reed it is now possible to lose no mass at all.
+Silver Rank: Gain an alternate use, the ability to create a magical ritual circle that can be operated by anyone with mana to feed into it which does the same thing as this ability for you. Cost goes down to moderate per second.
+
+	Alchemical Artistry - high mana, high stamina - 1 day - 60 actions - ritual - spell, special ability - magic - alchemy
+Iron Rank: Gain the ability to cast a long and difficult ritual on alchemy tools or a workstation as a whole that will for the next hour increase the potency of any alchemical creations it makes by a large degree.
+Bronze Rank: Passively gain a small bonus to the potency of your alchemical creations. This applies at all times to anything you make and does stack with the ritual enhancement from the iron rank effect of this ability if active.
+
+	Dimensional Prison - high mana - 1 hour - 2 actions - dimension - conjuration - iron - prison
+Iron Rank: Onto a flat vertical surface conjure a prison door that leads to a one meter square dimensional room with nothing inside of it. Any creature in it gets hit with a very strong mana drain to keep the room in existance. One door max.
+Bronze Rank: This room expands to 3 meters in all dimensions. As well, any person that you fully supress the aura of before putting into this room will have their powers fully supressed as well.
+Silver Rank: Can conjure a maximum of 3 doors, and a total of 27 square meter floor space to be used in any combination across all 3 rooms the doors create.
+Gold Rank: Creatres placed inside that have their abilities supressed are also placed into a stasis while inside the room.
+
+	Roaming Scout - moderate mana - 30 seconds - 1 action - summoning - spell - magic - eye, vision
+Iron Rank: Summon a small floating eye that you can control. You can only have one at a time and it is not very durable, but you can see through it at will as long as its within a mile of you, and it does not expire with time.
+Bronze Rank: Summon up to three floating eyes. These floating eyes are now incorporeal and can pass through solid objects of lower magical rank if they move slowly.
+
+	Ramming Speed - high mana - 6 hours - 3 actions - instantaneous movement - spell - none - vehicle, wheel, soaring, vessel
+Iron Rank: Cast this spell to cause the vehicle and all others on or in it to move so fast its outwardly instantaneous. No one but you will be able to move freely during this movement. Your vehicle will charge forward at triple its current speed for 2 seconds.
+
+	Manticore Triple Execution - high mana - 1 minute - 2 actions - execute - spell - magic, corruption - manticore
+Iron Rank: This spell attacks first with a scorpion stinger, then a lion's bite, and lastly flame from a dragon's head, each conjured around you and scaling transcendant damage exponentially with target's missing: stamina, health, and mana, respectively.
+Bronze Rank: Each of these attacks can now be made individually onto different targets, and if each attack is made on its own target the damage will be scaled up to act as an execute on its own.
+Silver Rank: If any of these attacks kills a target or would have been used on a target that was already killed by the previous attacks then it triggers a cumulative 20 second cooldown reduction. This ability can reset its own cooldown.
+
+	Mushroom Clouds - low mana - none - none - combination - special ability - magic, wind - cloud, soaring, stellar 
+Iron Rank: Whenever you conjure a cloud in one of your other abilities you can make this cloud explode upon use either as a shaped explosion in one direction you choose or as a weaker undirected spherical explosion, either way up to low damage.
+Bronze Rank: Exploding a cloud that you have conjured immediately after conjuring it will cause the cooldown of the cloud conjuring to be reduced by up to one minute and the mana cost to be reduced by half.
+Silver Rank: When used as a method of self-propulsion after detonating the first mushroom cloud you gain the ability to conjure and immediately detonate a second small cloud only for the purpose of redirecting yourself.
+Gold Rank: Maximum strength of cloud explosion is greatly increased and lightning damage is added to the force damage this ability already dealt.
+
+	Chronology Chaos Creature - high mana - 12 hours - 6 actions - puppet - summoning, spell - astral, magic - discord, time, chaotic
+Iron Rank: Summon a Chronologically Chaotic time spirit puppet to disrupt battle. This creature will go to where you command, but randomly disrupt the time-related aspects of anything nearby. Things may fire early or late, hit the wrong targets, who knows?
+Bronze Rank: The summoned incorporeal spirit is less likely to affect nearby allies negatively. It is still a possibility.
+Silver Rank: Allies are immune to its effects if you want them to be. Enemies may find themselves unable to act around it altogether, and will always have slower reflexes.
+Gold Rank: Anytime you are near your Chronology Chaos Creature your spell chants are shorter, and effects last longer. It may also give you negative side effects as well, unless you opt out of all effects it will bring you.
+
+	Scream of the Thunder God - high mana - 30 seconds - 1 action - special attack - special ability - lightning, wind - thunderbird
+Iron Rank: While in the air release a battle cry with the name of the thunder god to create a shockwave of lightning and force damage around you that pushes away and electrocutes all enemies in a 10 meter range.
+Bronze Rank: Range is increased to 30 meters and the wave of knockback is greatly increased in force if directing the enemy down beneath you. 
+Silver Rank: Electrical damage from this ability is changed to Lightning of Divine Wrath, which is far more effective against anything with resistance to lightning damage as well as dealing more damage in general.
+
+	The Most Stubborn Companion - extreme mana - none - 60 actions - familiar - ritual, spell - life - goat, chimera
+Iron Rank: Gain the ability to bond with a naturally magical goat-like creature that you encounter by gaining its trust and casting this ritual magic on you both. You gain some of its physical fortitude and it gains much intelligence. You grow together now.
+Bronze Rank: Your familiar gains much more intelligence, and its own natural magical abilities gain a potent boost. 
+Silver Rank: Gain the ability to communicate telepathically with your familiar. Your familiar gains the ability to talk aloud if it did not already have it.
+
+	Target Finder - high mana - 6 hours - 6 actions - puppet - summoning, spell, conjuration - astral - Behemoth, vision, eye, swarm, phantasmagoria
+Iron Rank: Summon an incorporeal, silent, flying, fly-shaped, tiny and harmless Scouting Spirit. This spirit is stealth-specialized and will unerringly follow one person telepathically telling you exactly where they are and what they are doing.
+Bronze Rank: This puppet gains the ability to go invisible if its target is making a concerted effort to detect it. This ability will be available again in 10 minutes and lasts only 30 seconds.
+
+	Mana Deregenerator - low mana - none - 3 actions - drain - channeling, spell - magic - cycle, magic, hunger, nemesis, empower
+Iron Rank: Drain mana at a slow rate, equal to the mana this spell costs over a few seconds, but scale this rate up exponentially by the target's last mana gain or loss, meaning the more extreme their (mis)forute, the better your drain.
+Bronze Rank: This ability will now grow its mana drain rate over time the longer that it is channeled, increasing to double the original rate every 15 seconds.
+Silver Rank: Periodically apply an instance of Mana Imbalance on the target. This is a magic affliction that cumulatively increases the effect of mana drain attacks on them.
+
+	Like a Bird on the Wing - high mana per second - none - 1 action - movement - special ability - wind - bird, wind, duck, bat, bee, locust, owl, soaring, wing
+Iron Rank: Gain the ability to glide through the air with great control over your body as you move.
+Bronze Rank: Gain the ability to fly by magical means, though you are still affected heavily by winds around you.
+
+	The Grave Biting One Foot - high mana - 10 seconds - 1 action - special attack - spell, conjuration - death - blight, doom, malign, lurker, death
+Iron Rank: Make a magical ranged attack against one target standing on a surface, conjuring an ethereal pair of jaws to erupt from where they stand to bite them and deal a high amount of necrotic damage.
+Bronze Rank: This ability conjures a second pair of jaws and makes another attack against a second target you can see or the same one.
+Silver Rank: Either bite will reduce the effectiveness of healing and regeneration on the target for one minute after landing. They will also be more vulnerable to execution-damage scaling from abilities cast upon them.
+
+	Taking the Loot and Running - none - none - 1 action - special ability - none - magic - vehicle, soaring, stellar, ship
+Iron Rank: Anything killed by a weapon on, in, within, or used by someone moved by any vehicle you conjure or control will give you the ability to loot it within the one minute of the last kill and puts that loot in the ship storage.
+Bronze Rank: This loot will be greatly increased for anything of higher rank than the lowest rank essence user within the vehicle that killed one of the bodies when the group is looted. Organize the loot gained into different places or containers as its looted.
+Silver Rank: Weapons on, in, or immediately around the ship get a small but cumulative bonus to their damage dealt for every kill that is elidgable for looting with this ability. 
+
+	Giving Nature a Hand - high mana per second - 10 minutes - 3 actions - channeling - spell - life - plant, verdant, bounty, growth, prosperity, time
+Iron Rank: Channel your mana into a single plant you can touch to give it life and allow it to heal and grow as it normally would only in extreme speed while you channel this ability. It will grow a month in a minute.
+Bronze Rank: This ability can be cast for an extreme mana cost to include all plants in a small area, at the same rate listed for Iron rank, or can be cast on a single plant to make it grow nearly a years worth in a minute.
+
+	Dance For Me - none - none - none - special ability - conjuration - magic - knife, master, animate, harvest
+Iron Rank: Gain the abilities to conjure a blade no larger than the length of your forearm in any dimension, to telekinetically control them, and to split your concentration better amongst them all simultaneously.
+
+	Bring Forth the Pack - high mana - 6 hours - 6 actions - ritual - spell, summoning - life - wolf, swarm
+Iron Rank: Cast this ritual spell to summon two wolves of your rank for up to an hour or until destroyed. These animal spirits will have a keen animal cunning and sharp senses to go with their willingness to aid you however needed. 
+Bronze Rank: The number of summoned wolves now increases to 5. These wolves all now gain the ability to communicate telepathically with each other and you, though don't get any smarter than before.
+
+	Eagle Eyes in the Crow's Nest - none - none - none - perception - special ability - magic - ship, vehicle, ocean
+Iron Rank: Anyone in the Crow's Nest of your conjured or magically bound ships have their visual perception enhanced and gain the ability to see through weather with iron or lower rank magic in it.
+Bronze Rank: Spotters can see through storms with up to Bronze rank ambient magic. Any perception abilites of people affected by this ability are increased in effect.
+Silver Rank: Anyone with this ability active can see through storms of up to Silver rank ambient magic. This ability can affect up to its rank number of people on the ship you choose outside the Crow's nest as well.
+
+	Furious Flight - moderate mana - 1 hour - 1 action - movement - conjuration - life - wasp, bee, chimera
+Iron Rank: Conjure a pair of wings for moderate mana, and fly through the air with them for extreme mana per second. You can dismiss the wings freely and they remain until dismissed, but are weak and vulnerable in battle.
+Bronze Rank: The wings are much more resistant to bludgeoning, wind, and cold based attacks, as well as moderately more durable to all other damage. Flight cost goes down to high mana per second.
+Silver Rank: The wings can be summoned for moderate mana and similar to Bronze Rank and material flying for high mana per second, or be summoned for extreme mana and incorporeal, flying for moderate mana per second.
+
+	Limb Regrowth - high mana, high stamina - 1 day - 12 actions - ritual - spell - life - lizard, flesh, spider, hydra, renewal, growth, immortal
+Iron Rank: When this ritual spell is finished casting upon an ally and their severed limb, both of which have to be within the circle, the limb is reattached to the body and the ally gains a strong heal over time. This does not reattach the magical matrix.
+Bronze Rank: For a multiplicative mana and stamina cost multiple limbs can be reattached to the same individual. If cast on one limb, the ability can be used to reattach only one limb to another ally. Both uses have one cumulative cooldown after the second cast.
+Silver Rank: This ability can regrow limbs entirely instead of reattaching them for extreme mana and stamina instead. Any cooldowns incurred by regrowing limbs this way are doubled in length.
+Gold Rank: If this spell is cast on yourself it can be done without the ritual circle. This spell always repairs at the magical matrix level now. If cast multiple times the cooldowns are now seperate.
+
+	Free Swim - none - none - none - special ability - none - water, magic - kraken, deep, water, leviathan, ocean
+Iron Rank: Your movements are not impeded by water and you gain the ability to breathe underwater. Gain some resistance to cold while fully submerged. Your magic chants are not effected by breathing water.
+Bronze Rank: Gain immunity from the effects of pressure variance, and high water pressure while submerged. Gain some resistance to waves moving you while submerged.
+Silver Rank: You are only moved by waves if you allow it, regardless of strength unless the water is embued with Gold Rank or higher magic. While underwater your aura and magic senses are increased.
+Gold Rank: While underwater accumulate instances of Integrity and Resistant every few seconds up to a maximum exponentially based upon the rank of this ability. While also moving gain instances of Momentum that fall off quickly while stopped.
+
+	Be My Eyes - none - none - none - perception - special ability - magic - animate
+Iron Rank: Anything you conjure or animate with your essence abilities gains moderately increased perceptual ability. You can become blind and deaf to your surroundings to share its perceptions at the range of a portal ability of this ability's rank.
+Bronze Rank: Greatly increase the perception of anything that you conjure or animate, and increase it further while you share its perception. The more things animated the weaker the increase while sharing perception.
+
+	Wonderbot - high mana - none - 6 actions - familiar - spell, ritual - astral - feast, bounty
+Iron Rank: Use a summoning spell to conjure an astral spirit into a small robot in the shape of a tall cup and saucer that can fly by portruding wings at the top and can serve your food with metal arms. Any food served this way is given a random magical boon. 
+
+	Olympian Lightning - high mana - 30 seconds - 2 actions - spell - conjuration, special attack - lightning - storm, lightning, thunderbird, wrath
+Iron Rank: Cast this spell to conjure a lightning bolt into your hand. Make a special attack with this bolt on an enemy or point you can see.
+Bronze Rank: Upon impact the conjured lightning bolt explodes to deal a second wave of half the damage the bolt itself does to everything nearby.
+Silver Rank: After casting this spell can be immediately recast for moderate mana any number of times without incantation. Bolts from castings of this spell without incantation do not get the same explosive after efffect on impact.
+
+	Bone Sight - none - none - none - perception - none - death, unholy - bone, undeath, death
+Iron Rank: You gain the ability to see the bones beneath the skin of anyone within the area of your aura. This effect is not blocked by armor, clothing, darkness, weather effects, conjurations, or solid objects of up to your rank.
+Bronze Rank: Your aura perception and senses are greatly increased.
+Silver Rank: You gain the ability to sense magic.
+Gold Rank: You can now see the bones of anyone within your sight, not just within your aura. You still need to supress the aura of a target to use any ability on their bones while within their body, but you can now see them at any distance you can directly see.
+
+	Vicious Wrench - extreme mana, high stamina - 1 hour - 2 actions - spell - special attack, special ability - death, unholy, corruption - bone, death, undeath, corruption
+Iron Rank: Cast this spell to make a ranged special attack on one bone you can perceive and which has no aura or has its own aura fully surpressed by you, on a hit the bone will break free of its body, if in one of at most equal rank to you, and fly to you.
+Bronze Rank: Any ability which would use in part or wholly any bone that you can taken from a living enemy with this ability will have increased effect. This can be in duration, strength, range, or something else, as determined by the ability used.
+Silver Rank: This ability can be cast on multiple enemies at once with a single incantation as long as the ability cost is paid for each individually, and the auras of all are surpressed. The cooldown for this ability is cumulatively 1 hour for each target.
+Gold Rank: Any increase in effect caused by using a bone taken by this ability is now chosen by you from those listed before. This spell now costs only low mana if used on a dead body and incurrs no cooldown when used this way.
+
+	Scythe of Harvest - low mana - none - 1 action - conjuration - none - life, plant - sickle, harvest, verdant
+Iron Rank: Conjure up a scythe or sickle that will give any living plant that has its fruit harvested with this tool a long-lasting boon that will make it grow to bear fruit again in half of the usual time if not dispelled by then.
+
+	Terrestrial Ice Skating - low mana per second, low stamina per second - none - none - movement - special ability - cold - ice, cold
+Iron Rank: While this ability is active you can move as though skating across the ice on smooth blades with magically reduced friction on any mostly horizontal surface.
+Bronze Rank: This ability can now affect any part of your body and reduce the friction down to none at all on any mostly solid surface.
+
+	Summoner's Storage - none - none - none - dimension - special ability - astral, magic - animate, undeath
+Iron Rank: Anything you summon or animate can now access a dimensional storage space that is shared between all of your summons. If you ever have no summons or animations all stored items will be shunted to your storage space or violently ejected around you.
+
+	Your Invisible Shadow - high mana, moderate health - 1 day - 6 actions - familiar - spell, ritual, summoning - magic, life - lurker, dark, phantasmagoria
+Iron Rank: Cast this ritual spell to make a familiar bond with any iron rank monster that can turn itself invisible, which gains intelligence comparable to yours, ties its advancement to yours, and can now subsume itself into your shadow.
+Bronze Rank: The enhancement to your bonded familiar's abilities gain potency, and your bonded familiar gains the ability to become incorporeal while invisible if cannot already.
+Silver Rank: Your familiar's innate magical abilities all gain an additional small effect to compliment them.
+
+	Envenomed Strikes - low mana - none - none - special attack - combination - death - venom, snake, spider, predatory
+Iron Rank: When you make a normal or special attack you can activate this ability to also deal a small amount of necrotic damage with venom applied by your stirke in addition to any other damage and effects that your strike deals.
+
+	Titanaboa Teammate - high mana - none - 6 actions - familiar - spell, ritual, summoning - astral - venom, snake, serpent, predatory
+Iron Rank: Summon forth a familiar from the astral in the form of a 5 meter long Titanaboa with venomous fangs and the ability to constrict enemies. When subsumed into your arms you can make strikes with its venom as quick as it can to apply its venom.
+Bronze Rank: Your familiar grows in size to be 10 meters long. Its attacks also now carry a paralytic effect. If this venom is applied by your strike while the familiar is subsumed its paralytic affect is halved though damage is not.
+Silver Rank: Your familiar is now 15 meters long and can spray its venom from its mouth about that far again. Your strikes while your familiar now deal the full paralytic effect of your familiar's attacks, which also gain potency.
+Gold Rank: You gain the ability to spray the venom at full effect from your mouth while the familiar is subsumed. Your familiar grows to 25 meters in length.
+
+	Wrath of the Sun - high mana - 30 seconds - 1 action - execute - spell - light, fire, astral - sun, star, stellar
+Iron Rank: Call down a beam of bright light onto a target and deal a small amount of transcendant damage to them that scales exponentially with their level of injury. If cast in sunlight this damage is moderately increased with ambient magic level.
+Bronze Rank: The scaling damage of this ability is also increased by the level of non-friendly light effects on the target so the more that they are lit up by their enemies' abilities the more the damage is increased.
+
+	Illusory Visions - moderate mana - 1 hour - 6 actions - ritual - spell - magic - ambush, fey, beguiling, mirage, charlatan
+Iron Rank: Cast this ritual spell to create a one way illusion of your choice smaller than 3 meters in any dimension, does not block physical passage, will hide sight, smell, and sound from behind it but is only resistant to magical senses weaker than yours.
+
+	Elemental Flame - none - none - none - combination - special ability, aura - fire - firebird, pheonix
+Iron Rank: Any flames created or sufficiently fueled magically by yourself, allies, summons, or any abilities thereof are transmuted from fire to Elemental Flame, which burns hotter, deals more damage and ignores some resistance to Burning and fire damage.
+Bronze Rank: Flames affected by this ability can be fed mana by you to continue burning when they have no other fuel source, including underwater, where there is no air, or after running out of fuel. Fed mana is capped by your spirit attribute.
+
+	Never Ending Weapon Form - low stamina per second, low mana per second - none - none - movement - special ability - none - scepter, staff, master, action, axe, hammer, fork
+Iron Rank: While wielding a two-handed weapon in your hands and moving with it this ability can be activated to slowly accumulate instances of the Continuous Combat boon. This cumulatively increases your speed attribute moderately and falls off one at a time.
+Bronze Rank: While this ability is active gain a small amount of resonating force damage to all melee attacks dealt by the weapon in your hands, and a small amount of disruptive force is added to any ranged attacks using it.
+
+	Gorgon's Gaze - high mana - 1 hour - 1 action - special ability - special attack - earth, rigid - gorgon, medusa
+Iron Rank: Open your eyes wide and affect everyone you can see the eyes of, regardless of where they look. They all gain instances of Petrifying Gaze, each count of cumulatively petrifies them unless all are cleansed. One instance petrifies in 1 minute.
+
+	Rake it all in - moderate mana per second - none - 1 action - special ability - channeling, spell - magic - Rake, Force, Animate, Vessel, Scribe, Gathering
+Iron Rank: Name a small nonmagical object that you can hold with one hand and which is smaller than you in all dimensions. While channeling everything you named meeting these requirements nearby will be telekinetically attracted in a path you choose.
+Bronze Rank: The range of this ability is greatly increased, and you can now vary the effective range and speed of attraction up to a limit governed by the spirit attribute and the level of this ability. It can now also affect magical objects up to your rank.
+Silver Rank: For low mana this abiltiy can now be cast for only a moment to know the number and location of every thing you named within the range of your magical senses without moving anything. The maximum size is now double your size in any dimension.
+
+	Oasis Spotter - none - none - none - perception - none - water, life - oasis, vision, mirage
+Iron Rank: Gain the ability to see through mirages and to see the amount of humidity in the air and ambient magic while it is moving through the air. When looking at a body of water you can see any poisons, venoms, parasites, or impurities in it.
+Bronze Rank: Gain increased magical and aura senses.
+Silver Rank: Gain the ability to sense magic. 
+Gold Rank: Gain the ability to see through solid objects for the nearest bodies of water when focused. The range of this ability is further than your magic senses and increased if the solid objects are loosely touching like sand.
+
+	Swimming through the water's channel - high mana - 1 hour - 1 action - teleport - none - water, astral - water, ocean, vast, deep
+Iron Rank: Step into a body of water and teleport to any location you have previously visited and can remember that is connected to the water you are in and within double the standard range of a portal ability. No cooldown if within line of sight.
+Bronze Rank: Gain the ability to take others with you on this teleport with the same increasing number as a standard portal ability.
+
+	Wasp Wave - high mana - 6 hours - 3 actions - conjuration - spell - astral, life - wasp, swarm, predatory
+Iron Rank: Conjure forth with this spell a small but solid wall of Worldless Wasps to attack your enemies. Their stings carry a small amount of both Disruptive Force and Resonating Force damage.
+Bronze Rank: The smarm of Worldless Wasps increases in size. The stings also cause an instance of Tainted Meridians each, making the target's abilities all cost more mana.
+
+	Eyes of Opportunity - none - none - none - perception - none - magic - ministration, renewal, prosperity, cycle, resonating
+Iron Rank: Sense auras.
+Bronze Rank: Magically see the injuries of your allies and the weakpoints of your enemies at a glance.
+Silver Rank: Sense magic in the area around you and increased aura perception.
+
+	Stone Step - moderate mana - 30 seconds - 1 action - instantaneous movement - special ability - earth, astral - earth
+Iron Rank: Move yourself directly from where you are planted firmly on solid ground to another point you can see where you can also firmly plant yourself on solid ground so quickly that you appear to nearly teleport to those around you.
+Bronze Rank: While moving gain greatly increased defenses and resistances. Also gain the ability to take a far less direct route of up to double the distance to your target directly, though the limits of this type of power are not ignored while in use.
+
+	Venomous Injection - high mana per second - 6 hours - 1 action - channeling - special attack, drain - none - spider, predatory, serpent, ambush, chimera, snake, undeath, succubus
+Iron Rank: Make a special attack against an immobile target. If missed this ability incurs no cooldown or cost. While channeling quickly pump a lot of a necrotic venom into the target and life drain moderate health per second from the target.
+
+	World Splitter - moderate mana - 10 seconds - 1 action - conjuration - spell - astral - axe, edifice, fortress, wrath, tree
+Iron Rank: Conjure up the World Splitter axe. This two handed battle axe works just as well for cleaving mountains in two as trees or monsters by imbuing all attacks using it with a small amount of resonating force damage.
+Bronze Rank: When used for a special attack the World Splitter Axe will double the amount of resonating force added to the attack. This effect can stack with combination attacks used at once to a max of the spirit attribute times.
+
+	Like Smoke in the Wind - high mana - 1 minute - 1 action - instantaneous movement - special ability - wind, magic - smoke, transfiguration, avatar, wind
+Iron Rank: Magically transform your body into a cloud of smoke that moves so fast as to outwardly appear to have teleported and move for subjectively at double speed for 2 and a half seconds in an instant to everyone else.
+Bronze Rank: The subjective time that you are smoke is increased to 5 seconds.
+Silver Rank: While you are smoke your body is now also incorporeal, making you far more resistant to most forms of damage and nearly all wind effects that would move you against your will while in smoke form.
+
+	Smith's Stash - low mana - none - 1 action - dimension - none - astral, magic - forge
+Iron Rank: Strike a hammer against any hinged door or lid, while the ring of it is in the air opening that object will lead to your large storage space. Objects that cannot be pushed or pulled through the opening made cannot be affected.
+Bronze Rank: The ring of a hammer used to activate this ability will hang in the air a minimum of the number of secnonds to match your spirit attribute or until you end it. Moderate increase to storage capacity size.
+Silver Rank: Large increase to storage space size. 
+
+	The Right Tool for the Job - high mana - 10 seconds - 1 action - conjuration - spell - astral, iron - forge, edifice, alchemy, hammer
+Iron Rank: Cast this spell to conjure whatever tool you can clearly visualize in your mind embued with magic at your rank. This tool can be any that you have used before as a non-magical object that is first and foremost a tool.
+Bronze Rank: Any tool conjured by this ability gains the Magic Imbument boon. This boon will cause anything primarily created using these tools to have any magical effects increased in potency, efficiency, or range as appropriate by a small amount.
+Silver Rank: The tools conjured by this ability will have a number of instances of Magic Imbument applied to them equal to the spirit attribute of their summoner. Each instance will affect a different attribute of any magical effect of the created.
+
+	Unflagging Endurance - high mana - 1 hour - 3 actions - spell - none - life - horse, heidel, cattle
+Iron Rank: Casting this spell will cause the mounts of yourself and all nearby allies to gain several instances of the Unflagging Endurance boon, which cumulatively stacks but wears off one at a time and provides a small stamina over time for one minute.
+Bronze Rank: This ability provides an equal number of instances of the Integrity boon to also prodvide a small amount of health, stamina, and mana over time to these mounts.
+
+	Spoils of the Sea - low mana - none - 1 action - looting - none - astral - fish, ocean, water, deep
+Iron Rank: You can loot any recently deceased body that you touch. This ability will gather additional resources from bodies that were aquatic in life, with increased effect capping at double rewards for fully aquatic life looted.
+
+	Dancing Blades - moderate mana - 10 seconds - 2 actions - puppet - summoning, spell - astral, iron - knife, sword, arsenal, dance, animate
+Iron Rank: Summon up an astral spirit into a sword that you conjure. This being will animate the sword to fly around and follow your commands, but is not terribly intelligent. One maximum sword at a time.
+Bronze Rank: Swords are bronze rank and two can be summoned at once. They can be imbued with an amount of mana that you choose, and can use that mana on their own initiative or when you instruct to use your special attacks.
+Silver Rank: Three swords can be used all at silver rank. They are all summoned with a moderate amount of mana and can be refilled with more by holding the blade's handle at any time.
+
+	Ice Teleport - high mana - 1 minute - 1 action - teleport - conjuration - cold, astral - ice, cold, cataclysm, storm
+Iron Rank: Teleport to another location within line of sight, or you can cast this ability to step into ice you can touch to emerge from ice you can see for only moderate mana and with no cooldown.
+Bronze Rank: Teleporting with this ability without stepping into ice will cause an ice clone of yourself to be conjured in your place at the time of casting. The clone is very fragile, and if destroyed the shards of it will fly in the direction of its attacker.
+Silver Rank: The ice clone now gets shrouded in short-lived illusion magic that makes it appear to be you to casual inspection. When destroyed attackers are inflicted with Cold Wrath, which will gradually slow their reflexes and overall speed for one minute.
+
+	Instant Inspection Glass - none - none - none - perception - none - magic - glass, vision, charlatan
+Iron Rank: While looking through any piece of glass you can telescopically magnify your vision to see fine details of things near or far. This increases the effective range of line of sight abilities. Can also see through all glass of your rank or lower.
+Bronze Rank: Gain moderately increased aura and magic senses.
+Silver Rank: Gain the ability to see magic through glass, and not only gain limited insight into its effects by visual inspection, but also gain the ability to see implaced magical sigils, rituals, or spells even if they are unpowered.
+Gold Rank: While looking through glass gain the ability to see through solid objects to a moderate distance.
+
+	Trapping Treasure Beetle - high mana - none - 6 actions - familiar - spell, summoning - astral - prison, chain, cage, trap
+Iron Rank: Summon a Treasure Beetle as a familiar companion. With its long arms, raking claws, delicate magic senses, and giant hollow cage-like carapace it excels at not only collecting magical resources but magical enemies to imprison as well.
+Bronze Rank: Your Treasure Beetle gains size and intelligence to be a cunning animal the size of a minivan. It also gains the ability to much more deftly manipulate the clawed hands on its two forward-facing arms.
+Silver Rank: Your Treasure Beetle is now roughly as intelligent as you are, and capable of speaking to you telepathically. It's hollow body cavity can now also suppress the magic of anything of lower rank within it.
+
+	Mushroom Ring Magic - high mana - 1 minute - 1 action - teleport - none - astral - fey
+Iron Rank: You can teleport yourself to anywhere that you can see within line of sight. Using this ability in this way has only a high mana cost and 1 minute cooldown.
+Bronze Rank: Alternately you can step into a mushroom circle to teleport to any untamed place you've been before. Using this ability in this way has a high mana cost and 1 hour cooldown, along with the standard portal rules for anyone you take with you. 
+
+	Disarming Strike - low mana - 10 seconds - 1 action - special attack - none - magic - master, dance, beguiling, charlatan, arsenal, skirmish, ambush
+Iron Rank: Melee attack an enemy's appendage holding an object. The magic of this attack sends force through their body that deals a small amount of force damage and puts a lot of force into throwing whatever they are holding from their grasp.
+Bronze Rank: This abilty's damage type is changed to resonating force damage, and if the enemy is not holding anything in the appendage you strike this damage instead is dealt to their limb entirely.
+Silver Rank: This attack makes your weapon briefly incorporeal while attacking to allow for more flexible strikes and letting you attack through an enemy's guard to stirke their limbs.
+
+	Giant's Bloody Might - none - none - none - aura - none - life, magic - cyclops, juggernaut
+Iron Rank: Your aura possesses the might of giants. Yourself and allies in your aura have your might attribute greatly increased.
+Bronze Rank: The mighty never fall. Yourself and your allies in your aura all have your recovery attribute moderately increased. 
+Silver Rank: Wield your aura as a brute weapon. Your aura strength, but not range of influence is greatly increased, making you far better at resisting and inflicting aura surpression.
+
+	Fanged Kiss - moderate stamina, moderate mana, moderate health - none - 1 action - drain - special attack - corruption - Succubus
+Iron Rank: Place your lips on a target and drain from them health, stamina, and mana. All 3 drain at an equal rate you control, if done slowly enough it may even engender a pleasurable feeling in the target.
+
+	The Price of Sacrafice - high mana per second, high health per second - 1 day - 3 actions - channeling - drain, spell, special ability - unholy, death - wrath, sacrafice
+Iron Rank: Target one enemy you can see with this spell, ignoring all restrictions to targeting them, and as long as you channel it drain your own health and mana to deal transcendant damage to your enemy equal to half the amount of health drained from you.
+Bronze Rank: Gain the ability to change the channeled amount of health taken by this ability, up to any of: very high per second, extreme per second, or beyond extreme per second. For the last option the transcendant damage is equal to the drained amount.
+Silver Rank: When this ability is first being channeled before taking any of your health it can first deal a burst of damage by consuming any boons or buffs on you instead of your health and dealing damage based upon the number and potency of the boons.
+Gold Rank: This ability gains the ability to use an enemy's life force to attack a second enemy. If used this way the only drain amount allowed it the lowest of the available options for yourself.
+
+	Push Back the Night - none - none - none - aura - none - light - light, sun, eclipse, star, stellar
+Iron Rank: Within the bounds of your aura non-magical darkness and shadows of up to your rank are dispelled. Shadows of higher ranks are only moderately impeded. Magical effects that use the power of light are moderately boosted within the area of your aura.
+Bronze Rank: Magical effects that use the power of light have their power greatly boosted within the area of your aura.
+Silver Rank: Incorporeal enemies within the area of your aura take a low amount of disruptive force damage per second. Ranged abilities made of light have their speed increased greatly within your aura.
+Gold Rank: Greatly increased aura strength and range.
+
+	Concoction Connoisseur - none - none - none - special ability - none - magic - alchemy, hunger, cycle
+Iron Rank: You process the lingering magic of consumed potions and spirit coins much faster than normal, allowing for use of the same type of consumables in much quicker succession.
+Bronze Rank: Any magical consumables that you imbibe have their effects moderately increased. This can be an increase to the efficacy, duration, or effects in some way more unique to whatever you ingest and may be both different and stack with successive items.
+
+	Revival by a Thousand Cuts - low mana - none - none - combination - special attack, drain - unholy - succubus, hunger, feast
+Iron Rank: Every time you strike and enemy the are afflicted with Kiss of the Succubus, an affliction that cumulatively drains a very small amount of health and stamina from the target over time. Instances fall off one at a time every 10 seconds.
+Bronze Rank: Instances of Kiss of the Succubus are applied two at a time, and existing instances are refreshed when a new one is applied.
+
+	Wind Wall - high mana - 10 minutes - 2 actions - conjuration - spell - wind, astral - wind, wall, storm
+Iron Rank: Conjure up a wall of wind that continuously blows up or down, your choice, along a straight line a meter wide and up to 30 meters long. Projectiles and people of equal or lower rank will be thrown around by this wind trying to go through it.
+Bronze Rank: The wall can be up to 50 meters long. This wall now has slight impedance to incorporeal projectiles and entities of equal or lower rank not made of wind or air.
+Silver Rank: Enemy entities of any type are now affected by the wall equally. Allies' projectiles and selves can pass through the wall freely. The wall can be made up to 150 meters in length.
+
+	Natural Swiftness - none - none - none - combination - special ability - magic - jackalope
+Iron Rank: While fully or partially transformed by your own essence abilities any movement speed increasing effects upon you from other essence abilities have their affect, and if applicable, duration moderately and individually increased.
+
+	Spot the Baited Hook - none - none - none - perception - none - magic - hook, trap, charlatan
+Iron Rank: Gain the ability to see traps and magical effects around you. Your have far weaker sense for larger and more widespread magic than most with this sense, but gain an equally better eye for detail and intricacy in small magical effects.
+Bronze Rank: Increased aura perception.
+Silver Rank: Gain the ability to see auras.
+Gold Rank: By focusing on a magical effect you are over time able to perceive more about it. This effect increases in efficacy with the more that you know about the type of magic you are observing already.
+
+	Venomous Vision - none - none - none - perception - none - none - venom, chimera, doom
+Iron Rank: Gain the ability to see auras.
+Bronze Rank: Gain the ability to see the level of injury of those whose aura you can see. Specifically to see the number and nature of afflictions, curses, poisons, venoms, and debuffs on those around you.
+
+	Choreographed Teleport Chain-Setup - low mana - none - 1 action - teleport - special ability - astral, magic - song, harmonic
+Iron Rank: Create a setlist of at most 1 song with three teleports in it to happen at specific cues in the song. Changing the song, order of songs played, or when the teleports this song triggers both cost low mana and incur no cooldown.
+Bronze Rank: Maximum setlist size increases to two songs with up to seven teleports in each. Changes to the setlist while playing it take effect upon the end of the current song.
+Silver Rank: Maximum setlist size increases to three songs with up to fifteen teleports in each. 
+Gold Rank: Maximum setlist size increases to five songs.
+
+	Choreographed Teleport Chain-Execution - high mana - 6 hours - none - teleport - special ability - astral, magic - song, harmonic
+Iron Rank: This ability requires an aura that magically plays a song to awaken. When you activate this form of this ability start playing the predetermined setlist, and when the cues you set in the songs come up you can teleport up to 5 meters for high mana.
+Bronze Rank: Your maximum teleport range increases to 10 meters.
+Silver Rank: Your first strike after teleporting gains an instance of Musical Momentum. This boon will provide a moderate amount of force damage to whatever is struck.
+Gold Rank: Your maximum teleport range increases to line of sight.
+
+	Pack Hunting Advantage - moderate mana - 1 minute - 2 actions - spell - none - life - wolf, swarm, predatory, wasp
+Iron Rank: Cast this spell on yourself and between 2 and 6 allies to grant all of you low force damage to every one of your normal and special attacks while all in combat with the same enemy and at least one of you can see at least two more at once.
+Bronze Rank: Gain the ability for everyone affected by this ability to decide when attacking if that damage will be force damage, more of the type of damage they are dealing, or the opposite type, resonating for disruptive force, cold for fire damage, etc.
+Silver Rank: The damage from this ability increases to moderate damage.
+
+	The Many Mighty Mice - high mana - 10 seconds - 3 actions - summoning - spell - astral, life - mouse, swarm
+Iron Rank: Summon an astral construct mouse that you can share the senses of in full or part to do as you wish. The mouse is very good at hiding its aura from anything with its own rank senses can climb on any surface, and does not need to breathe.
+Bronze Rank: You summon mice one at a time, but can have 7. The mice gain an animal cunning to avoid being detected. You can share in the senses of one mouse while keeping your own, and easily switch between which mouse. Buffs on you affect all mice eaqually.
+Silver Rank: You can have 31 mice total. Partially share up to 7 mices' senses at once. Your passive use abilities are shared with all mice.
+Gold Rank: You can have 127 mice total and fully share senses with 7 or partially with up to 31 at once. No cooldown if one mouse is used to summon another. You can use your active use abilities from any of the mice with your resources.
+Diamond Rank: You can have 511 total mice and can fully share the senses of 31 at once. The mice gain the ability to disable their aura entirely, making them invisible to aura or magical senses but vulnerable to many more things. Summon three at a time.
+
+	The Speed Advantage - none - none - none - aura - none - none - skirmish, swift, light, lightning
+Iron Rank: Allies in your aura have their agility attribute increased.
+Bronze Rank: Enemies within your aura have their agility decreased by the same amount that allies are increased.
+
+	Underdog's Might - none - none - none - aura - none - none - rat, mouse, bee, fish
+Iron Rank: When making a melee attack against a larger opponent gain force damage to every strike landed against that enemy that increases in proportion to how much larger then enemy is than you capped by your spirit attribute.
+Bronze Rank: Larger enemies have their melee attacks against you or allies reduced by the same proportion as long as both that enemy and the one hit are within the area of your aura.
+Silver Rank: Over time yourself and allies within your aura accumulate instances of Guardian's Blessing. These boons will be consumed upon being hit by a larger enemy to reduce the damage taken, and then provide a heal over time with the Blessings Bounty boon.
+
+	Mirror Magic - none - none - none - spell - special ability - magic - echo, mirror, refraction, magic, charlatan
+Iron Rank: Cast at the rank of this ability the spell that an enemy you can see just used. This ability will cost and have the cooldown of that ability and only affects spells.
+Bronze Rank: Gain the ability to use another copied spell while this ability is in cooldown once. This resets when cooldown hits zero. The cooldown of the second use of this ability is added to the existing cooldown.
+Silver Rank: You can now use this ability on any type of ability.
+
+    Supersonic Wings - extreme mana - 1 hour - 1 action - movement - special ability - wind - harpy, wing
+Iron Rank: Conjure up Harpy's Wings to your back, strong enough to lift you into the air to fly, though not enough to support much more weight than your body and gear. Wings last for 1 minute or until the song you are singing now ends, whichever is longer.
+Bronze Rank: The cost to conjure the wings changes to very high mana. They last 5 minutes or two songs, whichever is longer. While they are summoned the range and potency of your sound-based abilities are all moderately increased.
+Silver Rank: While the wings are conjured and an enemy is within range to be affected by your sound abilites it is occasionally affected by the Curse of Hearing, a magic affliction that make it capable of being affected by audible effects even without hearing.
+
+	Loot for Sale - very high mana - 1 minute - 7 actions - looting - spell, summoning, dimension - astral, magic - gate, prosperity, sacrafice
+Iron Rank: Conjure a horizontal or vertical portal about your size that slowly loots one body put into it and a market stall beside it. The stall gives only you two options to buy for mana and / or spirit coins to loot from the body repeatedly until dissolved.
+Bronze Rank: The portal now dissolves up to two bodies fed one at a time, and the stall now provides three options for each sale.
+Silver Rank: The portal now dissolves up to three bodies fed one at a time, or can be given bodies within a minute of each other and loot all at once, potentially giving items from any or all of those given until all dissolved.
+Gold Rank: The stall now gives five options for each sale and for double the cost of the second option it too can also be purchased from the sale, assuming there is enough magic left in the corpse(s) fed into the portal to also loot it.
+
+	Slow Spray - moderate mana - 1 minute - 2 actions - spell - none - magic - net
+Iron Rank: Casting this spell ends in spray magic mist from your mouth that will fly about 3 meters before dispersing. Anyone caught in this spray is affected by Rigormortis, an affliction that will strongly and cumulatively lower their speed attribute.
+
+	Night Hunter's Wisdom - high mana - 10 seconds - 3 actions - spell - none - life, magic - owl
+Iron Rank: Grant a moderate bonus to perceptual strength and reaction speed plus the ability to see in the dark to yourself or any one ally you touch when casting this spell. 
+Bronze Rank: The bonus changes to apply to the overall speed and spirit attributes of the ally it is cast upon.
+Silver Rank: This spell can now be cast upon up to three people you can see without the need to touch them, yourself included in the count.
+Gold Rank: The strength of this spell changes from a moderate increase to a high increase.
+Diamond Rank: This spell can be cast upon any number of allies and yourself that are within sight, and can be cumulatively stacked up to your spirit rank number of times.
+
+	One Small Hop in their Footprints - high mana - 2 actions - conjuration - spell - astral, magic - frog, alchemy
+Iron Rank: Use your mana to conjure a potion vial that must be drunk within one hour or loses its potency and whose effect will last for one hour after being drunk. It contains one of these abilities: enhanced jump, mucus armor, or water breathing.
+
+	Just a Throw Away - moderate mana - 30 seconds - 1 action - instantaneous movement - special ability - magic - hammer, action
+Iron Rank: Immediately after throwing a hammer that you were just using you can move to grip it in your hand where it lands so quickly it is instantaneous to all around you.
+Bronze Rank: This ability can be used again on every hammer that you have on your person or currently conjured when you use it for the first time, once per weapon and the cooldown for each is cumulatively added to any existing cooldown.
+
+	Wallbreaker - high mana - 10 seconds - 1 action - special attack - combination - magic - wall, hammer, staff, onslaught, juggernaut, minotaur, behemoth, might
+Iron Rank: Attack a solid wall with your weapon or fists. When you strike it add a large amount of resonating force damage to the blow. Any shrapnel caused by the attack is magically oriented in the direction that you attack.
+
+	Pole Dancing - none - none - none - movement - special ability - magic - spear, staff, arsenal
+Iron Rank: While holding a two handed weapon in both hands with a long hard handle on it you gain a moderate amount of speed that will lower over time after no longer holding it.
+Bronze Rank: Your speed attribute is moderately increased while the weapon is in your hand and will taper off smoothly over a minute.
+Silver Rank: Your spirit and strength attributes are slightly increased while this ability is active and any weapon that triggers this ability can be returned to your hand magically at will, only with one weapon at a time, and without cooldown.
+
+	Brush Away Mortality - moderate mana - 1 hour - 1 action - counter-execute - special attack - none - rake
+Iron Rank: Make a special attack with one of your conjured weapons and heal yourself equal to half the damage dealt. This attack deals a small amount of transcendant damage, and scales exponentially with your level of injury.
+
+	Prepare the Soil - moderate mana - 1 minute - 6 actions - ritual - spell - life, earth - harvest, bounty
+Iron Rank: Cast this spell on a plot of land of up to 10 square meters to enrich it with life energy and allow whatever grows in the soil to do so much more healthily, quickly, and strongly.
+
+	Messenger Bird - high mana - 1 hour - 3 actions - conjuration - spell - astral - bird, scribe
+Iron Rank: Conjure up a small and quick bird without much combat capability that can take a message on something of up to two pounds into its dimensional storage and fly to any location you have previously been to give it to someone you specify.
+Bronze Rank: The bird can fly at double your top speed under your own abilities and attributes. It is also tougher and can store up to 5 pounds of correspondance in its storage space.
+Silver Rank: You now know if the bird does not make it to its destination, along with why and where it dissappears when it is destroyed or dispelled. The bird can briefly turn intangible and invisible to avoid damage and is very cunning.
+
+	X Marks the Spot - low mana - none - 2 actions - looting - spell - astral - shovel
+Iron Rank: After burying any number of dead bodies in the ground at least 5 feet deep cast this spell over their bodies. They will be looted underground and the topsoil marked with a large X where buried when done, emitting no rainbow smoke.
+Bronze Rank: The things looted by this ability are now encased all together in one casket to prevent anything being contaminated by the soil around it. 
+Silver Rank: The looting of this ability is changed to more often give fully made items than before.
+Gold Rank: There is a chance when looting multiple enemies to combine the magic of the multiple bodies into an item that encompasses the aspects of all bodies used, not just one.
+
+	Jump Scare - high mana - 10 minutes - 1 action - teleport - special ability - astral - juggernaut, behemoth, leviathan
+Iron Rank: Teleport to a point that you can see. This ability only functions while you are larger than your normal size and the area you teleport to must be both large enough for you to fit in completely and out of line of sight of something you are fighting.
+Bronze Rank: For a few seconds after teleporting your first attack against the enemy that could not see where you teleported to deals moderate extra force damage.
+Silver Rank: For up to 3 seconds or until the enhanced attack is made against your surprised enemy you are made invisible.
+
+	Spell Duplication Circle - high mana - 1 minute - 6 actions - ritual - spell - magic - mirror, echo
+Iron Rank: Create a specialized ritual circle and infuse it with mana, casting this spell to leave it dormant. When another ritual circle is put within it the effects it creates will be mirrored immediately after or at the same time by this circle.
+Bronze Rank: The ritual circle can now be drawn out with a finger and in only a few seconds, pulling any required materials from your personal storage space if you have one, and materials do not need to be put in their correct place if not.
+Silver Rank: For effects below silver rank they can be duplicated twice by the same one ritual circle. For silver rank effects any spell cast within this circle can now be duplicated in the same way as a ritual instead.

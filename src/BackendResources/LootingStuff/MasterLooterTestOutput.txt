@@ -1,0 +1,7 @@
+0 passed looting target goodies in lesser rank
+1 passed looting target goodies in lesser rank with a higher loot multiplier
+2 passed looting target goodies in iron rank
+3 passed looting target goodies in bronze rank
+4 passed looting target goodies in silver rank
+5 passed looting target goodies in gold rank
+6 passed looting target goodies in diamond rank
